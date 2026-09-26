@@ -33,6 +33,10 @@ COVER_PATH = HERE / "cover.jpg"
 # this is more than one.
 MAX_ATTEMPTS = 3
 
+# Errors that mean YouTube is blocking this machine rather than one video
+# being unavailable. There's no point trying the rest of the list.
+BLOCKED_MARKERS = ("confirm you’re not a bot", "confirm you're not a bot", "HTTP Error 429")
+
 ITUNES = "http://www.itunes.com/dtds/podcast-1.0.dtd"
 ATOM = "http://www.w3.org/2005/Atom"
 ET.register_namespace("itunes", ITUNES)
@@ -199,17 +203,26 @@ def cmd_sync(args: argparse.Namespace) -> None:
         candidates.append(entry)
     log(f"{len(candidates)} new video(s); processing up to {max_new}")
 
-    added = 0
+    added = tried = 0
     with tempfile.TemporaryDirectory() as tmp:
         for entry in candidates:
-            if added >= max_new:
+            # Also cap attempts, so a run of broken videos can't turn into
+            # hammering YouTube with the whole list.
+            if added >= max_new or tried >= max_new * 2:
                 break
+            tried += 1
             vid = entry["id"]
             url = entry.get("url") or f"https://www.youtube.com/watch?v={vid}"
             log(f"-> {vid} {entry.get('title', '')}")
             try:
                 info, mp3, reason = download_audio(url, Path(tmp), audio, src)
             except Exception as exc:  # noqa: BLE001 - yt-dlp raises many types
+                if any(m in str(exc) for m in BLOCKED_MARKERS):
+                    save_state(state)
+                    sys.exit(
+                        "YouTube is blocking this runner (\"Sign in to confirm you're not a bot\").\n"
+                        "Add fresh youtube.com cookies as the YT_COOKIES repository secret; see podcast/README.md."
+                    )
                 attempts = state["failures"].get(vid, 0) + 1
                 state["failures"][vid] = attempts
                 log(f"   failed ({attempts}/{MAX_ATTEMPTS}): {exc}")
