@@ -112,8 +112,10 @@ def log_antibot_setup() -> None:
         pot = "PO token server up"
     except OSError:
         pot = "no PO token server"
+    proxy = os.environ.get("YT_PROXY", "").strip()
+    proxy_desc = "Cloudflare WARP" if "127.0.0.1:40000" in proxy else ("set" if proxy else "not set")
     log(f"Anti-bot: {pot}; cookies {'set' if os.environ.get('YT_COOKIES', '').strip() else 'not set'}; "
-        f"proxy {'set' if os.environ.get('YT_PROXY', '').strip() else 'not set'}")
+        f"proxy {proxy_desc}")
 
 
 def list_channel(channel_url: str, limit: int) -> dict:
