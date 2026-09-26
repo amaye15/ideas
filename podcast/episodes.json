@@ -5,7 +5,30 @@
     "url": "https://www.youtube.com/channel/UCLKPca3kwwd-B59HNr-_lvA",
     "avatar": "https://yt3.googleusercontent.com/ajVemEB89DAOemsbfuMY6ZOWXJAACx3cbty9z21jeqRKODaVkDBSRun1b1xfQJljEsziOWS_Mg=s0"
   },
-  "episodes": [],
+  "episodes": [
+    {
+      "id": "oVsEddfhdxc",
+      "title": "We Let Claude Code and Codex Race Human Researchers — Elie Bakouch, Prime Intellect",
+      "description": "Big labs say recursive self-improvement is coming, but there's no independent benchmark to check that claim. Elie Bakouch, Research Engineer at Prime Intellect and creator of Hugging Face's SmolLM, set Claude Code and Codex loose on the community's Optimizer Speedrun, a race to train a GPT-2-level model in the fewest steps. Both agents beat the human record.\n\nAlong the way they behaved very differently. Claude Code kept stopping every nine or ten hours to say the record couldn't be beaten, and sat idle about a third of the time. Codex never stopped, wrote far more notes, spawned more sub-agents and burned more tokens. In a longer six-day run, Kimi turned out to be the most token-efficient, and a paper only Claude found led to the best record. But Bakouch's key finding is sobering: none of the models invented a new optimizer. They combined existing ideas for small gains. He closes with an AlphaEvolve-style loop Prime Intellect is building for real discovery, and makes the case for doing this research in the open.\n\nSpeaker info:\nX/Twitter: @eliebakouch (https://x.com/eliebakouch)\nLinkedIn: https://www.linkedin.com/in/eliebak/\n\nRelated links:\nPrime Intellect: https://www.primeintellect.ai\n\nTimestamps:\n0:00 Intro: automated AI research\n0:37 Why test recursive self-improvement in the open\n1:52 Karpathy's GPT-2 speedrun and modded-nanogpt\n3:12 The Optimizer Speedrun\n4:32 Why speedruns make good environments\n5:32 Claude Code and Codex vs. the community\n6:52 The setup: goal.md, Slurm and preemptible jobs\n7:46 Claude kept giving up; Codex never stopped\n8:36 Scratchpads, sub-agents and token burn\n10:21 Results: both beat the human record\n11:36 Toward a real benchmark: three tracks\n12:45 Six days of Claude, Codex, Kimi and GLM\n13:45 Measured in tokens, the story changes\n14:10 How each model uses research papers\n14:35 No novel optimizers\n15:40 An AlphaEvolve-style discovery loop\n17:49 What Prime Intellect is building\n18:54 Why this should happen in the open",
+      "youtube_url": "https://www.youtube.com/watch?v=oVsEddfhdxc",
+      "published": "2026-09-26T17:30:10+00:00",
+      "duration": 1178,
+      "image": "https://i.ytimg.com/vi_webp/oVsEddfhdxc/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202609/oVsEddfhdxc.mp3",
+      "audio_bytes": 9426093
+    },
+    {
+      "id": "OA-Mc60Rboo",
+      "title": "Beating RL With Reflection: GEPA and Optimize Anything — Lakshya A. Agrawal, GEPA",
+      "description": "After one round of reflection on just three examples, GEPA doubled the gains that the RL algorithm GRPO reached after 25,000 rollouts. Lakshya A. Agrawal, creator of GEPA and a PhD student at UC Berkeley's Sky Computing Lab, explains why. RL squeezes a whole rollout down to a single score. GEPA instead has a model read the full trace, including chains of thought, tool calls and error messages, and write a better prompt. A Pareto pool of candidates keeps the search out of local optima.\n\nThe same idea works on anything you can write as text and score, which is where Optimize Anything comes in. Agrawal shows it taking a four-line program to a six-step agent that lifts Gemini Flash on ARC-AGI from 32.5% to 89.5%. It pushed an AMD NPU coding agent from 4% to 30%, and improved a GPT-5 mini coding agent on Go issues from 24% to 93%, using learned skills that also carried over to Claude Sonnet. He also covers Databricks tuning an open model to beat Claude Opus at 90x lower cost, learning evals from production traces, and co-optimizing prompts and weights.\n\nSpeaker info:\nX/Twitter: @LakshyAAAgrawal (https://x.com/LakshyAAAgrawal)\nLinkedIn: https://www.linkedin.com/in/lakshyaaagrawal/\nWebsite: https://lakshyaaagrawal.github.io/\n\nRelated links:\nGEPA on GitHub: https://github.com/gepa-ai/gepa\n\nTimestamps:\n0:00 Intro: reflective optimization\n0:30 How we teach AI new tasks\n1:00 The sample-efficiency bottleneck\n2:05 What RL throws away\n3:00 Reflecting in text space\n4:25 GEPA\n4:50 GEPA vs. GRPO: 3 examples vs. 25,000 rollouts\n5:40 What GEPA learns\n6:55 GPT-4.1 mini beats GPT-4.1\n7:15 A new AMD NPU: 4% to 30%\n8:25 How GEPA works\n9:00 Why a Pareto pool beats a simple loop\n10:10 Results across benchmarks\n10:35 Beyond prompts: Optimize Anything\n12:05 The API\n12:55 A 3D unicorn\n13:35 Discovering agent harnesses: ARC-AGI from 32.5% to 89.5%\n14:40 MATH-500\n15:10 Optimizing agent skills: 24% to 93%\n16:40 Three optimization modes\n17:30 In production: OCR and a 90x cheaper agent\n18:40 Why better models need better prompts\n19:10 Learning evals from production traces\n19:55 Fast-slow learning: prompts and weights\n20:20 Who uses GEPA\n20:45 Get started",
+      "youtube_url": "https://www.youtube.com/watch?v=OA-Mc60Rboo",
+      "published": "2026-09-26T17:00:06+00:00",
+      "duration": 1287,
+      "image": "https://i.ytimg.com/vi_webp/OA-Mc60Rboo/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202609/OA-Mc60Rboo.mp3",
+      "audio_bytes": 10296813
+    }
+  ],
   "skipped": {},
   "failures": {}
 }
