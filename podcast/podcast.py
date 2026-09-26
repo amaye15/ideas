@@ -313,6 +313,8 @@ def build_feed(config: dict, state: dict, site: str) -> bytes:
     sub(channel, it("summary"), description)
     sub(channel, it("explicit"), explicit)
     sub(channel, it("type"), "episodic")
+    if fc.get("private", True):
+        sub(channel, it("block"), "Yes")
     sub(channel, it("category"), None, text=fc.get("category", "Technology"))
     if COVER_PATH.exists() or fc.get("image_url"):
         image = fc.get("image_url") or f"{site}/cover.jpg"

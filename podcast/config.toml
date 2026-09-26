@@ -25,6 +25,9 @@ author = "AI Engineer"
 language = "en"
 category = "Technology"
 explicit = false
+# Ask podcast directories (Apple, Spotify, Pocket Casts, ...) not to list the
+# show. You can still subscribe to the feed URL directly in your own app.
+private = true
 # Spotify sends a verification code to this address when you submit the feed.
 # Leave empty here and set the PODCAST_OWNER_EMAIL repository secret instead
 # if you don't want your address committed to the repo (it still appears in

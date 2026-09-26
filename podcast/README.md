@@ -1,8 +1,8 @@
 # AI Engineer → podcast
 
 Turns the [AI Engineer YouTube channel](https://www.youtube.com/@aiDotEngineer) into a
-podcast RSS feed that podcast apps (Spotify, Apple Podcasts, Pocket Casts, Overcast, …)
-can subscribe to.
+private podcast feed you can subscribe to in Pocket Casts, Apple Podcasts, Overcast
+or any other app that accepts an RSS feed URL.
 
 How it works, all on free GitHub infrastructure:
 
@@ -17,13 +17,14 @@ How it works, all on free GitHub infrastructure:
 
 ## Setup
 
-1. **Default branch.** Scheduled workflows only run on the default branch, so merge this
-   into `main`, or make this branch the default.
+1. **Default branch.** Scheduled workflows only run on the default branch, so make sure
+   `main` is the default (*Settings → General*) and is allowed to deploy under
+   *Settings → Environments → github-pages*.
 2. **Pages.** Go to *Settings → Pages → Build and deployment → Source* and choose
    **GitHub Actions**.
 3. **Secrets** (*Settings → Secrets and variables → Actions*):
-   - `PODCAST_OWNER_EMAIL`: the email Spotify sends its ownership verification code to.
-     It's published in the feed.
+   - `PODCAST_OWNER_EMAIL` (optional): only needed if you ever submit the feed to a
+     directory. It's published in the feed.
    - `YT_COOKIES` (optional, but usually needed): YouTube often blocks GitHub's servers with
      "Sign in to confirm you're not a bot". Export cookies for youtube.com from a
      logged-in browser in Netscape `cookies.txt` format (for example with the "Get
@@ -37,19 +38,22 @@ How it works, all on free GitHub infrastructure:
 5. **Subscribe.** Check that `https://<owner>.github.io/<repo>/feed.xml` loads, then add it
    to your podcast app (see below).
 
-## Getting it into Spotify
+## Listening
 
-Spotify has no way to subscribe to a private RSS URL. The only way in is for the show's
-owner to submit the feed publicly through
-[Spotify for Creators](https://creators.spotify.com) (*Add an existing podcast → Find
-your podcast by RSS feed*). After you verify the code sent to `PODCAST_OWNER_EMAIL`, the
-show appears in Spotify, usually within a few hours, and new episodes follow on their own.
+The feed is private: it tells podcast directories not to list it (`private = true` in
+`config.toml`), so the talks aren't republished anywhere. Subscribe to the feed URL
+directly in an app that accepts one. **Pocket Casts** is the recommended option: it works
+on iOS, Android, the web and desktop, and downloads new episodes automatically.
 
-**Rights:** that makes the show public on Spotify, and the talks are AI Engineer's content.
-Get their permission before submitting, or Spotify may take the show down.
-If this is only for you, add the feed URL to an app that accepts private RSS feeds instead:
-Apple Podcasts (*Library → … → Follow a Show by URL*), Pocket Casts, Overcast, AntennaPod
-or Podcast Addict all do.
+1. Open Pocket Casts → **Search** → paste `https://<owner>.github.io/<repo>/feed.xml`.
+2. Subscribe, then in the podcast's settings turn on **Auto download** (and optionally
+   **Add to Up Next**) so new episodes arrive with no further effort.
+
+Other apps that take a feed URL: Apple Podcasts (*Library → … → Follow a Show by URL*),
+Overcast (*+ → Add URL*) and AntennaPod (*+ → Add podcast by RSS address*).
+
+Spotify can't subscribe to a feed URL; a show only gets there by being publicly
+submitted through Spotify for Creators, which needs the rights to the content.
 
 ## Local use
 
