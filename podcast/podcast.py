@@ -18,6 +18,7 @@ import subprocess
 import sys
 import tempfile
 import threading
+import time
 import tomllib
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -135,7 +136,24 @@ def download_audio(video_url: str, workdir: Path, audio: dict, cfg: dict) -> tup
     from yt_dlp import YoutubeDL
 
     pp_args = ["-ac", "1"] if audio.get("mono", True) else []
+    timing = {"start": time.monotonic(), "last_log": 0.0}
+
+    def on_progress(d: dict) -> None:
+        now = time.monotonic()
+        vid = d.get("info_dict", {}).get("id", "?")
+        if d["status"] == "downloading" and now - timing["last_log"] >= 15:
+            timing["last_log"] = now
+            done = (d.get("downloaded_bytes") or 0) / 1e6
+            total = (d.get("total_bytes") or d.get("total_bytes_estimate") or 0) / 1e6
+            speed = (d.get("speed") or 0) / 1e6
+            log(f"   {vid} downloading {done:.1f}/{total:.1f} MB at {speed:.2f} MB/s")
+        elif d["status"] == "finished":
+            timing["downloaded"] = now
+            log(f"   {vid} downloaded {(d.get('total_bytes') or 0) / 1e6:.1f} MB "
+                f"in {now - timing['start']:.0f}s; converting")
+
     opts = ydl_options(
+        progress_hooks=[on_progress],
         # The feed is 64 kbps speech, so a ~50-70 kbps source stream is plenty
         # and roughly halves what has to be downloaded.
         format="bestaudio[abr<=80]/bestaudio/best",
@@ -150,6 +168,9 @@ def download_audio(video_url: str, workdir: Path, audio: dict, cfg: dict) -> tup
     )
     with YoutubeDL(opts) as ydl:
         info = ydl.extract_info(video_url, download=False)
+        log(f"   {info['id']} info fetched in {time.monotonic() - timing['start']:.0f}s "
+            f"(format {info.get('format_id')}, {info.get('abr') or '?'} kbps, "
+            f"{(info.get('duration') or 0) // 60} min)")
         if info.get("live_status") in ("is_live", "is_upcoming", "post_live"):
             return info, None, ""  # try again once it's a normal upload
         if (info.get("duration") or 0) < cfg["min_duration_seconds"]:
@@ -163,6 +184,8 @@ def download_audio(video_url: str, workdir: Path, audio: dict, cfg: dict) -> tup
     mp3 = workdir / f"{info['id']}.mp3"
     if not mp3.exists():
         raise RuntimeError(f"expected {mp3} after download")
+    if "downloaded" in timing:
+        log(f"   {info['id']} converted in {time.monotonic() - timing['downloaded']:.0f}s")
     return info, mp3, ""
 
 
