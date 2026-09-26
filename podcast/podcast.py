@@ -35,6 +35,18 @@ MAX_ATTEMPTS = 3
 
 # Errors that mean YouTube is blocking this machine rather than one video
 # being unavailable. There's no point trying the rest of the list.
+# YouTube player clients to try, in order, when one gets the bot check.
+# Different clients face different checks, so another may still get through.
+PLAYER_CLIENTS = (
+    ["default", "mweb"],
+    ["tv_simply"],
+    ["tv"],
+    ["web_embedded"],
+    ["android_vr"],
+    ["web_safari"],
+)
+_client_index = 0
+
 BLOCKED_MARKERS = ("confirm you’re not a bot", "confirm you're not a bot", "HTTP Error 429")
 
 ITUNES = "http://www.itunes.com/dtds/podcast-1.0.dtd"
@@ -78,9 +90,7 @@ def ydl_options(**extra) -> dict:
         "quiet": True,
         "no_warnings": True,
         "noprogress": True,
-        # mweb works well with the proof-of-origin tokens the bgutil plugin
-        # supplies; "default" keeps yt-dlp's usual clients as a fallback.
-        "extractor_args": {"youtube": {"player_client": ["default", "mweb"]}},
+        "extractor_args": {"youtube": {"player_client": PLAYER_CLIENTS[_client_index]}},
     }
     proxy = os.environ.get("YT_PROXY", "").strip()
     if proxy:
@@ -146,6 +156,22 @@ def download_audio(video_url: str, workdir: Path, audio: dict, cfg: dict) -> tup
     if not mp3.exists():
         raise RuntimeError(f"expected {mp3} after download")
     return info, mp3, ""
+
+
+def download_with_fallback(url: str, workdir: Path, audio: dict, cfg: dict):
+    """download_audio, moving on to the next player client whenever YouTube
+    answers with its bot check. The client that works is kept for the rest
+    of the run."""
+    global _client_index
+    while True:
+        try:
+            return download_audio(url, workdir, audio, cfg)
+        except Exception as exc:  # noqa: BLE001
+            blocked = any(m in str(exc) for m in BLOCKED_MARKERS)
+            if not blocked or _client_index + 1 >= len(PLAYER_CLIENTS):
+                raise
+            _client_index += 1
+            log(f"   bot check; retrying with player client {PLAYER_CLIENTS[_client_index]}")
 
 
 def published_at(info: dict) -> datetime:
@@ -236,7 +262,7 @@ def cmd_sync(args: argparse.Namespace) -> None:
             url = entry.get("url") or f"https://www.youtube.com/watch?v={vid}"
             log(f"-> {vid} {entry.get('title', '')}")
             try:
-                info, mp3, reason = download_audio(url, Path(tmp), audio, src)
+                info, mp3, reason = download_with_fallback(url, Path(tmp), audio, src)
             except Exception as exc:  # noqa: BLE001 - yt-dlp raises many types
                 if any(m in str(exc) for m in BLOCKED_MARKERS):
                     save_state(state)
