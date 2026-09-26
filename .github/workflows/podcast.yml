@@ -28,9 +28,6 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     timeout-minutes: 120
-    environment:
-      name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
 
@@ -81,6 +78,14 @@ jobs:
         with:
           path: podcast/public
 
+  # Separate job so a Pages problem never stops episodes being downloaded.
+  deploy:
+    needs: sync
+    if: always()
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
       - id: deploy
-        if: always()
         uses: actions/deploy-pages@v4
