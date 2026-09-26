@@ -28,13 +28,6 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     timeout-minutes: 120
-    services:
-      # Generates the "proof of origin" tokens YouTube uses to tell real
-      # players from bots; the bgutil yt-dlp plugin talks to it on :4416.
-      bgutil:
-        image: brainicism/bgutil-ytdlp-pot-provider:2.0.0
-        ports:
-          - 4416:4416
     steps:
       - uses: actions/checkout@v4
 

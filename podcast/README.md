@@ -25,11 +25,10 @@ How it works, all on free GitHub infrastructure:
 3. **Secrets** (*Settings → Secrets and variables → Actions*):
    - `PODCAST_OWNER_EMAIL` (optional): only needed if you ever submit the feed to a
      directory. It's published in the feed.
-   - YouTube often blocks GitHub's servers with "Sign in to confirm you're not a bot".
-     The workflow first tries without a login, using a proof-of-origin token server
-     ([bgutil](https://github.com/Brainicism/bgutil-ytdlp-pot-provider)). If runs still
-     stop with that message, add one of these:
-   - `YT_PROXY` (optional): a residential proxy URL, e.g. `http://user:pass@host:port`.
+   - YouTube blocks GitHub's servers with "Sign in to confirm you're not a bot", so the
+     workflow sends yt-dlp's traffic through Cloudflare's free WARP service. If that stops
+     working, add one of these:
+   - `YT_PROXY` (optional): a proxy URL, e.g. `http://user:pass@host:port`; used instead of WARP.
    - `YT_COOKIES` (optional): Export cookies for youtube.com from a
      logged-in browser in Netscape `cookies.txt` format (for example with the "Get
      cookies.txt LOCALLY" extension) and paste the whole file in as the secret. Using a

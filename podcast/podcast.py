@@ -41,7 +41,7 @@ MAX_ATTEMPTS = 3
 # YouTube player clients to try, in order, when one gets the bot check.
 # Different clients face different checks, so another may still get through.
 PLAYER_CLIENTS = (
-    ["default", "mweb"],
+    ["default"],
     ["tv_simply"],
     ["tv"],
     ["web_embedded"],
@@ -94,6 +94,9 @@ def ydl_options(**extra) -> dict:
         "quiet": True,
         "no_warnings": True,
         "noprogress": True,
+        # Fail fast instead of hanging on a stalled connection.
+        "socket_timeout": 30,
+        "retries": 3,
         "extractor_args": {"youtube": {"player_client": PLAYER_CLIENTS[_client_index]}},
     }
     proxy = os.environ.get("YT_PROXY", "").strip()
@@ -111,14 +114,9 @@ def ydl_options(**extra) -> dict:
 
 
 def log_antibot_setup() -> None:
-    try:
-        urllib.request.urlopen("http://127.0.0.1:4416/ping", timeout=5)
-        pot = "PO token server up"
-    except OSError:
-        pot = "no PO token server"
     proxy = os.environ.get("YT_PROXY", "").strip()
     proxy_desc = "Cloudflare WARP" if "127.0.0.1:40000" in proxy else ("set" if proxy else "not set")
-    log(f"Anti-bot: {pot}; cookies {'set' if os.environ.get('YT_COOKIES', '').strip() else 'not set'}; "
+    log(f"Anti-bot: cookies {'set' if os.environ.get('YT_COOKIES', '').strip() else 'not set'}; "
         f"proxy {proxy_desc}")
 
 
