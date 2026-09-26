@@ -17,9 +17,11 @@ import os
 import subprocess
 import sys
 import tempfile
+import threading
 import tomllib
 import urllib.request
 import xml.etree.ElementTree as ET
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -46,6 +48,7 @@ PLAYER_CLIENTS = (
     ["web_safari"],
 )
 _client_index = 0
+_client_lock = threading.Lock()
 
 BLOCKED_MARKERS = ("confirm you’re not a bot", "confirm you're not a bot", "HTTP Error 429")
 
@@ -133,7 +136,10 @@ def download_audio(video_url: str, workdir: Path, audio: dict, cfg: dict) -> tup
 
     pp_args = ["-ac", "1"] if audio.get("mono", True) else []
     opts = ydl_options(
-        format="bestaudio/best",
+        # The feed is 64 kbps speech, so a ~50-70 kbps source stream is plenty
+        # and roughly halves what has to be downloaded.
+        format="bestaudio[abr<=80]/bestaudio/best",
+        concurrent_fragment_downloads=4,
         outtmpl=str(workdir / "%(id)s.%(ext)s"),
         postprocessors=[{
             "key": "FFmpegExtractAudio",
@@ -166,14 +172,19 @@ def download_with_fallback(url: str, workdir: Path, audio: dict, cfg: dict):
     of the run."""
     global _client_index
     while True:
+        tried = _client_index
         try:
             return download_audio(url, workdir, audio, cfg)
         except Exception as exc:  # noqa: BLE001
-            blocked = any(m in str(exc) for m in BLOCKED_MARKERS)
-            if not blocked or _client_index + 1 >= len(PLAYER_CLIENTS):
+            if not any(m in str(exc) for m in BLOCKED_MARKERS):
                 raise
-            _client_index += 1
-            log(f"   bot check; retrying with player client {PLAYER_CLIENTS[_client_index]}")
+            with _client_lock:
+                # Another download may already have moved on to a new client.
+                if _client_index == tried:
+                    if tried + 1 >= len(PLAYER_CLIENTS):
+                        raise
+                    _client_index += 1
+                    log(f"   bot check; retrying with player client {PLAYER_CLIENTS[_client_index]}")
 
 
 def published_at(info: dict) -> datetime:
@@ -212,6 +223,16 @@ def upload_to_release(repo: str, tag: str, path: Path) -> str:
     return f"https://github.com/{repo}/releases/download/{tag}/{path.name}"
 
 
+def remove_from_release(repo: str | None, ep: dict, dry_run: bool) -> None:
+    """Delete an episode's audio once it drops out of the feed (best effort)."""
+    log(f"   dropping old episode {ep['id']}")
+    prefix = f"https://github.com/{repo}/releases/download/"
+    if dry_run or not repo or not ep["audio_url"].startswith(prefix):
+        return
+    tag, name = ep["audio_url"][len(prefix):].split("/", 1)
+    gh("release", "delete-asset", tag, name, "--repo", repo, "--yes", check=False)
+
+
 # --------------------------------------------------------------------------
 # Commands
 
@@ -239,34 +260,48 @@ def cmd_sync(args: argparse.Namespace) -> None:
     if not COVER_PATH.exists() and state["channel"]["avatar"]:
         make_cover(state["channel"]["avatar"])
 
-    known = {e["id"] for e in state["episodes"]} | set(state["skipped"])
+    max_episodes = src.get("max_episodes") or 0
+    have = {e["id"] for e in state["episodes"]}
     candidates = []
-    for entry in channel.get("entries") or []:
+    wanted = 0
+    for entry in channel.get("entries") or []:  # newest first
         vid = entry.get("id")
-        if not vid or vid in known:
+        if not vid or vid in state["skipped"]:
             continue
         # The flat listing already knows durations, so skip Shorts cheaply.
         if entry.get("duration") and entry["duration"] < src["min_duration_seconds"]:
             state["skipped"][vid] = "too short"
             continue
-        candidates.append(entry)
+        if max_episodes and wanted >= max_episodes:
+            break
+        wanted += 1
+        if vid not in have:
+            candidates.append(entry)
     log(f"{len(candidates)} new video(s); processing up to {max_new}")
 
-    added = tried = 0
-    with tempfile.TemporaryDirectory() as tmp:
-        for entry in candidates:
-            # Also cap attempts, so a run of broken videos can't turn into
-            # hammering YouTube with the whole list.
-            if added >= max_new or tried >= max_new * 2:
-                break
-            tried += 1
+    batch = candidates[:max_new]
+    workers = max(1, int(src.get("parallel_downloads", 4)))
+    added = 0
+    with tempfile.TemporaryDirectory() as tmp, ThreadPoolExecutor(workers) as pool:
+        futures = {}
+        for entry in batch:
             vid = entry["id"]
             url = entry.get("url") or f"https://www.youtube.com/watch?v={vid}"
             log(f"-> {vid} {entry.get('title', '')}")
+            workdir = Path(tmp) / vid
+            workdir.mkdir()
+            futures[pool.submit(download_with_fallback, url, workdir, audio, src)] = (vid, url)
+
+        # Uploads and state changes happen here, one at a time, as each
+        # download finishes.
+        for future in as_completed(futures):
+            vid, url = futures[future]
             try:
-                info, mp3, reason = download_with_fallback(url, Path(tmp), audio, src)
+                info, mp3, reason = future.result()
             except Exception as exc:  # noqa: BLE001 - yt-dlp raises many types
                 if any(m in str(exc) for m in BLOCKED_MARKERS):
+                    for f in futures:
+                        f.cancel()
                     save_state(state)
                     sys.exit(
                         "YouTube is blocking this runner (\"Sign in to confirm you're not a bot\").\n"
@@ -274,19 +309,19 @@ def cmd_sync(args: argparse.Namespace) -> None:
                     )
                 attempts = state["failures"].get(vid, 0) + 1
                 state["failures"][vid] = attempts
-                log(f"   failed ({attempts}/{MAX_ATTEMPTS}): {exc}")
+                log(f"   {vid} failed ({attempts}/{MAX_ATTEMPTS}): {exc}")
                 if attempts >= MAX_ATTEMPTS:
                     state["skipped"][vid] = f"failed {attempts} times: {str(exc)[:200]}"
                     state["failures"].pop(vid)
                 save_state(state)
                 continue
             if reason:
-                log(f"   skipped: {reason}")
+                log(f"   {vid} skipped: {reason}")
                 state["skipped"][vid] = reason
                 save_state(state)
                 continue
             if mp3 is None:
-                log("   not available yet, will retry next run")
+                log(f"   {vid} not available yet, will retry next run")
                 continue
 
             pub = published_at(info)
@@ -309,7 +344,12 @@ def cmd_sync(args: argparse.Namespace) -> None:
             state["failures"].pop(vid, None)
             save_state(state)  # after every episode, so a crash loses nothing
             added += 1
-            log(f"   published ({size / 1e6:.1f} MB)")
+            log(f"   {vid} published ({size / 1e6:.1f} MB)")
+    if max_episodes and len(state["episodes"]) > max_episodes:
+        state["episodes"].sort(key=lambda e: e["published"], reverse=True)
+        for ep in state["episodes"][max_episodes:]:
+            remove_from_release(repo, ep, args.dry_run)
+        del state["episodes"][max_episodes:]
     save_state(state)
     log(f"Done: {added} new episode(s), {len(state['episodes'])} total")
 

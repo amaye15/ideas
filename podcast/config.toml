@@ -4,11 +4,16 @@
 [source]
 # Channel "Videos" tab to mirror.
 channel_url = "https://www.youtube.com/@aiDotEngineer/videos"
-# How many of the newest uploads to look at on each run.
-scan_limit = 100
+# Keep only this many of the newest episodes in the podcast.
+max_episodes = 10
+# How many of the newest uploads to look at on each run (Shorts are
+# skipped, so this is a bit larger than max_episodes).
+scan_limit = 30
 # Maximum number of new episodes to download and publish per run.
 # Keeps each run short; a backlog is worked through over several runs.
 max_new_per_run = 10
+# How many videos to download at the same time.
+parallel_downloads = 4
 # Skip Shorts and clips shorter than this many seconds.
 min_duration_seconds = 180
 # Ignore videos uploaded before this date (YYYYMMDD). Empty = no cutoff.

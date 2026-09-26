@@ -9,7 +9,7 @@ How it works, all on free GitHub infrastructure:
 1. A scheduled GitHub Action (`.github/workflows/podcast.yml`, every 6 hours) runs
    `podcast.py sync`. It lists the newest uploads with
    [yt-dlp](https://github.com/yt-dlp/yt-dlp), skips Shorts, and converts new
-   videos to 64 kbps mono MP3 (about 30 MB per hour of talk).
+   videos to 64 kbps mono MP3 (about 30 MB per hour of talk). Only the 10 newest talks are kept.
 2. Each MP3 is attached to a GitHub Release (`episodes-YYYYMM`), which serves the audio.
 3. The episode list is committed back to `podcast/episodes.json`.
 4. `podcast.py feed` writes `feed.xml` and the cover art, which get deployed to GitHub Pages at
@@ -35,10 +35,9 @@ How it works, all on free GitHub infrastructure:
      cookies.txt LOCALLY" extension) and paste the whole file in as the secret. Using a
      throwaway Google account is a good idea.
 4. **First run.** Under *Actions → AI Engineer podcast → Run workflow*, you can leave the
-   inputs blank. Each run adds up to 10 episodes (`max_new_per_run`), so the most recent
-   100 uploads (`scan_limit`) fill in over a day or two. To go further back, run the
-   workflow with a larger `scan_limit`, or set `oldest_upload_date` in `config.toml` to
-   limit how far back it goes.
+   inputs blank. The podcast holds the 10 newest talks (`max_episodes` in `config.toml`),
+   downloaded 4 at a time. When a new talk comes out, the oldest one drops out of the
+   feed and its audio file is deleted.
 5. **Subscribe.** Check that `https://<owner>.github.io/<repo>/feed.xml` loads, then add it
    to your podcast app (see below).
 
