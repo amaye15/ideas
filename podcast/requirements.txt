@@ -1,1 +1,3 @@
 yt-dlp[default]
+# Generates YouTube "proof of origin" tokens (needs the bgutil server running on :4416)
+bgutil-ytdlp-pot-provider==2.0.0

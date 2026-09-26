@@ -74,7 +74,17 @@ def save_state(state: dict) -> None:
 
 
 def ydl_options(**extra) -> dict:
-    opts = {"quiet": True, "no_warnings": True, "noprogress": True}
+    opts = {
+        "quiet": True,
+        "no_warnings": True,
+        "noprogress": True,
+        # mweb works well with the proof-of-origin tokens the bgutil plugin
+        # supplies; "default" keeps yt-dlp's usual clients as a fallback.
+        "extractor_args": {"youtube": {"player_client": ["default", "mweb"]}},
+    }
+    proxy = os.environ.get("YT_PROXY", "").strip()
+    if proxy:
+        opts["proxy"] = proxy
     # GitHub-hosted runners are often challenged by YouTube's bot check;
     # exported browser cookies (Netscape cookies.txt format) get past it.
     cookies = os.environ.get("YT_COOKIES", "").strip()
@@ -84,6 +94,16 @@ def ydl_options(**extra) -> dict:
         opts["cookiefile"] = str(path)
     opts.update(extra)
     return opts
+
+
+def log_antibot_setup() -> None:
+    try:
+        urllib.request.urlopen("http://127.0.0.1:4416/ping", timeout=5)
+        pot = "PO token server up"
+    except OSError:
+        pot = "no PO token server"
+    log(f"Anti-bot: {pot}; cookies {'set' if os.environ.get('YT_COOKIES', '').strip() else 'not set'}; "
+        f"proxy {'set' if os.environ.get('YT_PROXY', '').strip() else 'not set'}")
 
 
 def list_channel(channel_url: str, limit: int) -> dict:
@@ -179,6 +199,7 @@ def cmd_sync(args: argparse.Namespace) -> None:
     scan_limit = args.scan_limit or src["scan_limit"]
     max_new = args.max_new if args.max_new is not None else src["max_new_per_run"]
 
+    log_antibot_setup()
     log(f"Listing {src['channel_url']} (newest {scan_limit})")
     channel = list_channel(src["channel_url"], scan_limit)
     state["channel"] = {
@@ -221,7 +242,7 @@ def cmd_sync(args: argparse.Namespace) -> None:
                     save_state(state)
                     sys.exit(
                         "YouTube is blocking this runner (\"Sign in to confirm you're not a bot\").\n"
-                        "Add fresh youtube.com cookies as the YT_COOKIES repository secret; see podcast/README.md."
+                        "Add youtube.com cookies (YT_COOKIES) or a residential proxy (YT_PROXY) as a repository secret; see podcast/README.md."
                     )
                 attempts = state["failures"].get(vid, 0) + 1
                 state["failures"][vid] = attempts
