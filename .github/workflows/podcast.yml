@@ -1,0 +1,86 @@
+name: AI Engineer podcast
+
+on:
+  schedule:
+    - cron: "17 */6 * * *" # every 6 hours
+  workflow_dispatch:
+    inputs:
+      max_new:
+        description: "Max new episodes this run (blank = config default)"
+        required: false
+      scan_limit:
+        description: "How many recent uploads to scan (blank = config default)"
+        required: false
+  push:
+    branches: [main]
+    paths: ["podcast/config.toml"]
+
+permissions:
+  contents: write # commit episodes.json, create releases for the audio
+  pages: write
+  id-token: write
+
+concurrency:
+  group: podcast
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # yt-dlp needs a JavaScript runtime to solve YouTube's player challenges.
+      - uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          pip install -U -r podcast/requirements.txt
+
+      - name: Download new episodes
+        env:
+          GH_TOKEN: ${{ github.token }}
+          YT_COOKIES: ${{ secrets.YT_COOKIES }}
+        run: |
+          args=()
+          [ -n "${{ inputs.max_new }}" ] && args+=(--max-new "${{ inputs.max_new }}")
+          [ -n "${{ inputs.scan_limit }}" ] && args+=(--scan-limit "${{ inputs.scan_limit }}")
+          python podcast/podcast.py sync "${args[@]}"
+
+      - name: Save episode list
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for f in podcast/episodes.json podcast/cover.jpg; do [ -f "$f" ] && git add "$f"; done
+          if ! git diff --cached --quiet; then
+            git commit -m "podcast: update episodes [skip ci]"
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi
+
+      - name: Build feed
+        if: always()
+        env:
+          PODCAST_OWNER_EMAIL: ${{ secrets.PODCAST_OWNER_EMAIL }}
+        run: python podcast/podcast.py feed --out podcast/public
+
+      - uses: actions/upload-pages-artifact@v3
+        if: always()
+        with:
+          path: podcast/public
+
+      - id: deploy
+        if: always()
+        uses: actions/deploy-pages@v4

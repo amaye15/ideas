@@ -1,0 +1,35 @@
+# Settings for turning a YouTube channel into a podcast RSS feed.
+# Everything under [feed] left empty is filled in from the YouTube channel.
+
+[source]
+# Channel "Videos" tab to mirror.
+channel_url = "https://www.youtube.com/@aiDotEngineer/videos"
+# How many of the newest uploads to look at on each run.
+scan_limit = 100
+# Maximum number of new episodes to download and publish per run.
+# Keeps each run short; a backlog is worked through over several runs.
+max_new_per_run = 10
+# Skip Shorts and clips shorter than this many seconds.
+min_duration_seconds = 180
+# Ignore videos uploaded before this date (YYYYMMDD). Empty = no cutoff.
+oldest_upload_date = ""
+
+[audio]
+bitrate_kbps = 64
+mono = true
+
+[feed]
+title = "AI Engineer (Audio)"
+description = ""
+author = "AI Engineer"
+language = "en"
+category = "Technology"
+explicit = false
+# Spotify sends a verification code to this address when you submit the feed.
+# Leave empty here and set the PODCAST_OWNER_EMAIL repository secret instead
+# if you don't want your address committed to the repo (it still appears in
+# the published feed, which is how Spotify finds it).
+owner_name = ""
+owner_email = ""
+# Public URL the feed is served from. Empty = https://<owner>.github.io/<repo>
+base_url = ""
