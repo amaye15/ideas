@@ -18,6 +18,17 @@
       "audio_bytes": 8641773
     },
     {
+      "id": "OE_lLNCNfQo",
+      "title": "YOLO Mode, Safely: MicroVM Sandboxes for Any Agent — Rowan Christmas, Docker",
+      "description": "Rowan tried to hack himself with his own coding agent. Five prompts later it had found his browser history, his bank accounts and more.\n\nRowan Christmas, product manager at Docker, shows why harness-level guardrails aren't enough to protect your machine from your own agent, and how microVM sandboxes give you security by design. He demos Docker Sandboxes (sbx): one command spins up an isolated VM with its own kernel, filesystem isolation, secret placeholders, default-deny networking and a full audit trail. It works with Claude Code, Codex or anything else. He also previews agent identity, delegation chains and policy-based governance.\n\nIn this talk:\n• How a coding agent with default permissions can surface sensitive data on your laptop\n• Why microVMs beat harness-level guardrails\n• Running any agent in a sandbox with a single command\n• Governance: network allow/deny, filesystem rules, MCP catalogs and what's coming next\n\nSPEAKER\nRowan Christmas, Product Manager, Docker\nLinkedIn: https://www.linkedin.com/in/rowanchristmas/\n\nLINKS\nDocker Sandboxes: https://www.docker.com/products/docker-sandboxes/\nDocs: https://docs.docker.com/ai/sandboxes/\nsbx releases (GitHub): https://github.com/docker/sbx-releases\nDocker: https://www.docker.com/\n\nCHAPTERS\n0:00 Intro\n0:12 Hi from Docker\n0:27 Docker Sandboxes (sbx)\n0:52 Is your coding harness protecting you?\n1:22 Hacking myself: from browser history to bank data\n2:32 The security team's alert\n3:22 Five prompts was all it took\n3:47 MicroVMs: secure by design\n5:07 Demo: claude vs sbx run claude\n5:47 The same attack, sandboxed\n6:12 Network egress blocked by default\n6:47 Every Docker developer codes in sandboxes\n7:07 Why the harness level isn't enough\n7:52 Agent identity and delegation chains\n8:46 Governance controls\n9:11 Coming next: L7 and per-repo controls\n9:46 Install and run any agent\n10:31 Read-only mounts for related repos\n10:56 Wrap-up\n\nRecorded at the AI Engineer World's Fair 2026 in San Francisco.\nSubscribe for more talks from the engineers building with AI.\n\nAI Engineer: https://ai.engineer\nYouTube: https://www.youtube.com/@aiDotEngineer\nX: https://x.com/aiDotEngineer\nLinkedIn: https://www.linkedin.com/company/aidotengineer/\n\n#AISecurity #Docker #AIEngineer",
+      "youtube_url": "https://www.youtube.com/watch?v=OE_lLNCNfQo",
+      "published": "2026-10-03T00:30:06+00:00",
+      "duration": 695,
+      "image": "https://i.ytimg.com/vi_webp/OE_lLNCNfQo/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/OE_lLNCNfQo.mp3",
+      "audio_bytes": 5557677
+    },
+    {
       "id": "y-OVWZD4j6U",
       "title": "The 5 Levels of Self-Driving Production — Eric Schwartz, Traversal",
       "description": "Coding agents made development faster. They also made production a lot harder to debug.\n\nEric Schwartz, product manager at Traversal, explains why more AI-written code means more time spent troubleshooting, why observability dashboards tell you what broke but not why, and why root cause analysis is a causal problem rather than an observability problem. He lays out five levels of 'self-driving production' and shares case studies on alert intelligence for a PepsiCo supply chain team and incident root cause analysis at American Express. He closes with five questions to ask any AI SRE.\n\nIn this talk:\n• How coding agents shift engineering time from building to troubleshooting\n• Why multi-hop root cause analysis is so hard for humans and LLMs\n• The five levels of self-driving production, from war rooms to closed-loop fixes\n• Five questions for evaluating an AI SRE\n\nSPEAKER\nEric Schwartz, Product Manager, Traversal\nLinkedIn: https://www.linkedin.com/in/ericschwartz30/\n\nLINKS\nTraversal: https://www.traversal.com\nSelf-Driving Production (blog): https://www.traversal.com/blog/self-driving-production\n\nCHAPTERS\n0:00 Intro\n0:12 Agenda\n1:02 How coding agents changed the SDLC\n2:02 More code, more troubleshooting\n2:32 The cost of troubleshooting\n3:12 Why observability tools stop short\n4:01 Even LLMs struggle with root cause\n4:31 Why root cause is hard: multi-hop failures\n5:46 Root cause is a causal problem\n6:26 Self-driving production, defined\n7:06 The five levels of autonomy\n8:50 Traversal at enterprise scale\n9:35 Use cases\n11:05 Case study: alert intelligence at PepsiCo\n12:55 Case study: incident RCA at American Express\n14:44 Five questions to ask an AI SRE\n16:39 Traversal's stack\n17:39 Production world model and causal search\n\nRecorded at the AI Engineer World's Fair 2026 in San Francisco.\nSubscribe for more talks from the engineers building with AI.\n\nAI Engineer: https://ai.engineer\nYouTube: https://www.youtube.com/@aiDotEngineer\nX: https://x.com/aiDotEngineer\nLinkedIn: https://www.linkedin.com/company/aidotengineer/\n\n#SRE #AIOps #AIEngineer",
@@ -104,17 +115,6 @@
       "image": "https://i.ytimg.com/vi_webp/apyrzaWj0Z4/maxresdefault.webp",
       "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/apyrzaWj0Z4.mp3",
       "audio_bytes": 7333293
-    },
-    {
-      "id": "Se8jHLliLXE",
-      "title": "The State of AI in Software Development: Data from 400+ Orgs — Justin Reock, DX",
-      "description": "Justin Reock (Deputy CTO, DX) shares five trends from DX's data on about 200,000 engineers. Deployment frequency is rising, but change failure rate has become far more volatile. Maintainability is up while change confidence is down. PRs have grown from about 44 to 72 lines. Juniors use AI the most, but staff+ engineers save as much time while using fewer tokens. Median gains in PR throughput are around 7.7%, and even top performers didn't reach 2x, because code generation was never the bottleneck. Justin walks through the DX AI Measurement Framework (utilization, impact, cost), how to assess your platform's AI readiness, and \"agent experience,\" which uses feedback from the agents themselves. He closes with case studies of AI applied across the whole SDLC: Morgan Stanley (300K hours saved a year), Zapier (15% more value per engineer, and hiring more) and Spotify (an SRE incident agent).\n\nSpeaker info:\nJustin Reock\nLinkedIn: https://www.linkedin.com/in/justinreock/\nSubstack: https://substack.com/@jreock\n\nDX: https://getdx.com\nX: https://x.com/DeveloperXM\nLinkedIn: https://www.linkedin.com/company/developer-experience\n\nTimestamps:\n0:00 Intro: DX research on AI's impact\n1:27 Trend 1: velocity and deployment frequency\n2:53 Regional differences\n3:33 Perceived speed vs. reality\n4:38 Trend 2: quality and change failure rate volatility\n6:02 Maintainability up, change confidence down\n7:02 PR size is growing and incremental delivery is suffering\n8:42 Trend 3: juniors, staff+ engineers and company size\n10:37 Trend 4: how to measure AI (utilization, impact, cost)\n13:27 Platform AI readiness: good DX is good agent experience\n14:17 Listening to feedback from agents\n14:57 Trend 5: code generation was never the bottleneck\n16:27 Case studies: Morgan Stanley, Zapier, Spotify\n18:32 Get the Q2 report",
-      "youtube_url": "https://www.youtube.com/watch?v=Se8jHLliLXE",
-      "published": "2026-09-30T14:30:20+00:00",
-      "duration": 1149,
-      "image": "https://i.ytimg.com/vi_webp/Se8jHLliLXE/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202609/Se8jHLliLXE.mp3",
-      "audio_bytes": 9192045
     }
   ],
   "skipped": {},
@@ -125,7 +125,6 @@
     "x4e5O9zN0TE": 2,
     "7taOQBfjDyE": 2,
     "2LRIAfng7eA": 2,
-    "lIgdnF0s0kQ": 2,
-    "OE_lLNCNfQo": 1
+    "lIgdnF0s0kQ": 2
   }
 }
