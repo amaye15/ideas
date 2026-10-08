@@ -7,6 +7,17 @@
   },
   "episodes": [
     {
+      "id": "DrfyORO8RqA",
+      "title": "Why Bigger Context Windows Won't Save Your Agent — Elizabeth Fuentes Leone, AWS",
+      "description": "A bigger context window won't save your agent. Past a point, it forgets the middle.\n\nElizabeth Fuentes Leone, developer advocate at AWS, explains why agents break when tools return huge amounts of data, and why bigger context windows aren't the fix: models remember the start and end of a long context but lose the middle. Using the open-source, model-agnostic Strands Agents framework, she walks through four strategies (externalize, select, compress, isolate) with code. She covers sliding-window and summarizing conversation managers, short-term, long-term and graph memory, memory pointers that keep big tool outputs out of context, sharing pointers across a swarm of agents, capping tool calls to stop endless loops, and async handles for slow MCP tools. She ends with the anti-patterns to avoid.\n\nIn this talk:\n• Why bigger context windows don't fix agents, and how models lose the middle\n• Four strategies: externalize, select, compress and isolate\n• Memory pointers, conversation managers and multi-agent state in Strands\n• Stopping endless tool loops and handling slow MCP tools\n\nSPEAKER\nElizabeth Fuentes Leone, Developer Advocate, AWS\nLinkedIn: https://www.linkedin.com/in/lizfue\nX: https://x.com/lizfue\nWebsite: https://elifuentes.tech\n\nLINKS\nStrands Agents: https://strandsagents.com\nStrands Agents on GitHub: https://github.com/strands-agents\n\nCHAPTERS\n0:00 Intro\n0:37 Why agents break on big tool outputs\n1:12 Example: a log-watching agent\n1:57 Bigger windows aren't the fix\n2:12 Lost in the middle\n2:42 What context engineering is\n3:17 Externalize, select, compress, isolate\n4:07 Conversation managers\n5:07 What Strands Agents is\n5:57 Summarizing conversation history\n6:42 Short-term, long-term and graph memory\n8:12 Memory pointers for large tool outputs\n9:47 Sharing pointers across a swarm\n10:42 Agents that never stop\n11:22 Limiting tool calls\n12:12 Async handles for slow tools\n13:41 Anti-patterns to avoid\n14:36 Cheat sheet\n\nRecorded at the AI Engineer World's Fair 2026 in San Francisco.\nSubscribe for more talks from the engineers building with AI.\n\nAI Engineer: https://ai.engineer\nYouTube: https://www.youtube.com/@aiDotEngineer\nX: https://x.com/aiDotEngineer\nLinkedIn: https://www.linkedin.com/company/aidotengineer/\n\n#ContextEngineering #AIAgents #AIEngineer",
+      "youtube_url": "https://www.youtube.com/watch?v=DrfyORO8RqA",
+      "published": "2026-10-08T00:30:18+00:00",
+      "duration": 953,
+      "image": "https://i.ytimg.com/vi_webp/DrfyORO8RqA/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/DrfyORO8RqA.mp3",
+      "audio_bytes": 7625901
+    },
+    {
       "id": "f3o0-9Dlw3E",
       "title": "AI Hackers Are Faster Than Your Pen Test — Eli Cohen, Snyk",
       "description": "Attackers use AI too, and the fastest AI attack he cites took four minutes. A pen test once or twice a year can't keep up.\n\nEli Cohen of Snyk, co-founder of the runtime security company Helios, explains why security has to go on the offense in an agent-first world. Developers now ship far more code, much of it insecure, while attackers use frontier models to chain small vulnerabilities into critical ones in minutes. He walks through why traditional tools fall short: static scanning misses runtime issues, dynamic testing misses business logic, and human pen tests are expensive and happen only a few times a year. Then he describes continuous offensive security: AI pen testing on every code change, agent red teaming, and a team of agents (orchestrator, recon, vulnerability hunters, an exploit-validating judge, remediation and reporting), fed with context from other scanners. He ends with four questions to ask any AI pen testing vendor.\n\nIn this talk:\n• Why AI-generated code and AI-powered attackers break the old security model\n• SAST vs DAST vs pen testing, and what each one misses\n• How a team of agents runs pen tests and proves exploits on every PR\n• Four questions to ask any AI pen testing vendor\n\nSPEAKER\nEli Cohen, Snyk (co-founder of Helios)\nLinkedIn: https://www.linkedin.com/in/cohen-eli/\n\nLINKS\nSnyk Evo: https://snyk.io/evo/\nSnyk: https://snyk.io\nSnyk on X: https://x.com/snyksec\n\nCHAPTERS\n0:00 Intro\n1:37 More code than ever\n2:22 Most AI code isn't secure\n3:07 Attackers use AI too\n4:12 AI attacks in minutes\n5:31 Why traditional security can't keep up\n5:46 Static scanning (SAST)\n6:16 Dynamic testing (DAST) and authorization bugs\n7:11 Pen testing: great, slow and expensive\n9:16 Continuous offensive security\n9:56 Agent red teaming\n10:46 AI pen testing on every PR\n12:21 How it works: orchestrator and recon\n13:16 Vulnerability-hunting agents\n13:41 Proving exploits, cutting false positives\n14:11 Remediation and reporting\n14:51 Context is everything\n15:46 Combine scanners and pen testing\n17:30 Four questions to ask any vendor\n\nRecorded at the AI Engineer World's Fair 2026 in San Francisco.\nSubscribe for more talks from the engineers building with AI.\n\nAI Engineer: https://ai.engineer\nYouTube: https://www.youtube.com/@aiDotEngineer\nX: https://x.com/aiDotEngineer\nLinkedIn: https://www.linkedin.com/company/aidotengineer/\n\n#AppSec #AISecurity #AIEngineer",
@@ -104,17 +115,6 @@
       "image": "https://i.ytimg.com/vi_webp/XTpyNrEgJQ4/maxresdefault.webp",
       "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/XTpyNrEgJQ4.mp3",
       "audio_bytes": 7334061
-    },
-    {
-      "id": "uKUA1a0Kdfc",
-      "title": "Move Fast and Don't Break Things: Scaling Databases for the AI Era — PlanetScale",
-      "description": "AI agents are multiplying traffic overnight. Here's how to ship fast without taking your database down with it.\n\nBen Dicken from PlanetScale argues you no longer have to choose between moving fast and keeping things up. He covers the principles behind reliable infrastructure, isolation and redundancy, then how to scale with sharding, back pressure and decoupling, the same ideas PlanetScale uses to run databases for fast-growing AI companies like Cursor. Then he gets to agents: how a simple VSchema JSON file lets an agent design a sharding plan for Vitess, how Traffic Control sets resource budgets so a surge of agent traffic degrades gracefully instead of crashing, and how database branching, deploy requests and one-click reverts let agents change schemas safely. His point: good developer experience turns out to be good primitives for AI.\n\nIn this talk:\n• Isolation and redundancy, and why failures become weekly at scale\n• Sharding, back pressure and decoupling explained\n• Letting agents design a Vitess sharding scheme from a JSON VSchema\n• Traffic Control budgets, schema branching and one-click reverts for agents\n\nSPEAKER\nBen Dicken, PlanetScale\nLinkedIn: https://www.linkedin.com/in/benjdicken/\nX: https://x.com/BenjDicken\nGitHub: https://github.com/bddicken\nWebsite: https://benjdd.com\n\nLINKS\nPlanetScale: https://planetscale.com\nDatabase Traffic Control: https://planetscale.com/database-traffic-control\nNeki (sharded Postgres): https://planetscale.com/blog/announcing-neki\nPlanetScale on X: https://x.com/planetscale\n\nCHAPTERS\n0:00 Intro\n1:02 Outages at AI scale\n2:22 Three parts\n2:57 About PlanetScale\n3:32 Isolation\n4:32 Redundancy\n7:01 Sharding\n8:26 Back pressure\n9:41 Decoupling\n11:21 Giving agents control of infrastructure\n12:56 Agents designing a VSchema\n14:51 Traffic Control\n15:55 Branching your database\n16:50 Reverts without data loss\n17:45 Good DX is good for agents\n\nRecorded at the AI Engineer World's Fair 2026 in San Francisco.\nSubscribe for more talks from the engineers building with AI.\n\nAI Engineer: https://ai.engineer\nYouTube: https://www.youtube.com/@aiDotEngineer\nX: https://x.com/aiDotEngineer\nLinkedIn: https://www.linkedin.com/company/aidotengineer/\n\n#Databases #PlanetScale #AIEngineer",
-      "youtube_url": "https://www.youtube.com/watch?v=uKUA1a0Kdfc",
-      "published": "2026-10-06T20:00:07+00:00",
-      "duration": 1146,
-      "image": "https://i.ytimg.com/vi_webp/uKUA1a0Kdfc/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/uKUA1a0Kdfc.mp3",
-      "audio_bytes": 9170349
     }
   ],
   "skipped": {},
@@ -127,6 +127,6 @@
     "2LRIAfng7eA": 2,
     "lIgdnF0s0kQ": 2,
     "jc3kbZkuHTo": 2,
-    "exiwa9QbQXI": 1
+    "exiwa9QbQXI": 2
   }
 }
