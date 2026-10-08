@@ -117,7 +117,9 @@
       "audio_bytes": 7334061
     }
   ],
-  "skipped": {},
+  "skipped": {
+    "exiwa9QbQXI": "failed 3 times: ERROR: [youtube] exiwa9QbQXI: The page needs to be reloaded."
+  },
   "failures": {
     "vrDvatGtIxs": 2,
     "XyV6bSMyq-I": 2,
@@ -126,7 +128,6 @@
     "7taOQBfjDyE": 2,
     "2LRIAfng7eA": 2,
     "lIgdnF0s0kQ": 2,
-    "jc3kbZkuHTo": 2,
-    "exiwa9QbQXI": 2
+    "jc3kbZkuHTo": 2
   }
 }
