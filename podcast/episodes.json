@@ -7,6 +7,17 @@
   },
   "episodes": [
     {
+      "id": "gDRCpTMCqEU",
+      "title": "What Technical Due Diligence Finds When the Deck Says “70% Automated” — Soukaïna Abelhad",
+      "description": "A pitch deck says a workflow is 70% automated. Before accepting the number, Soukaïna Abelhad asks what it counts, what human work remains and who checked the result. Her first diligence test needs no model expertise: compare workload growth with the fully loaded labor required to deliver it. More output with proportionally more reviewers, trainers, escalations and rework can describe assistance rather than labor removal. A percentage without a clear denominator obscures that distinction, especially when the work called automated still depends on people to complete or correct it.\n\nThe second test defines the level of automation inside a named workflow. AI attributed work and an autonomously completed task are different claims; the straight through completion rate needs a boundary that a buyer can inspect. The third test examines evaluation. A model judging another model's output is useful evidence only within its limits, and agreement with an automated rubric can diverge from a domain expert's assessment. Abelhad turns those checks into an economic question: what is the cost per accepted autonomous task after model costs, human review, escalation and rework? Failures belong in the denominator and the cost account. Public examples and a brief anonymous evaluation illustrate the framework rather than establish a general automation rate or a causal explanation for a company's failure. The takeaway is a practical diligence conversation that connects the deck's language to observable work, credible evaluation and the operating cost behind the claim.\n\n\nSpeaker info:\n- https://www.linkedin.com/in/soukaina-abelhad/\n\nTimestamps:\n00:00 - What an automation percentage leaves out\n0:55 - Check one: workload against human labor\n2:13 - Check two: define the automation boundary\n3:05 - Check three: evaluation and expert review",
+      "youtube_url": "https://www.youtube.com/watch?v=gDRCpTMCqEU",
+      "published": "2026-10-13T18:00:17+00:00",
+      "duration": 388,
+      "image": "https://i.ytimg.com/vi_webp/gDRCpTMCqEU/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/gDRCpTMCqEU.mp3",
+      "audio_bytes": 3102381
+    },
+    {
       "id": "U7ZYBCcdJPg",
       "title": "Tokens Are the Cheap Part — Steve Jamison, Jellyfish",
       "description": "AI spending rises dramatically while the allocated cost of a merged pull request falls. Steve Jamison explains why those observations can coexist when developer salaries and model costs are counted together. Using Jellyfish's engineering data, he reports a 60 fold increase in AI spending, 43% more merged pull requests per engineer and a 26% decline in combined cost per merged pull request over the period discussed. The largest cost in that calculation remains salary. These are observational comparisons, rather than proof that token spending caused the throughput change or that companies realized equivalent cash savings.\n\nJamison compares organizations with different levels of AI spending and then examines developers' weeks with and without heavier agent skill use. The analysis asks whether additional output spreads the salary allocation across enough work to outweigh the higher token bill. He also considers quality and work size: reverts offer one limited signal, while lines of code and pull request counts cannot by themselves establish customer value. A larger or more numerous set of changes may still need review, maintenance and evidence that it solves the right problem. The useful management question is therefore broader than whether the AI invoice went up. Teams need a consistent view of total engineering cost, output and quality before choosing where to encourage adoption or constrain spending. The talk provides a way to reason about that tradeoff while leaving causal attribution, economic value and the limits of output proxies open to scrutiny.\n\n\nSpeaker info:\n- https://www.linkedin.com/in/stevetjamison/\n\nTimestamps:\n00:00 - AI spend and merged PR throughput move together\n2:48 - Add developer salaries to the cost model\n4:15 - Allocated cost per merged pull request\n5:00 - Comparing lighter and heavier spending groups\n8:55 - Comparing developers with their own prior weeks\n10:12 - Reverts as a limited quality proxy\n11:02 - Work size and lines of code\n15:02 - Questions to ask before capping token spend",
@@ -104,17 +115,6 @@
       "image": "https://i.ytimg.com/vi_webp/Fa3hQVIKShw/maxresdefault.webp",
       "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/Fa3hQVIKShw.mp3",
       "audio_bytes": 10100973
-    },
-    {
-      "id": "oixzVKMAXG0",
-      "title": "Please… Enough with the Sloppy, One-Shot SaaS Replacements — Mahmoud Abdelwahab, Railway",
-      "description": "A single internal app now handles Railway's marketing content, email, social posts, media, creator relationships and launch planning. Mahmoud Abdelwahab built it with coding agents, but getting the features to run was only the beginning. The difference between a quick SaaS replacement and a tool his team wants to open every day lives in the details: background saving, responsive interactions, reversible actions and consistent screens. His starting point is a structured codebase with reusable abstractions, so each new feature follows existing patterns instead of inventing another way to do the same work.\n\nAbdelwahab works through the product behaviors he has learned to request explicitly. Autosave should preserve progress without blocking typing; optimistic updates should make suitable actions feel immediate and recover when the operation fails. Undo and archiving give people room to change their minds. URL state makes a filtered view shareable, while infinite scrolling removes repetitive navigation. Referencing an existing page helps the agent reuse the app's interface and data fetching conventions. He then packages recurring design and deployment preferences into agent skills. The final step is a verification loop that opens the running application and exercises the feature from start to finish, because a successful build and passing tests can still leave a broken experience. These are practical lessons from an internal tool, without a claim of measured financial savings.\n\n\nSpeaker info:\n- https://www.linkedin.com/in/thisismahmoud/\n- https://github.com/m-abdelwahab\n\nTimestamps:\n00:00 - Replacing Railway's internal marketing tools\n2:32 - Structure and abstractions for consistent features\n4:03 - Product polish agents need to be asked for\n4:57 - Autosave and collaboration\n6:16 - Optimistic updates, undo and archiving\n8:45 - URL state and navigation\n9:38 - Reference pages and agent skills\n11:47 - Verify the running feature from start to finish",
-      "youtube_url": "https://www.youtube.com/watch?v=oixzVKMAXG0",
-      "published": "2026-10-12T15:00:19+00:00",
-      "duration": 801,
-      "image": "https://i.ytimg.com/vi_webp/oixzVKMAXG0/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/oixzVKMAXG0.mp3",
-      "audio_bytes": 6407853
     }
   ],
   "skipped": {
@@ -133,7 +133,6 @@
     "j4AmIK6OvHc": 1,
     "7BcQdtRA3Tc": 1,
     "XczFLWEntiE": 1,
-    "PwCSYy-oGsM": 1,
-    "gDRCpTMCqEU": 1
+    "PwCSYy-oGsM": 1
   }
 }
