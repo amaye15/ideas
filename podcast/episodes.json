@@ -7,6 +7,17 @@
   },
   "episodes": [
     {
+      "id": "Fva8hFosqyQ",
+      "title": "The Highest Loop — swyx",
+      "description": "Why we gather at AI Engineer World’s Fair 2026.",
+      "youtube_url": "https://www.youtube.com/watch?v=Fva8hFosqyQ",
+      "published": "2026-10-16T02:03:26+00:00",
+      "duration": 440,
+      "image": "https://i.ytimg.com/vi_webp/Fva8hFosqyQ/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/Fva8hFosqyQ.mp3",
+      "audio_bytes": 3519213
+    },
+    {
       "id": "0JZy5AuuQzc",
       "title": "I Spent Two Years Building the Median — Hariprasad Sudharshan",
       "description": "After two years of intense solo building, Hariprasad Sudharshan discovers that other people have independently produced calculators much like his own. Nobody needs to have copied anyone: the same models, tools and familiar problem can lead builders toward the same solution. He calls that shared starting point the median. Faster development makes it easier to ship useful software, including internal tools and learning projects, but a functioning demo does not establish a durable product advantage. His talk is a personal reflection on that distinction, rather than a controlled study of product success or a disclosed business outcome.\n\nSudharshan separates the model's capability from its harness and the product a customer ultimately receives. He describes a build first reflex that replaces searching for existing solutions with immediately opening a coding agent. His alternative is a novelty budget: name the one distinctive thing before starting, include it in the roadmap and review it as deliberately as other project spending. For leaders evaluating demos, he proposes three questions. Who has already solved this? What does this team have that a competitor does not? Where will the application reach users? A later calculator iteration focuses on the difference between running open model weights inside an enterprise and purchasing inference, including utilization and the infrastructure between weights and generated tokens. The practical lesson is to use the readily available starting point where it helps, then spend judgment on a specific problem, distribution and a defensible difference.\n\n\nSpeaker info:\n- https://github.com/brettleehari\n- https://www.linkedin.com/in/haripm4ai/\n\nTimestamps:\n00:00 - The deterministic software underneath everyday life\n3:54 - Rented models change how software gets built\n6:41 - Athletics and moving model leaderboards\n10:28 - Model, harness and product\n12:09 - The median and converging solutions\n14:24 - Useful software and the limits of differentiation\n18:03 - The build first reflex\n20:39 - A calculator and two years of solo building\n23:51 - Define a novelty budget\n26:19 - Four moves for a product roadmap\n28:30 - Three questions for leaders evaluating demos\n30:45 - Open weights, inference costs and the revised calculator\n33:42 - Spend judgment on a distinctive problem",
@@ -104,17 +115,6 @@
       "image": "https://i.ytimg.com/vi_webp/U7ZYBCcdJPg/maxresdefault.webp",
       "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/U7ZYBCcdJPg.mp3",
       "audio_bytes": 8411181
-    },
-    {
-      "id": "-a2oTS9J67U",
-      "title": "The Agent Works. Does Anyone Trust It? — Michele Grant, Leading at Scale",
-      "description": "An agent's reports match the analysts' work during a pilot, yet the steering committee still has to decide whether it should operate in a core business process. Michele Grant uses an illustrative acquisition integration scenario to examine that decision. The question moves beyond technical accuracy to measurable value, accountable ownership and evidence for greater authority. A faster report is useful only if it changes a decision or releases capacity that the organization actually redeploys. Her framework starts with a baseline for reporting time, analyst capacity, operating cost and the detection of material issues, so an attractive demo does not become its own business case.\n\nGrant separates the people who operate the workflow, oversee its risk and provide independent assurance. A Human Works Standard records what the agent may do, where human judgment remains necessary and who must intervene when something goes wrong. An auditable decision log, a maintained inventory of agents and dependencies, and an autonomy scorecard make those boundaries reviewable. Financial calculations stay in deterministic code while the model helps with narrative and interpretation. Authority advances through shadow operation, reviewed drafts, exception handling with sampling and finally exception focused review supported by independent checks. At that last stage, missed issues matter as much as flagged ones. A falling override rate can reflect weaker review rather than better performance. The acquisition values and capacity examples explain the operating framework; they are not disclosed results from a completed deployment or proof that the agent created the projected synergies.\n\n\nSpeaker info:\n- https://www.linkedin.com/in/michelegrantleadership/\n\nTimestamps:\n00:00 - From a working agent to organizational trust\n2:34 - An illustrative acquisition integration scenario\n4:47 - Measure value against a baseline\n6:29 - Accountability across three lines of ownership\n8:14 - The Human Works Standard\n9:54 - Decision logs and the agent inventory\n11:51 - Four stages of autonomy\n12:50 - Independent sampling and missed issues\n13:29 - What the framework lets leaders decide",
-      "youtube_url": "https://www.youtube.com/watch?v=-a2oTS9J67U",
-      "published": "2026-10-13T16:00:11+00:00",
-      "duration": 904,
-      "image": "https://i.ytimg.com/vi_webp/-a2oTS9J67U/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/-a2oTS9J67U.mp3",
-      "audio_bytes": 7235949
     }
   ],
   "skipped": {
