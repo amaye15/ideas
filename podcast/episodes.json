@@ -7,6 +7,17 @@
   },
   "episodes": [
     {
+      "id": "kiClTcJUnhc",
+      "title": "Why One AI Agent Isn’t Enough (And How to Run 1,000) - CJ Avilla & Harrison Stall, Anthropic",
+      "description": "Ken Thompson built Unix in a month. IBM put 1,000 engineers on OS/360. And in 1998, Linus Torvalds hit his limit. Now we're hitting that same wall managing AI agents.\n\nAnthropic's CJ Avilla and Harrison Stall introduce Flows in Claude Managed Agents. You hand Claude a goal, and it plans and runs its own multi-agent topology of up to 1,000 agents through the API. In this hands-on workshop they demo a stock watchlist scanner, show how to spend more compute on the phases that matter, walk through the Bug Hunter and Explainer Studio templates, and explain why single agents fail through laziness, self-preference bias and goal drift. They finish with a deep dive on running agents safely at scale: budgets, interrupts, auto mode, credential vaults and network lockdown.\n\nSpeakers:\nCJ Avilla, Member of Technical Staff, Anthropic\nX: https://x.com/cjav_dev\n\nHarrison Stall, Member of Technical Staff, Anthropic\nX: https://x.com/HarrisonStall\n\nhttps://www.anthropic.com\n\n0:00 Unix vs. OS/360: the scaling problem\n6:00 Meet CJ & Harrison\n7:00 Introducing Flows in Claude Managed Agents\n9:05 Why single agents hit a wall\n14:00 How dynamic workflows work\n17:25 Demo: stock watchlist scanner\n23:20 From console to production: tuning each phase\n32:15 Q&A, round 1\n1:04:45 Bug Hunter: multi-agent PR review\n1:07:15 Explainer Studio: flows that make videos\n1:12:15 Laziness, self-bias & goal drift\n1:15:20 Agent safety at scale\n1:20:05 Declare, contain, detect\n1:21:15 Separating the brain from the hands\n1:27:50 Credential vaults & locking down tools\n1:31:45 Wrap-up + Q&A, round 2\n\nLive from the Sheraton New York Times Square Hotel in New York City, AI Engineer New York 2026 is an AI conference for engineers and technical leaders building production AI across banking, hedge funds, fintech, insurance, and asset management.\n\nEvent: AI Engineer NYC\nDates: October 12–14, 2026\nVenue: Sheraton New York Times Square Hotel\n\nLearn more about the event:\nhttps://ai.engineer/nyc/2026#\n\nSubscribe for more AI Engineer talks, livestreams, and event coverage:\nhttps://www.youtube.com/@aiDotEngineer",
+      "youtube_url": "https://www.youtube.com/watch?v=kiClTcJUnhc",
+      "published": "2026-10-16T19:00:10+00:00",
+      "duration": 6103,
+      "image": "https://i.ytimg.com/vi_webp/kiClTcJUnhc/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/kiClTcJUnhc.mp3",
+      "audio_bytes": 48824685
+    },
+    {
       "id": "Fva8hFosqyQ",
       "title": "The Highest Loop — swyx",
       "description": "Why we gather at AI Engineer World’s Fair 2026.",
@@ -104,17 +115,6 @@
       "image": "https://i.ytimg.com/vi_webp/gDRCpTMCqEU/maxresdefault.webp",
       "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/gDRCpTMCqEU.mp3",
       "audio_bytes": 3102381
-    },
-    {
-      "id": "U7ZYBCcdJPg",
-      "title": "Tokens Are the Cheap Part — Steve Jamison, Jellyfish",
-      "description": "AI spending rises dramatically while the allocated cost of a merged pull request falls. Steve Jamison explains why those observations can coexist when developer salaries and model costs are counted together. Using Jellyfish's engineering data, he reports a 60 fold increase in AI spending, 43% more merged pull requests per engineer and a 26% decline in combined cost per merged pull request over the period discussed. The largest cost in that calculation remains salary. These are observational comparisons, rather than proof that token spending caused the throughput change or that companies realized equivalent cash savings.\n\nJamison compares organizations with different levels of AI spending and then examines developers' weeks with and without heavier agent skill use. The analysis asks whether additional output spreads the salary allocation across enough work to outweigh the higher token bill. He also considers quality and work size: reverts offer one limited signal, while lines of code and pull request counts cannot by themselves establish customer value. A larger or more numerous set of changes may still need review, maintenance and evidence that it solves the right problem. The useful management question is therefore broader than whether the AI invoice went up. Teams need a consistent view of total engineering cost, output and quality before choosing where to encourage adoption or constrain spending. The talk provides a way to reason about that tradeoff while leaving causal attribution, economic value and the limits of output proxies open to scrutiny.\n\n\nSpeaker info:\n- https://www.linkedin.com/in/stevetjamison/\n\nTimestamps:\n00:00 - AI spend and merged PR throughput move together\n2:48 - Add developer salaries to the cost model\n4:15 - Allocated cost per merged pull request\n5:00 - Comparing lighter and heavier spending groups\n8:55 - Comparing developers with their own prior weeks\n10:12 - Reverts as a limited quality proxy\n11:02 - Work size and lines of code\n15:02 - Questions to ask before capping token spend",
-      "youtube_url": "https://www.youtube.com/watch?v=U7ZYBCcdJPg",
-      "published": "2026-10-13T17:00:19+00:00",
-      "duration": 1051,
-      "image": "https://i.ytimg.com/vi_webp/U7ZYBCcdJPg/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/U7ZYBCcdJPg.mp3",
-      "audio_bytes": 8411181
     }
   ],
   "skipped": {
