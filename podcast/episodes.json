@@ -7,6 +7,17 @@
   },
   "episodes": [
     {
+      "id": "SHMCGrNJJGc",
+      "title": "How to Know If Your AI Agent Is Any Good: Evals With Phoenix & Claude — Laurie Voss, Arize AI",
+      "description": "Your AI agent wrote a confident stock report saying 116% of analysts agree. Nothing in your checks caught it. This is the workshop for fixing that.\n\nLaurie Voss (Head of Developer Relations at Arize AI, co-founder of npm) builds a full evals loop on a Claude-powered financial analyst agent: trace it with Arize Phoenix, read the traces, write code evals and LLM-as-a-judge evals, test whether the judge can be trusted, prove a prompt fix with experiments, upgrade from Claude Haiku 4.5 to 5.5 with evidence, and gate it all in CI with npm test.\n\nSpeaker:\nLaurie Voss, Head of Developer Relations, Arize AI\nX: https://x.com/seldo\nhttps://arize.com\nPhoenix: https://phoenix.arize.com\n\n0:00 Intro & setup\n2:47 \"Looks good to me\" isn't a test suite\n4:57 Traces vs. evals: the mental model\n8:30 Code evals, LLM judges & human review\n11:57 Why agents are confidently wrong\n16:32 Step 1: Tracing with Phoenix\n36:36 Step 2: Reading your traces\n43:21 The 116% analyst consensus bug\n50:36 Step 3: Code evals\n56:11 Step 4: LLM-as-a-judge\n1:00:30 Why the correctness eval failed every report\n1:10:41 Step 5: Writing your own judge\n1:24:45 Step 6: Testing your judge\n1:38:55 Step 7: Experiments\n1:48:30 Upgrading to Claude Haiku 5.5\n1:50:55 Evals in CI\n1:55:25 Where to start on Monday\n\nLive from the Sheraton New York Times Square Hotel in New York City, AI Engineer New York 2026 is an AI conference for engineers and technical leaders building production AI across banking, hedge funds, fintech, insurance, and asset management.\n\nEvent: AI Engineer NYC\nDates: October 12–14, 2026\nVenue: Sheraton New York Times Square Hotel\n\nLearn more about the event:\nhttps://ai.engineer/nyc/2026#\n\nSubscribe for more AI Engineer talks, livestreams, and event coverage:\nhttps://www.youtube.com/@aiDotEngineer",
+      "youtube_url": "https://www.youtube.com/watch?v=SHMCGrNJJGc",
+      "published": "2026-10-17T19:00:23+00:00",
+      "duration": 6973,
+      "image": "https://i.ytimg.com/vi_webp/SHMCGrNJJGc/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/SHMCGrNJJGc.mp3",
+      "audio_bytes": 55781421
+    },
+    {
       "id": "e9-br9hveRI",
       "title": "Stop Chatting With Spreadsheets — Francesco Galletta & Felippe Felisola Caso, Monzo",
       "description": "Fast answers are easy to get. Answers you can trust with your money are harder. Francesco Galletta and Felippe Felisola Caso build a financial-analyst agent harness live, using one real problem: paying for a wedding. They show the five design principles they use for AI you can trust: shared domain, consistency, evidence, accountability and verification. They also explain why calculations belong in code instead of in the model's head.\n\nNote: the speakers work at Monzo but are not presenting on Monzo's behalf.\n\n🎟️ Join us at the next one: AIE CODE Summit → https://aie.codes\n\nSpeakers\nFrancesco Galletta — LinkedIn: https://www.linkedin.com/in/francescogalletta/\nFelippe Felisola Caso — LinkedIn: https://www.linkedin.com/in/felippecaso/\nMonzo — https://monzo.com\n\nTimestamps\n0:00 Intro: Francesco & Felippe\n2:54 Using AI for impact, not token-maxing\n4:22 Speed isn't the bottleneck. Trust is.\n7:25 Components vs. design principles\n8:45 The 5 principles of trust\n12:13 The use case: budgeting a wedding\n17:05 How the principles build on each other\n20:40 Principle 1: Shared domain\n25:59 Live demo: planning with the agent\n30:42 From plan to decision tree\n35:48 Why long linear chats fall apart\n36:48 Principle 2: Consistency (math belongs in code)\n55:50 Principle 3: Evidence (show the receipts)\n1:00:17 The \"master file\" horror story\n1:06:42 Principle 4: Accountability\n1:20:39 Principle 5: Verification\n1:24:16 Golden examples & outside reference points\n1:34:05 Q&A: How many harnesses should you build?\n1:38:11 Don't over-sharpen the axe\n1:44:00 Q&A: Skills vs. a dedicated harness\n1:48:31 Takeaway: design for trust on purpose",
@@ -104,17 +115,6 @@
       "image": "https://i.ytimg.com/vi_webp/Wb2v9Phhnns/maxresdefault.webp",
       "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/Wb2v9Phhnns.mp3",
       "audio_bytes": 15119469
-    },
-    {
-      "id": "8g1N_a3h9H0",
-      "title": "How to Actually Tokenmaxx and Save Millions — Alvin Pane, OutRival",
-      "description": "A cheaper candidate model disagrees with the production model on 18% of examples. Reject it immediately, or first ask how often production disagrees with itself? Alvin Pane uses that question to frame a token optimization workflow at OutRival. Repeated runs of the existing model reveal a reported 7% disagreement rate, making simple model to model agreement an incomplete quality measure. His HarborBite example is a synthetic proxy for a large instruction prompt, used to show the mechanics of reducing cost while preserving the application's required behavior. It is not evidence of realized million dollar savings.\n\nPane starts with observability: record prompt versions, model choices, tokens, latency and costs before changing them. Prefix caching removes avoidable repeated work. DSPy and GEPA can then search for shorter instructions, preserving the interface and scoring contract rather than simply deleting text. The illustrated prompt shrinks by 51%, but that reduction still needs a quality test. A smaller model may fit a narrow benchmark and fail on unfamiliar inputs. Shadow evaluation therefore compares production with itself, the candidate with itself and both systems on the same requests. Human review of disagreements separates regressions from improvements and ambiguous cases. A paired confidence interval around the net gain supplies a release criterion, with critical customer categories checked separately so an overall average cannot hide damage to an important task. The closing rule is to keep measuring after release: cheaper instructions and tokens matter only when the system continues to perform the work users need.\n\n\nSpeaker info:\n- https://www.linkedin.com/in/alvin-pane/\n\nTimestamps:\n00:00 - A synthetic prompt and the cost of redundant work\n1:34 - Observe tokens, latency and prompt versions\n2:26 - Candidate disagreement and production variance\n4:00 - Prefix caching and optimizing instructions with DSPy and GEPA\n6:00 - Smaller models and benchmark overfitting\n7:30 - Three comparisons in a shadow evaluation\n8:46 - Human review and paired release criteria",
-      "youtube_url": "https://www.youtube.com/watch?v=8g1N_a3h9H0",
-      "published": "2026-10-14T15:00:14+00:00",
-      "duration": 672,
-      "image": "https://i.ytimg.com/vi_webp/8g1N_a3h9H0/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/8g1N_a3h9H0.mp3",
-      "audio_bytes": 5372205
     }
   ],
   "skipped": {
