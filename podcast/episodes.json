@@ -7,6 +7,17 @@
   },
   "episodes": [
     {
+      "id": "e9-br9hveRI",
+      "title": "Stop Chatting With Spreadsheets — Francesco Galletta & Felippe Felisola Caso, Monzo",
+      "description": "Fast answers are easy to get. Answers you can trust with your money are harder. Francesco Galletta and Felippe Felisola Caso build a financial-analyst agent harness live, using one real problem: paying for a wedding. They show the five design principles they use for AI you can trust: shared domain, consistency, evidence, accountability and verification. They also explain why calculations belong in code instead of in the model's head.\n\nNote: the speakers work at Monzo but are not presenting on Monzo's behalf.\n\n🎟️ Join us at the next one: AIE CODE Summit → https://aie.codes\n\nSpeakers\nFrancesco Galletta — LinkedIn: https://www.linkedin.com/in/francescogalletta/\nFelippe Felisola Caso — LinkedIn: https://www.linkedin.com/in/felippecaso/\nMonzo — https://monzo.com\n\nTimestamps\n0:00 Intro: Francesco & Felippe\n2:54 Using AI for impact, not token-maxing\n4:22 Speed isn't the bottleneck. Trust is.\n7:25 Components vs. design principles\n8:45 The 5 principles of trust\n12:13 The use case: budgeting a wedding\n17:05 How the principles build on each other\n20:40 Principle 1: Shared domain\n25:59 Live demo: planning with the agent\n30:42 From plan to decision tree\n35:48 Why long linear chats fall apart\n36:48 Principle 2: Consistency (math belongs in code)\n55:50 Principle 3: Evidence (show the receipts)\n1:00:17 The \"master file\" horror story\n1:06:42 Principle 4: Accountability\n1:20:39 Principle 5: Verification\n1:24:16 Golden examples & outside reference points\n1:34:05 Q&A: How many harnesses should you build?\n1:38:11 Don't over-sharpen the axe\n1:44:00 Q&A: Skills vs. a dedicated harness\n1:48:31 Takeaway: design for trust on purpose",
+      "youtube_url": "https://www.youtube.com/watch?v=e9-br9hveRI",
+      "published": "2026-10-17T14:00:03+00:00",
+      "duration": 6634,
+      "image": "https://i.ytimg.com/vi_webp/e9-br9hveRI/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/e9-br9hveRI.mp3",
+      "audio_bytes": 53069229
+    },
+    {
       "id": "Ti-BmGU1_mQ",
       "title": "The AI Bill Is Too Damn High: Tokenomics 101 — Eugene Cheah, Featherless AI",
       "description": "If your token spend keeps going up and productivity isn't keeping pace, start here. Eugene Cheah lays out four steps for cutting AI inference costs at scale: measure, right-size, buy capacity well and check your processes. Along the way he covers splitting API keys per team, agentic vs. process workloads, open models that match frontier models on specific tasks, classifiers, fine-tuning, the speed-vs-cost tradeoff and \"slop grenades.\"\n\nRecorded live at AI Engineer NYC 2026.\n\n🎟️ Join us at the next one: AIE CODE Summit → https://aie.codes\n\nSpeaker\nEugene Cheah — X: https://x.com/picocreator\nFeatherless AI — https://featherless.ai\n\nTimestamps\n0:00 Intro: Eugene Cheah, Featherless AI\n1:48 What \"scale\" looks like: 2T tokens/day\n2:13 Disclaimers: who this is for\n3:13 The 4 moves\n3:23 Move 1: Measure (stop sharing one API key)\n5:12 Agentic vs. process workloads\n9:27 Move 2: Right-size your models\n12:42 Classifiers: a new class of cheap models\n14:37 Plan with the smart model, build with the cheap one\n15:47 Nobody switches models to save money\n19:27 Give teams model labels, not model names\n25:27 Bootstrapping your own fine-tuned model\n27:42 Shadow traffic to keep improving\n28:57 Move 3: Buying GPU capacity\n30:07 2x the speed = 3x the cost\n32:22 Bursty traffic & dedicated capacity\n34:32 Move 4: Check your processes\n37:07 Tokens are not work done\n42:07 Don't throw slop grenades\n44:27 Q&A: Fine-tuning & data sets\n48:02 Q&A: Golden traces\n50:04 Q&A: Escaping harness lock-in\n52:37 Q&A: Caching & auto-routing",
@@ -104,17 +115,6 @@
       "image": "https://i.ytimg.com/vi_webp/8g1N_a3h9H0/maxresdefault.webp",
       "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/8g1N_a3h9H0.mp3",
       "audio_bytes": 5372205
-    },
-    {
-      "id": "7b9tov5Uc5s",
-      "title": "Rebuilding CI for AI-Scale Commit Volume — Gautam Korlam, SonarSource",
-      "description": "A coding agent can produce changes faster than the queues that test, review and merge them. Gautam Korlam examines that mismatch through his work on Uber's SubmitQueue and Gitar, now part of Sonar. A merge queue keeps the main branch healthy by testing combinations of changes before they land, but a process designed for human arrival rates can become a bottleneck when agents create many pull requests at once. Faster code generation shifts the constraint to failed builds, repeated repairs, review and approvals. Korlam argues that the engineering system around the agent must change alongside the agent itself.\n\nThe talk follows those constraints through CI and the merge path. Incremental builds, caching, sharding and parallel work reduce the cost of repeated feedback; a Rust example illustrates the difference between rebuilding everything and testing the affected work. Agents also need durable context from logs and failures so a repair loop does not repeatedly rediscover the same problem. At the approval boundary, policies should match the risk of the change, separate authorship from approval and tie the decision to the exact tested commit. Exceptions and overrides need reasons and a record that survives the agent's session. Product demonstrations show how this coordination can be automated, while the reported volume and latency figures remain examples from the speaker's systems rather than general productivity guarantees. The transferable lesson is to measure the whole path from proposed change to accepted change, including recovery and accountability, before treating more generated code as more delivered value.\n\n\nSpeaker info:\n- https://www.linkedin.com/in/gautamkorlam/\n- https://github.com/kageiit\n\nTimestamps:\n00:00 - Coding agents move the bottleneck into CI\n1:13 - SubmitQueue and testing combinations before merge\n2:53 - Queues built for human speed\n5:24 - The software factory and repeated repair loops\n7:08 - CI failures and the feedback cost\n8:11 - Incremental builds, caching and parallel work\n10:16 - Enforcing policy beyond passing CI\n13:28 - Risk based merge and approval policies\n15:21 - Tested commits, overrides and audit evidence",
-      "youtube_url": "https://www.youtube.com/watch?v=7b9tov5Uc5s",
-      "published": "2026-10-14T14:00:18+00:00",
-      "duration": 1158,
-      "image": "https://i.ytimg.com/vi_webp/7b9tov5Uc5s/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/7b9tov5Uc5s.mp3",
-      "audio_bytes": 9266541
     }
   ],
   "skipped": {
