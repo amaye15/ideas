@@ -7,6 +7,39 @@
   },
   "episodes": [
     {
+      "id": "W4pnzOURwHQ",
+      "title": "Insurance Claims Are AI's Messiest Data Problem — Denys Linkov, Wisedocs",
+      "description": "Insurance claims are full of handwriting, faxes, duplicates and 8GB PDFs. Denys Linkov of Wisedocs explains why that unstructured data is both the biggest barrier and the biggest opportunity for AI in insurance. He covers cleaning the data, analysis within a single document, and cross-claim insights, along with the benchmark Wisedocs built with Artificial Analysis to test how models handle medical records.\n\nChapters:\n- 00:00 Intro\n- 01:43 Insurance's technology transformation\n- 09:34 How a claim actually works\n- 15:50 Step 1: clean data\n- 20:28 Step 2: analysis within documents\n- 23:37 Benchmarking models on medical records\n- 28:19 Step 3: insights across claims\n- 34:30 The processing stack\n- 40:37 Regulation, cost and what's next\n\nDenys Linkov — X: https://x.com/denyslinkov | https://wisedocs.ai\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=W4pnzOURwHQ",
+      "published": "2026-10-18T09:00:25+00:00",
+      "duration": 2670,
+      "image": "https://i.ytimg.com/vi_webp/W4pnzOURwHQ/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/W4pnzOURwHQ.mp3",
+      "audio_bytes": 21362925
+    },
+    {
+      "id": "obfPzbapMIM",
+      "title": "Evals for High-Stakes AI Agents — Doneyli De Jesus & Annabell Schäfer, Langfuse",
+      "description": "A hands-on workshop on evaluating AI applications where mistakes are expensive. Annabell Schäfer and Doneyli De Jesus from Langfuse use a banking assistant to walk through the whole AI engineering loop. They cover tracing with PII masking, building datasets, turning domain-expert comments into failure modes, LLM-as-judge and code evaluators, and CI that blocks a prompt change when scores drop.\n\nChapters:\n- 00:00 Why evals are hard\n- 05:01 The AI engineering loop\n- 12:47 Demo: a banking assistant with tracing and PII masking\n- 20:35 Building datasets\n- 25:18 Expert review and failure modes\n- 30:07 Choosing evaluators\n- 35:00 Running evals automatically on every prompt change\n- 39:44 Dashboards for stakeholders\n- 45:58 Working with your coding agent\n- 52:13 Q&A\n\nDoneyli De Jesus — https://langfuse.com\nAnnabell Schäfer — https://langfuse.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=obfPzbapMIM",
+      "published": "2026-10-18T08:00:06+00:00",
+      "duration": 3212,
+      "image": "https://i.ytimg.com/vi_webp/obfPzbapMIM/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/obfPzbapMIM.mp3",
+      "audio_bytes": 25695597
+    },
+    {
+      "id": "q4WC4TowkBo",
+      "title": "Teach Your Agent to Prove It's Done — Nick Nisi & Zack Proser, WorkOS",
+      "description": "Your agent says it's done. Is it? Nick Nisi and Zack Proser from WorkOS show how to build verification loops that let coding agents check their own work. They cover clear goals, CLI health checks, browser snapshots, LLM judges and evals, so a failure drives the next fix instead of landing on your desk. Includes the live \"Midnight Snack Club\" demo app and the repo to follow along.\n\nChapters:\n- 00:00 Why \"done\" isn't done\n- 03:17 What it takes to trust agent output\n- 09:34 Give agents goals they can check\n- 17:31 Closing the feedback loop\n- 28:41 Making everything feedback-loopable\n- 36:29 The moment the agent knows it's not done\n- 39:33 LLM judges and eval baselines\n- 53:32 Q&A\n\nNick Nisi — https://workos.com\nZack Proser — https://workos.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=q4WC4TowkBo",
+      "published": "2026-10-18T07:00:17+00:00",
+      "duration": 3664,
+      "image": "https://i.ytimg.com/vi_webp/q4WC4TowkBo/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/q4WC4TowkBo.mp3",
+      "audio_bytes": 29309229
+    },
+    {
       "id": "IavxrdVnwXM",
       "title": "An AI Agent Got Its User Banned From Resy — Keycard, JPMorgan Chase & AAuth",
       "description": "An AI agent trying to book a restaurant made 200 calls in 90 minutes and got its own user banned from Resy. It had good intentions. It just had no limits.\n\nKeycard's Allie Howe moderates a keynote panel with Keycard CEO Ian Livingstone, JPMorgan Chase Global Chief Security Architect Michael Davis, and OAuth co-creator Dick Hardt on why companies still won't hand agents real autonomy, and what has to change. They cover why OAuth scopes are too coarse for agents, onboarding agents like junior developers, giving agents a \"mission,\" budgets instead of rate limits, separating the agent's brain from its hands, agentic commerce, and whether P(doom) is real.\n\nSpeakers:\nAllie Howe, Keycard\nX: https://x.com/vtahowe\n\nIan Livingstone, CEO & Co-founder, Keycard\nX: https://x.com/ianlivingstone\nhttps://www.keycard.ai\n\nMichael Davis, Global Chief Security Architect, JPMorgan Chase\nhttps://www.jpmorganchase.com\n\nDick Hardt, Co-creator of OAuth & creator of AAuth\nX: https://x.com/DickHardt\nhttps://www.aauth.dev\n\n0:00 Why agents still don't get autonomy\n3:19 Why OAuth doesn't fit agents\n4:33 Onboarding agents like new developers\n5:40 What banks already know about authorizing transactions\n9:05 Giving an agent a mission\n16:45 Agentic commerce & \"know your agent\"\n17:54 The web wasn't built for agents\n19:56 Open protocols vs. walled gardens\n25:02 The agent that got banned from Resy\n27:00 Separating the brain from the hands\n31:29 What works for production agents today\n33:34 Secure software factories\n35:11 Lessons from robotics\n37:32 Why the audit log lives outside the agent\n39:01 Is P(doom) real?\n\nLive from the Sheraton New York Times Square Hotel in New York City, AI Engineer New York 2026 is an AI conference for engineers and technical leaders building production AI across banking, hedge funds, fintech, insurance, and asset management.\n\nEvent: AI Engineer NYC\nDates: October 12–14, 2026\nVenue: Sheraton New York Times Square Hotel\n\nLearn more about the event:\nhttps://ai.engineer/nyc/2026#\n\nSubscribe for more AI Engineer talks, livestreams, and event coverage:\nhttps://www.youtube.com/@aiDotEngineer",
@@ -82,39 +115,6 @@
       "image": "https://i.ytimg.com/vi_webp/kiClTcJUnhc/maxresdefault.webp",
       "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/kiClTcJUnhc.mp3",
       "audio_bytes": 48824685
-    },
-    {
-      "id": "Fva8hFosqyQ",
-      "title": "The Highest Loop — swyx",
-      "description": "Why we gather at AI Engineer World’s Fair 2026.",
-      "youtube_url": "https://www.youtube.com/watch?v=Fva8hFosqyQ",
-      "published": "2026-10-16T02:03:26+00:00",
-      "duration": 440,
-      "image": "https://i.ytimg.com/vi_webp/Fva8hFosqyQ/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/Fva8hFosqyQ.mp3",
-      "audio_bytes": 3519213
-    },
-    {
-      "id": "0JZy5AuuQzc",
-      "title": "I Spent Two Years Building the Median — Hariprasad Sudharshan",
-      "description": "After two years of intense solo building, Hariprasad Sudharshan discovers that other people have independently produced calculators much like his own. Nobody needs to have copied anyone: the same models, tools and familiar problem can lead builders toward the same solution. He calls that shared starting point the median. Faster development makes it easier to ship useful software, including internal tools and learning projects, but a functioning demo does not establish a durable product advantage. His talk is a personal reflection on that distinction, rather than a controlled study of product success or a disclosed business outcome.\n\nSudharshan separates the model's capability from its harness and the product a customer ultimately receives. He describes a build first reflex that replaces searching for existing solutions with immediately opening a coding agent. His alternative is a novelty budget: name the one distinctive thing before starting, include it in the roadmap and review it as deliberately as other project spending. For leaders evaluating demos, he proposes three questions. Who has already solved this? What does this team have that a competitor does not? Where will the application reach users? A later calculator iteration focuses on the difference between running open model weights inside an enterprise and purchasing inference, including utilization and the infrastructure between weights and generated tokens. The practical lesson is to use the readily available starting point where it helps, then spend judgment on a specific problem, distribution and a defensible difference.\n\n\nSpeaker info:\n- https://github.com/brettleehari\n- https://www.linkedin.com/in/haripm4ai/\n\nTimestamps:\n00:00 - The deterministic software underneath everyday life\n3:54 - Rented models change how software gets built\n6:41 - Athletics and moving model leaderboards\n10:28 - Model, harness and product\n12:09 - The median and converging solutions\n14:24 - Useful software and the limits of differentiation\n18:03 - The build first reflex\n20:39 - A calculator and two years of solo building\n23:51 - Define a novelty budget\n26:19 - Four moves for a product roadmap\n28:30 - Three questions for leaders evaluating demos\n30:45 - Open weights, inference costs and the revised calculator\n33:42 - Spend judgment on a distinctive problem",
-      "youtube_url": "https://www.youtube.com/watch?v=0JZy5AuuQzc",
-      "published": "2026-10-14T18:00:11+00:00",
-      "duration": 2171,
-      "image": "https://i.ytimg.com/vi_webp/0JZy5AuuQzc/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/0JZy5AuuQzc.mp3",
-      "audio_bytes": 17365101
-    },
-    {
-      "id": "tZycGA_Fbfo",
-      "title": "Paving the Road to Production: Governed Enterprise AI Agents — Harish Gaggar, Credit Karma",
-      "description": "Register an agent through an internal portal and receive more than a repository: the deployment also needs identity, memory, traces, evaluations and secret handling. Harish Gaggar walks through that paved path for enterprise agents at Intuit Credit Karma. Local development progresses through container builds, review, security scanning and Kubernetes deployment, with the supporting resources provisioned consistently. The architecture places a centralized MCP gateway between agents and tools so authentication and routing are part of every request. Custom MCP servers expose reviewed tools, while OpenTelemetry, Tempo, Prometheus and Grafana make failures, latency and access behavior visible.\n\nGaggar then follows a LangGraph workflow from interpretation and planning through evidence gathering, policy checks and human approval for sensitive actions. Threads, runs and checkpoints preserve state, while separate tracking tables record model use, tool calls, costs and evaluation fields. Demonstrations inspect those records rather than establish a validated quality score for the whole system. A PII filtering layer aims to intercept sensitive inputs before they reach models, memory or traces; detection and redaction remain controls to evaluate, rather than a guarantee that no secret can escape. The final component prunes, reranks, deduplicates and compresses context. Its examples show large token reductions, including about 90% in a demonstrated query, without a paired answer quality study or measured business ROI. The practical point is to build the surrounding framework from the start, giving each agent a consistent route through access control, observability, durable state and accountable action.\n\n\nSpeaker info:\n- https://www.evidyafoundation.com/about-us\n\nTimestamps:\n00:00 - From experiments to enterprise agents\n1:28 - Missing production foundations\n2:54 - The agent and supporting frameworks\n4:06 - Registration, local development and the paved path\n6:27 - Review, containers and Kubernetes deployment\n8:14 - Reviewed custom MCP servers\n9:47 - MCP gateway authentication and routing\n11:48 - Logs, traces and gateway metrics\n14:01 - LangGraph policies and human approval\n16:59 - Threads, runs and memory checkpoints\n19:48 - Agent tracking and evaluation records\n23:27 - Filtering sensitive inputs\n24:25 - Context optimization and token reduction demos\n27:33 - Build the framework around every agent",
-      "youtube_url": "https://www.youtube.com/watch?v=tZycGA_Fbfo",
-      "published": "2026-10-14T17:00:04+00:00",
-      "duration": 1766,
-      "image": "https://i.ytimg.com/vi_webp/tZycGA_Fbfo/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/tZycGA_Fbfo.mp3",
-      "audio_bytes": 14130861
     }
   ],
   "skipped": {
