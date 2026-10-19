@@ -7,6 +7,28 @@
   },
   "episodes": [
     {
+      "id": "-AOxpwVeIWw",
+      "title": "Why AI Agents Still Won't Pay for Anything — Jan Curn, Apify",
+      "description": "x402, AP2, ACP, MPP, TAP, UCP: every big fintech and payments company now has an agent payment standard, but real volume is close to zero. Jan Curn, founder of Apify, walks the agent payment funnel (need, setup, discovery, purchase) to show where it breaks. He covers why API keys still win, why crypto is well placed, the trust problem in finding services, and how pay-per-use billing finally landed.\n\nChapters:\n- 00:00 The agent payments boom\n- 02:57 Every protocol, from x402 to AP2\n- 05:47 Why crypto fits agent payments\n- 07:38 Nobody's using them. Why?\n- 08:36 The agent payment funnel\n- 09:37 Need: competing with API keys\n- 12:19 Setup: wallets are still hard\n- 13:19 Discovery: who can an agent trust?\n- 16:06 Buying: pay-per-use and batch settlement\n- 19:41 What's next\n\nJan Curn — X: https://x.com/jancurn | https://apify.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=-AOxpwVeIWw",
+      "published": "2026-10-18T23:00:35+00:00",
+      "duration": 1237,
+      "image": "https://i.ytimg.com/vi_webp/-AOxpwVeIWw/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/-AOxpwVeIWw.mp3",
+      "audio_bytes": 9894765
+    },
+    {
+      "id": "7T-gldvgfpo",
+      "title": "Stop Telling Agents How — Dan Barrett, Raymond Weitekamp & Jose Montes de Oca, OpenProse",
+      "description": "Say what you want, not how to get it. The OpenProse team shows how to write multi-agent workflows as declarative contracts in plain markdown, which any harness (Claude Code, Codex and others) can compile and run. Demos include event-driven jobs triggered by webhooks and pull requests, a \"grumpy senior\" PR reviewer, and an end-to-end bank model-documentation workflow. They also discuss composing contracts, pinning a winning run into a reusable workflow, and how this compares to DSPy.\n\nChapters:\n- 00:00 From prompt engineering to declaring intent\n- 05:40 What OpenProse is\n- 09:58 Agents, skills and contracts\n- 12:13 Event-driven jobs: contract + trigger\n- 18:52 Demo: run.prose.md\n- 24:43 Benchmarking every run against a contract\n- 27:01 OpenProse vs DSPy\n- 33:33 Demo: bank model documentation\n- 41:49 Composing contracts\n- 48:23 Q&A\n\nDan Barrett — X: https://x.com/irl_danb | https://prose.md\nRaymond Weitekamp — https://prose.md\nJose Montes de Oca — https://prose.md\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=7T-gldvgfpo",
+      "published": "2026-10-18T19:00:05+00:00",
+      "duration": 2975,
+      "image": "https://i.ytimg.com/vi_webp/7T-gldvgfpo/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/7T-gldvgfpo.mp3",
+      "audio_bytes": 23804013
+    },
+    {
       "id": "W4pnzOURwHQ",
       "title": "Insurance Claims Are AI's Messiest Data Problem — Denys Linkov, Wisedocs",
       "description": "Insurance claims are full of handwriting, faxes, duplicates and 8GB PDFs. Denys Linkov of Wisedocs explains why that unstructured data is both the biggest barrier and the biggest opportunity for AI in insurance. He covers cleaning the data, analysis within a single document, and cross-claim insights, along with the benchmark Wisedocs built with Artificial Analysis to test how models handle medical records.\n\nChapters:\n- 00:00 Intro\n- 01:43 Insurance's technology transformation\n- 09:34 How a claim actually works\n- 15:50 Step 1: clean data\n- 20:28 Step 2: analysis within documents\n- 23:37 Benchmarking models on medical records\n- 28:19 Step 3: insights across claims\n- 34:30 The processing stack\n- 40:37 Regulation, cost and what's next\n\nDenys Linkov — X: https://x.com/denyslinkov | https://wisedocs.ai\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
@@ -93,28 +115,6 @@
       "image": "https://i.ytimg.com/vi_webp/KtBivPzmOM8/maxresdefault.webp",
       "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/KtBivPzmOM8.mp3",
       "audio_bytes": 24867693
-    },
-    {
-      "id": "BOWYujhIQuo",
-      "title": "AI Agents Cut 3-Day Portfolio Builds to Minutes — Jack McDonald, Apollo & Michael Manapat, Rowspace",
-      "description": "Apollo's CLO business used to spend 2–3 days building a single mock portfolio by hand in Excel. Now it takes minutes.\n\nJack McDonald (Principal at Apollo and COO of Redding Ridge, Apollo's ~$50B structured credit and CLO manager) talks with Rowspace co-founder Michael Manapat about where AI becomes mission-critical in finance. They cover automating a weekly trade reconciliation that used to take 2–3 people, why plugging your firm into a generic LLM isn't enough when one data point can come from 20 sources and only one is right, and why embedding engineers with the front office is what earns trust.\n\nSpeakers:\nMichael Manapat, Co-founder, Rowspace\nX: https://x.com/mlmanapat\nhttps://rowspace.ai\n\nJack McDonald, Principal, Apollo / COO, Redding Ridge\nhttps://www.apollo.com\n\n0:00 Intro: Rowspace & Redding Ridge\n1:33 When AI becomes mission-critical\n3:38 Portfolio construction: days → minutes\n5:31 Automating the weekly trade rec\n6:46 Why not just use Claude or ChatGPT?\n9:21 How Apollo became AI-native early\n11:17 How early is finance in AI adoption?\n13:24 Commodity or durable competitive edge?\n15:22 What has to be true next\n18:20 Advice for builders applying AI to finance\n\nLive from the Sheraton New York Times Square Hotel in New York City, AI Engineer New York 2026 is an AI conference for engineers and technical leaders building production AI across banking, hedge funds, fintech, insurance, and asset management.\n\nEvent: AI Engineer NYC\nDates: October 12–14, 2026\nVenue: Sheraton New York Times Square Hotel\n\nLearn more about the event:\nhttps://ai.engineer/nyc/2026#\n\nSubscribe for more AI Engineer talks, livestreams, and event coverage:\nhttps://www.youtube.com/@aiDotEngineer",
-      "youtube_url": "https://www.youtube.com/watch?v=BOWYujhIQuo",
-      "published": "2026-10-16T23:00:36+00:00",
-      "duration": 1143,
-      "image": "https://i.ytimg.com/vi_webp/BOWYujhIQuo/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/BOWYujhIQuo.mp3",
-      "audio_bytes": 9146157
-    },
-    {
-      "id": "kiClTcJUnhc",
-      "title": "Why One AI Agent Isn’t Enough (And How to Run 1,000) - CJ Avilla & Harrison Stall, Anthropic",
-      "description": "Ken Thompson built Unix in a month. IBM put 1,000 engineers on OS/360. And in 1998, Linus Torvalds hit his limit. Now we're hitting that same wall managing AI agents.\n\nAnthropic's CJ Avilla and Harrison Stall introduce Flows in Claude Managed Agents. You hand Claude a goal, and it plans and runs its own multi-agent topology of up to 1,000 agents through the API. In this hands-on workshop they demo a stock watchlist scanner, show how to spend more compute on the phases that matter, walk through the Bug Hunter and Explainer Studio templates, and explain why single agents fail through laziness, self-preference bias and goal drift. They finish with a deep dive on running agents safely at scale: budgets, interrupts, auto mode, credential vaults and network lockdown.\n\nSpeakers:\nCJ Avilla, Member of Technical Staff, Anthropic\nX: https://x.com/cjav_dev\n\nHarrison Stall, Member of Technical Staff, Anthropic\nX: https://x.com/HarrisonStall\n\nhttps://www.anthropic.com\n\n0:00 Unix vs. OS/360: the scaling problem\n6:00 Meet CJ & Harrison\n7:00 Introducing Flows in Claude Managed Agents\n9:05 Why single agents hit a wall\n14:00 How dynamic workflows work\n17:25 Demo: stock watchlist scanner\n23:20 From console to production: tuning each phase\n32:15 Q&A, round 1\n1:04:45 Bug Hunter: multi-agent PR review\n1:07:15 Explainer Studio: flows that make videos\n1:12:15 Laziness, self-bias & goal drift\n1:15:20 Agent safety at scale\n1:20:05 Declare, contain, detect\n1:21:15 Separating the brain from the hands\n1:27:50 Credential vaults & locking down tools\n1:31:45 Wrap-up + Q&A, round 2\n\nLive from the Sheraton New York Times Square Hotel in New York City, AI Engineer New York 2026 is an AI conference for engineers and technical leaders building production AI across banking, hedge funds, fintech, insurance, and asset management.\n\nEvent: AI Engineer NYC\nDates: October 12–14, 2026\nVenue: Sheraton New York Times Square Hotel\n\nLearn more about the event:\nhttps://ai.engineer/nyc/2026#\n\nSubscribe for more AI Engineer talks, livestreams, and event coverage:\nhttps://www.youtube.com/@aiDotEngineer",
-      "youtube_url": "https://www.youtube.com/watch?v=kiClTcJUnhc",
-      "published": "2026-10-16T19:00:10+00:00",
-      "duration": 6103,
-      "image": "https://i.ytimg.com/vi_webp/kiClTcJUnhc/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/kiClTcJUnhc.mp3",
-      "audio_bytes": 48824685
     }
   ],
   "skipped": {
@@ -133,7 +133,6 @@
     "j4AmIK6OvHc": 1,
     "7BcQdtRA3Tc": 1,
     "XczFLWEntiE": 1,
-    "PwCSYy-oGsM": 1,
-    "7T-gldvgfpo": 1
+    "PwCSYy-oGsM": 1
   }
 }
