@@ -7,6 +7,61 @@
   },
   "episodes": [
     {
+      "id": "7Y4sbZgBdnc",
+      "title": "Smarter Models Killed the Harness. Here's What's Left — Jediah Katz, SpaceXAI",
+      "description": "Is the agent harness dead? Jediah Katz, Cursor's longest-tenured agent-harness engineer and now at SpaceX, explains why fancy harnesses no longer add coding intelligence: the data flywheel teaches models the skills harnesses used to patch in. He then argues why the harness matters more than ever. It opens new frontiers like Grokbot, and it owns what models can't absorb: infrastructure, trust and security, and efficiency. He closes with predictions, including that 90% of agent work runs off the laptop within six months.\n\nChapters:\n- 00:00 Is the harness dead?\n- 01:09 From prompt engineer to harness engineer\n- 02:02 What's inside an agent harness\n- 02:59 Peak harness, and the backlash\n- 05:00 What the research says\n- 06:16 The data flywheel\n- 07:34 The harness unlocks the next frontier\n- 12:07 What models can't absorb: infra, trust, efficiency\n- 14:21 What's next for harnesses\n- 17:36 Long live the harness\n\nJediah Katz — X: https://x.com/jediahkatz | https://cursor.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=7Y4sbZgBdnc",
+      "published": "2026-10-19T19:00:17+00:00",
+      "duration": 1094,
+      "image": "https://i.ytimg.com/vi_webp/7Y4sbZgBdnc/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/7Y4sbZgBdnc.mp3",
+      "audio_bytes": 8755629
+    },
+    {
+      "id": "UGjk3Uk0MxM",
+      "title": "The Model Swap Workshop: GPT-5.5 vs Kimi vs DeepSeek vs Mistral — Pamela Fox, Microsoft",
+      "description": "Benchmarks won't tell you how a model behaves in your app. Swapping it in and testing will.\n\nNEXT UP: AI ENGINEER CODE SUMMIT\nJoin us in SF for the second annual AIE CODE Summit, Nov 10–12, our last flagship summit of 2026. Applications live now: https://aie.codes\n\nPamela Fox, Principal Cloud Advocate at Microsoft, runs the same scenarios against GPT-5.5, Kimi K2.6, DeepSeek V4 Flash and Mistral Large 3 on Microsoft Foundry so you can see where models differ and what you can do about it. She works up from a letter-counting prompt to RAG groundedness, image input, multilingual pitfalls, tool calling, tool calling in a loop and a LangChain v1 travel agent, then moves to evaluation: string-check evals, LLM-as-a-judge, Microsoft's new ASSERT tool for generating test sets from a spec, and DSPy prompt optimization that finds a prompt the cheapest model can satisfy.\n\nIn this video:\n- Where top models differ: counting, groundedness, vision, tool calls and parallel tool calling\n- How prompt engineering closes some gaps but not image understanding\n- Bulk evals with string checks and LLM-as-a-judge\n- Generating test sets with ASSERT and optimizing prompts with DSPy\n\nSPEAKER\nPamela Fox, Principal Cloud Advocate, Microsoft\nX: https://x.com/pamelafox\nLinkedIn: https://www.linkedin.com/in/pamela-s-fox\nGitHub: https://github.com/pamelafox\n\nLINKS\nASSERT (GitHub): https://github.com/responsibleai/ASSERT\n\nCHAPTERS\n0:00 Workshop setup\n2:23 Why you need to be able to swap models\n3:08 The four models\n5:18 Benchmarks vs your scenario\n5:38 Test 1: counting letters\n7:48 Fixing it with prompt engineering\n8:38 Test 2: RAG and groundedness\n13:03 Test 3: image input\n16:18 Switching languages\n17:13 Test 4: tool calling\n21:03 Test 5: tool calling in a loop\n23:58 Agents with LangChain v1\n26:17 Parallel tool calls\n30:27 Evals with string checks\n33:42 Q&A: eval frameworks\n35:12 LLM as a judge\n40:07 ASSERT: evals from a spec\n43:32 ASSERT results across models\n45:52 Prompt optimization with DSPy\n47:52 A DSPy prompt for Mistral\n49:22 Anthropic and citations\n50:32 Wrap-up\n\nRecorded at the AI Engineer World's Fair 2026 in San Francisco.\nSubscribe for more talks from the engineers building with AI.\n\nAI Engineer: https://ai.engineer\nYouTube: https://www.youtube.com/@aiDotEngineer\nX: https://x.com/aiDotEngineer\nLinkedIn: https://www.linkedin.com/company/aidotengineer/\n\n#LLM #Evals #AIEngineer",
+      "youtube_url": "https://www.youtube.com/watch?v=UGjk3Uk0MxM",
+      "published": "2026-10-19T14:06:53+00:00",
+      "duration": 3097,
+      "image": "https://i.ytimg.com/vi_webp/UGjk3Uk0MxM/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/UGjk3Uk0MxM.mp3",
+      "audio_bytes": 24779949
+    },
+    {
+      "id": "J7n3WJnFTto",
+      "title": "Buy, Build, Deploy: Using M&A to Drive AI Transformation — Prathik Naidu, Long Lake",
+      "description": "Deploying AI into real businesses is hard: org charts are messy, trust takes decades, and service firms don't scale like software. Prathik Naidu, founding partner at Long Lake, explains their strategy: acquire established service businesses, then transform them with AI from the inside. He covers how they choose companies and what changes once they own them, drawing on 40 businesses across residential services, architecture, HR and more.\n\nChapters:\n- 00:00 Intro\n- 02:15 Why deploying AI into businesses is hard\n- 06:27 Why trust and brand win\n- 10:41 Software vs service economics\n- 12:42 The Long Lake model\n- 14:50 Choosing what to buy\n- 16:53 Results\n\nPrathik Naidu — Long Lake\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=J7n3WJnFTto",
+      "published": "2026-10-19T09:00:32+00:00",
+      "duration": 1131,
+      "image": "https://i.ytimg.com/vi_webp/J7n3WJnFTto/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/J7n3WJnFTto.mp3",
+      "audio_bytes": 9047469
+    },
+    {
+      "id": "vS2IA9pq0Q4",
+      "title": "Version-Controlled Search: The Web as It Was — Ryan Ahern, Exa",
+      "description": "Ryan Ahern of Exa introduces Exa Snapshot, which lets agents search the web as it looked on any past date. He covers why search quality matters when agents broker most searches, how snapshot results compare to live results, and how teams use point-in-time search to build and test predictive signals without overfitting.\n\nChapters:\n- 00:00 Intro\n- 02:14 Agents as the new searchers\n- 04:15 Exa's three core principles\n- 08:19 Snapshot vs live search\n- 12:45 From signals to predictions\n- 16:58 Backtesting without overfitting\n\nRyan Ahern — https://exa.ai\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=vS2IA9pq0Q4",
+      "published": "2026-10-19T08:00:29+00:00",
+      "duration": 1152,
+      "image": "https://i.ytimg.com/vi_webp/vS2IA9pq0Q4/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/vS2IA9pq0Q4.mp3",
+      "audio_bytes": 9216621
+    },
+    {
+      "id": "L4dUFimVDKU",
+      "title": "Backtest Your Agent Against Yesterday's Web — Ryan Ahern, Exa",
+      "description": "How do you know whether your agent would have made the right call? Ryan Ahern of Exa shows how to use version-controlled search to see the web exactly as it was on a past date, then backtest an agent's predictions against what actually happened. The hands-on example predicts company acquisitions from signals like leadership turnover, then tunes the system without leaking future information.\n\nChapters:\n- 00:00 Why search matters for agents\n- 04:15 Exa's search benchmark\n- 06:17 Versioning the whole web\n- 10:34 Avoiding look-ahead bias\n- 14:43 Backtesting and tuning a predictor\n- 18:49 Hands-on: predicting acquisitions\n- 22:54 Results and overfitting\n\nRyan Ahern — https://exa.ai\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=L4dUFimVDKU",
+      "published": "2026-10-19T07:00:39+00:00",
+      "duration": 1601,
+      "image": "https://i.ytimg.com/vi_webp/L4dUFimVDKU/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/L4dUFimVDKU.mp3",
+      "audio_bytes": 12809133
+    },
+    {
       "id": "-AOxpwVeIWw",
       "title": "Why AI Agents Still Won't Pay for Anything — Jan Curn, Apify",
       "description": "x402, AP2, ACP, MPP, TAP, UCP: every big fintech and payments company now has an agent payment standard, but real volume is close to zero. Jan Curn, founder of Apify, walks the agent payment funnel (need, setup, discovery, purchase) to show where it breaks. He covers why API keys still win, why crypto is well placed, the trust problem in finding services, and how pay-per-use billing finally landed.\n\nChapters:\n- 00:00 The agent payments boom\n- 02:57 Every protocol, from x402 to AP2\n- 05:47 Why crypto fits agent payments\n- 07:38 Nobody's using them. Why?\n- 08:36 The agent payment funnel\n- 09:37 Need: competing with API keys\n- 12:19 Setup: wallets are still hard\n- 13:19 Discovery: who can an agent trust?\n- 16:06 Buying: pay-per-use and batch settlement\n- 19:41 What's next\n\nJan Curn — X: https://x.com/jancurn | https://apify.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
@@ -60,61 +115,6 @@
       "image": "https://i.ytimg.com/vi_webp/q4WC4TowkBo/maxresdefault.webp",
       "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/q4WC4TowkBo.mp3",
       "audio_bytes": 29309229
-    },
-    {
-      "id": "IavxrdVnwXM",
-      "title": "An AI Agent Got Its User Banned From Resy — Keycard, JPMorgan Chase & AAuth",
-      "description": "An AI agent trying to book a restaurant made 200 calls in 90 minutes and got its own user banned from Resy. It had good intentions. It just had no limits.\n\nKeycard's Allie Howe moderates a keynote panel with Keycard CEO Ian Livingstone, JPMorgan Chase Global Chief Security Architect Michael Davis, and OAuth co-creator Dick Hardt on why companies still won't hand agents real autonomy, and what has to change. They cover why OAuth scopes are too coarse for agents, onboarding agents like junior developers, giving agents a \"mission,\" budgets instead of rate limits, separating the agent's brain from its hands, agentic commerce, and whether P(doom) is real.\n\nSpeakers:\nAllie Howe, Keycard\nX: https://x.com/vtahowe\n\nIan Livingstone, CEO & Co-founder, Keycard\nX: https://x.com/ianlivingstone\nhttps://www.keycard.ai\n\nMichael Davis, Global Chief Security Architect, JPMorgan Chase\nhttps://www.jpmorganchase.com\n\nDick Hardt, Co-creator of OAuth & creator of AAuth\nX: https://x.com/DickHardt\nhttps://www.aauth.dev\n\n0:00 Why agents still don't get autonomy\n3:19 Why OAuth doesn't fit agents\n4:33 Onboarding agents like new developers\n5:40 What banks already know about authorizing transactions\n9:05 Giving an agent a mission\n16:45 Agentic commerce & \"know your agent\"\n17:54 The web wasn't built for agents\n19:56 Open protocols vs. walled gardens\n25:02 The agent that got banned from Resy\n27:00 Separating the brain from the hands\n31:29 What works for production agents today\n33:34 Secure software factories\n35:11 Lessons from robotics\n37:32 Why the audit log lives outside the agent\n39:01 Is P(doom) real?\n\nLive from the Sheraton New York Times Square Hotel in New York City, AI Engineer New York 2026 is an AI conference for engineers and technical leaders building production AI across banking, hedge funds, fintech, insurance, and asset management.\n\nEvent: AI Engineer NYC\nDates: October 12–14, 2026\nVenue: Sheraton New York Times Square Hotel\n\nLearn more about the event:\nhttps://ai.engineer/nyc/2026#\n\nSubscribe for more AI Engineer talks, livestreams, and event coverage:\nhttps://www.youtube.com/@aiDotEngineer",
-      "youtube_url": "https://www.youtube.com/watch?v=IavxrdVnwXM",
-      "published": "2026-10-17T23:00:05+00:00",
-      "duration": 2605,
-      "image": "https://i.ytimg.com/vi_webp/IavxrdVnwXM/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/IavxrdVnwXM.mp3",
-      "audio_bytes": 20837229
-    },
-    {
-      "id": "SHMCGrNJJGc",
-      "title": "How to Know If Your AI Agent Is Any Good: Evals With Phoenix & Claude — Laurie Voss, Arize AI",
-      "description": "Your AI agent wrote a confident stock report saying 116% of analysts agree. Nothing in your checks caught it. This is the workshop for fixing that.\n\nLaurie Voss (Head of Developer Relations at Arize AI, co-founder of npm) builds a full evals loop on a Claude-powered financial analyst agent: trace it with Arize Phoenix, read the traces, write code evals and LLM-as-a-judge evals, test whether the judge can be trusted, prove a prompt fix with experiments, upgrade from Claude Haiku 4.5 to 5.5 with evidence, and gate it all in CI with npm test.\n\nSpeaker:\nLaurie Voss, Head of Developer Relations, Arize AI\nX: https://x.com/seldo\nhttps://arize.com\nPhoenix: https://phoenix.arize.com\n\n0:00 Intro & setup\n2:47 \"Looks good to me\" isn't a test suite\n4:57 Traces vs. evals: the mental model\n8:30 Code evals, LLM judges & human review\n11:57 Why agents are confidently wrong\n16:32 Step 1: Tracing with Phoenix\n36:36 Step 2: Reading your traces\n43:21 The 116% analyst consensus bug\n50:36 Step 3: Code evals\n56:11 Step 4: LLM-as-a-judge\n1:00:30 Why the correctness eval failed every report\n1:10:41 Step 5: Writing your own judge\n1:24:45 Step 6: Testing your judge\n1:38:55 Step 7: Experiments\n1:48:30 Upgrading to Claude Haiku 5.5\n1:50:55 Evals in CI\n1:55:25 Where to start on Monday\n\nLive from the Sheraton New York Times Square Hotel in New York City, AI Engineer New York 2026 is an AI conference for engineers and technical leaders building production AI across banking, hedge funds, fintech, insurance, and asset management.\n\nEvent: AI Engineer NYC\nDates: October 12–14, 2026\nVenue: Sheraton New York Times Square Hotel\n\nLearn more about the event:\nhttps://ai.engineer/nyc/2026#\n\nSubscribe for more AI Engineer talks, livestreams, and event coverage:\nhttps://www.youtube.com/@aiDotEngineer",
-      "youtube_url": "https://www.youtube.com/watch?v=SHMCGrNJJGc",
-      "published": "2026-10-17T19:00:23+00:00",
-      "duration": 6973,
-      "image": "https://i.ytimg.com/vi_webp/SHMCGrNJJGc/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/SHMCGrNJJGc.mp3",
-      "audio_bytes": 55781421
-    },
-    {
-      "id": "e9-br9hveRI",
-      "title": "Stop Chatting With Spreadsheets — Francesco Galletta & Felippe Felisola Caso, Monzo",
-      "description": "Fast answers are easy to get. Answers you can trust with your money are harder. Francesco Galletta and Felippe Felisola Caso build a financial-analyst agent harness live, using one real problem: paying for a wedding. They show the five design principles they use for AI you can trust: shared domain, consistency, evidence, accountability and verification. They also explain why calculations belong in code instead of in the model's head.\n\nNote: the speakers work at Monzo but are not presenting on Monzo's behalf.\n\n🎟️ Join us at the next one: AIE CODE Summit → https://aie.codes\n\nSpeakers\nFrancesco Galletta — LinkedIn: https://www.linkedin.com/in/francescogalletta/\nFelippe Felisola Caso — LinkedIn: https://www.linkedin.com/in/felippecaso/\nMonzo — https://monzo.com\n\nTimestamps\n0:00 Intro: Francesco & Felippe\n2:54 Using AI for impact, not token-maxing\n4:22 Speed isn't the bottleneck. Trust is.\n7:25 Components vs. design principles\n8:45 The 5 principles of trust\n12:13 The use case: budgeting a wedding\n17:05 How the principles build on each other\n20:40 Principle 1: Shared domain\n25:59 Live demo: planning with the agent\n30:42 From plan to decision tree\n35:48 Why long linear chats fall apart\n36:48 Principle 2: Consistency (math belongs in code)\n55:50 Principle 3: Evidence (show the receipts)\n1:00:17 The \"master file\" horror story\n1:06:42 Principle 4: Accountability\n1:20:39 Principle 5: Verification\n1:24:16 Golden examples & outside reference points\n1:34:05 Q&A: How many harnesses should you build?\n1:38:11 Don't over-sharpen the axe\n1:44:00 Q&A: Skills vs. a dedicated harness\n1:48:31 Takeaway: design for trust on purpose",
-      "youtube_url": "https://www.youtube.com/watch?v=e9-br9hveRI",
-      "published": "2026-10-17T14:00:03+00:00",
-      "duration": 6634,
-      "image": "https://i.ytimg.com/vi_webp/e9-br9hveRI/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/e9-br9hveRI.mp3",
-      "audio_bytes": 53069229
-    },
-    {
-      "id": "Ti-BmGU1_mQ",
-      "title": "The AI Bill Is Too Damn High: Tokenomics 101 — Eugene Cheah, Featherless AI",
-      "description": "If your token spend keeps going up and productivity isn't keeping pace, start here. Eugene Cheah lays out four steps for cutting AI inference costs at scale: measure, right-size, buy capacity well and check your processes. Along the way he covers splitting API keys per team, agentic vs. process workloads, open models that match frontier models on specific tasks, classifiers, fine-tuning, the speed-vs-cost tradeoff and \"slop grenades.\"\n\nRecorded live at AI Engineer NYC 2026.\n\n🎟️ Join us at the next one: AIE CODE Summit → https://aie.codes\n\nSpeaker\nEugene Cheah — X: https://x.com/picocreator\nFeatherless AI — https://featherless.ai\n\nTimestamps\n0:00 Intro: Eugene Cheah, Featherless AI\n1:48 What \"scale\" looks like: 2T tokens/day\n2:13 Disclaimers: who this is for\n3:13 The 4 moves\n3:23 Move 1: Measure (stop sharing one API key)\n5:12 Agentic vs. process workloads\n9:27 Move 2: Right-size your models\n12:42 Classifiers: a new class of cheap models\n14:37 Plan with the smart model, build with the cheap one\n15:47 Nobody switches models to save money\n19:27 Give teams model labels, not model names\n25:27 Bootstrapping your own fine-tuned model\n27:42 Shadow traffic to keep improving\n28:57 Move 3: Buying GPU capacity\n30:07 2x the speed = 3x the cost\n32:22 Bursty traffic & dedicated capacity\n34:32 Move 4: Check your processes\n37:07 Tokens are not work done\n42:07 Don't throw slop grenades\n44:27 Q&A: Fine-tuning & data sets\n48:02 Q&A: Golden traces\n50:04 Q&A: Escaping harness lock-in\n52:37 Q&A: Caching & auto-routing",
-      "youtube_url": "https://www.youtube.com/watch?v=Ti-BmGU1_mQ",
-      "published": "2026-10-17T09:00:27+00:00",
-      "duration": 3324,
-      "image": "https://i.ytimg.com/vi_webp/Ti-BmGU1_mQ/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/Ti-BmGU1_mQ.mp3",
-      "audio_bytes": 26593197
-    },
-    {
-      "id": "KtBivPzmOM8",
-      "title": "Memory-Aware Agent Harnesses for Anti-Money Laundering — Nacho Martinez, Oracle",
-      "description": "The model is the part you can't change. The harness around it is where you can make real gains. Nacho Martinez walks through the full agent stack (agent loop, short- and long-term memory, context engineering, the toolbox and skillbox patterns, skill distillation and continual learning) and applies it to an autonomous agent that flags suspicious bank transactions around the clock.\n\n🎟️ Join us at the next one: AIE CODE Summit → https://aie.codes\n\nSpeaker\nNacho Martinez — LinkedIn: https://www.linkedin.com/in/jasperan/\nGitHub: https://github.com/jasperan\nOracle — https://www.oracle.com\n\nWorkshop: https://workshopwaitingroom.com\n\nTimestamps\n0:00 Workshop setup\n2:07 Intro: Nacho Martinez\n2:57 Agenda\n4:57 The use case: an AML agent for a mid-sized bank\n5:57 The agent stack\n8:31 Agentic systems = automation + autonomy\n9:16 What is an AI agent?\n11:06 Why the harness matters more than the model\n13:21 Files vs. databases\n15:56 Agent memory: short-term, episodic, procedural, semantic\n19:01 Context summarization vs. compaction\n19:46 The agent loop\n20:51 Toolbox & skillbox patterns\n22:30 Skill distillation\n24:15 How a frozen model gets better: continual learning\n26:10 Instruction hierarchy\n27:05 Workshop UI walkthrough\n33:35 Q&A: Episodic memory & conflicts\n34:35 Q&A: Skills, caching & context budgets\n40:49 Q&A: Keep your memory layer simple\n43:29 Q&A: Pre-built SQL vs. dynamic queries\n46:14 Hybrid search (semantic + keyword)\n47:39 Build small custom harnesses",
-      "youtube_url": "https://www.youtube.com/watch?v=KtBivPzmOM8",
-      "published": "2026-10-17T07:00:25+00:00",
-      "duration": 3108,
-      "image": "https://i.ytimg.com/vi_webp/KtBivPzmOM8/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/KtBivPzmOM8.mp3",
-      "audio_bytes": 24867693
     }
   ],
   "skipped": {
@@ -133,9 +133,6 @@
     "j4AmIK6OvHc": 1,
     "7BcQdtRA3Tc": 1,
     "XczFLWEntiE": 1,
-    "PwCSYy-oGsM": 1,
-    "J7n3WJnFTto": 1,
-    "L4dUFimVDKU": 1,
-    "vS2IA9pq0Q4": 1
+    "PwCSYy-oGsM": 1
   }
 }
