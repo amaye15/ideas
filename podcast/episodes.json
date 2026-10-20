@@ -7,6 +7,17 @@
   },
   "episodes": [
     {
+      "id": "adfw3xJBx1o",
+      "title": "A Bank Built Its Own Coding Agent. It Took Off — Felipe Felisola Caso & Francesco Galletta, Monzo",
+      "description": "Monzo's in-house agent started as an emoji you could react with in Slack. Now it authors over 10% of all merged PRs across Monzo's tech teams and runs more than 1,800 tasks a day. Felipe and Francesco explain why it worked so fast. Their answer is the \"lots of little multipliers\" Monzo already had: an MCP gateway into internal tools and knowledge, a sandboxed agent orchestration system built for a regulated bank, and a platform that turns the agent itself into a building block. That building block now handles incidents, on-call data quality and requests from non-engineers.\n\nChapters:\n- 00:00 Intro\n- 00:28 Monzo by the numbers\n- 01:37 The Slack agent that went viral\n- 02:51 10% of merged PRs, 1,800 tasks a day\n- 03:51 LLMs = lots of little multipliers\n- 05:04 The MCP gateway\n- 05:59 Agent orchestration in a sandbox\n- 08:37 The agent as a building block\n- 10:07 Incident mode and on-call\n- 12:12 Non-engineers shipping changes\n- 12:57 Why keep building it in-house\n\nFelipe Felisola Caso & Francesco Galletta, Monzo: https://monzo.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=adfw3xJBx1o",
+      "published": "2026-10-20T19:00:34+00:00",
+      "duration": 930,
+      "image": "https://i.ytimg.com/vi_webp/adfw3xJBx1o/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/adfw3xJBx1o.mp3",
+      "audio_bytes": 7437549
+    },
+    {
       "id": "Bz1HFxQA1o8",
       "title": "Shipping AI Into 5 Major Banks Without a 12-Month Compliance Wait — Al Chen, Cisco",
       "description": "Banks don't buy AI software until it survives their security and compliance review. Al Chen shares what it took to deploy inside five major banks without a year-long bottleneck. He covers the build pipeline, CVE remediation with agents writing and testing exploits, backup and restore verification, PII leaking through LLM judges, and why zero leakage and data sovereignty are never free.\n\nChapters:\n- 00:00 Intro\n- 02:15 What banks check\n- 04:17 Fixing CVEs with agents\n- 08:30 Proving backup and restore\n- 10:33 PII leaking through LLM judges\n- 14:48 Making customer problems engineering problems\n- 16:56 Takeaways\n\nAl Chen — X: https://x.com/bigal123 | https://www.cisco.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
@@ -104,17 +115,6 @@
       "image": "https://i.ytimg.com/vi_webp/L4dUFimVDKU/maxresdefault.webp",
       "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/L4dUFimVDKU.mp3",
       "audio_bytes": 12809133
-    },
-    {
-      "id": "-AOxpwVeIWw",
-      "title": "Why AI Agents Still Won't Pay for Anything — Jan Curn, Apify",
-      "description": "x402, AP2, ACP, MPP, TAP, UCP: every big fintech and payments company now has an agent payment standard, but real volume is close to zero. Jan Curn, founder of Apify, walks the agent payment funnel (need, setup, discovery, purchase) to show where it breaks. He covers why API keys still win, why crypto is well placed, the trust problem in finding services, and how pay-per-use billing finally landed.\n\nChapters:\n- 00:00 The agent payments boom\n- 02:57 Every protocol, from x402 to AP2\n- 05:47 Why crypto fits agent payments\n- 07:38 Nobody's using them. Why?\n- 08:36 The agent payment funnel\n- 09:37 Need: competing with API keys\n- 12:19 Setup: wallets are still hard\n- 13:19 Discovery: who can an agent trust?\n- 16:06 Buying: pay-per-use and batch settlement\n- 19:41 What's next\n\nJan Curn — X: https://x.com/jancurn | https://apify.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
-      "youtube_url": "https://www.youtube.com/watch?v=-AOxpwVeIWw",
-      "published": "2026-10-18T23:00:35+00:00",
-      "duration": 1237,
-      "image": "https://i.ytimg.com/vi_webp/-AOxpwVeIWw/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/-AOxpwVeIWw.mp3",
-      "audio_bytes": 9894765
     }
   ],
   "skipped": {
