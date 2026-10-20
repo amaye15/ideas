@@ -7,6 +7,39 @@
   },
   "episodes": [
     {
+      "id": "Bz1HFxQA1o8",
+      "title": "Shipping AI Into 5 Major Banks Without a 12-Month Compliance Wait — Al Chen, Cisco",
+      "description": "Banks don't buy AI software until it survives their security and compliance review. Al Chen shares what it took to deploy inside five major banks without a year-long bottleneck. He covers the build pipeline, CVE remediation with agents writing and testing exploits, backup and restore verification, PII leaking through LLM judges, and why zero leakage and data sovereignty are never free.\n\nChapters:\n- 00:00 Intro\n- 02:15 What banks check\n- 04:17 Fixing CVEs with agents\n- 08:30 Proving backup and restore\n- 10:33 PII leaking through LLM judges\n- 14:48 Making customer problems engineering problems\n- 16:56 Takeaways\n\nAl Chen — X: https://x.com/bigal123 | https://www.cisco.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=Bz1HFxQA1o8",
+      "published": "2026-10-20T09:00:06+00:00",
+      "duration": 1061,
+      "image": "https://i.ytimg.com/vi_webp/Bz1HFxQA1o8/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/Bz1HFxQA1o8.mp3",
+      "audio_bytes": 8488941
+    },
+    {
+      "id": "UHbODjuviAU",
+      "title": "The Investor's Edge Lives in Their Head — Anekha Sokhal, Moshi",
+      "description": "Every investor wants an edge: knowing first, seeing their blind spots, and acting with conviction. Anekha Sokhal, founder and CEO of Moshi, argues the most valuable context isn't in a database but in the investor's head. She explains how to build AI that does the data grind of a quant team while leaving the decision to the human.\n\nChapters:\n- 00:00 Intro\n- 04:03 What edge really means\n- 06:06 What AI changed in finance\n- 08:26 One-person pods and the next generation\n- 10:28 Split the grind from the decision\n- 12:31 A quant team for every investor\n\nAnekha Sokhal — https://hellomoshi.ai\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=UHbODjuviAU",
+      "published": "2026-10-20T08:00:19+00:00",
+      "duration": 989,
+      "image": "https://i.ytimg.com/vi_webp/UHbODjuviAU/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/UHbODjuviAU.mp3",
+      "audio_bytes": 7911213
+    },
+    {
+      "id": "f_HwzoYrZ7s",
+      "title": "Why AI Agents Will Need Their Own Bank Accounts — Lincoln Murr, Coinbase",
+      "description": "Lincoln Murr, head of AI product at Coinbase, explains agentic finance: agents that pay with money and agents that grow it. He covers the path from AgentKit, an early experiment giving an AI a wallet, to x402, an open standard built on the long-unused HTTP 402 \"payment required\" code. x402 now handles hundreds of millions of agent transactions a month. Other topics are microtransactions as a replacement for the ad economy, agents running trades on simple instructions, and what two years of building taught Coinbase. Trust is earned step by step, and the AI is the enabler, not the product. He ends with a look at agents that can pay for their own upkeep.\n\nChapters:\n- 00:00 What is agentic finance?\n- 01:20 AgentKit: giving an AI a wallet\n- 02:09 HTTP 402 and x402\n- 03:13 How fast x402 took off\n- 04:24 Microtransactions vs. the ad economy\n- 06:23 Agents that grow money\n- 08:14 A weekend trade, by voice\n- 09:48 Lesson: trust is earned one step at a time\n- 11:35 AI is the enabler, not the product\n- 14:21 Where agentic finance is heading\n\nLincoln Murr, Coinbase: https://www.coinbase.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=f_HwzoYrZ7s",
+      "published": "2026-10-20T07:00:35+00:00",
+      "duration": 1018,
+      "image": "https://i.ytimg.com/vi_webp/f_HwzoYrZ7s/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/f_HwzoYrZ7s.mp3",
+      "audio_bytes": 8140269
+    },
+    {
       "id": "_4Ph2dhmUFI",
       "title": "How to Know When an AI Agent Can Work Unsupervised — Evan Kormos, Coinbase",
       "description": "Evan Kormos, a player-coach at Coinbase with 15 years in enterprise financial services, lays out a practical way to bring agents into policy-driven, regulated workflows. He models processes as DAGs and loops, explains why a loop is only as trustworthy as its check, and shows how evals and traces become a new confidence mechanism. Agents then move through three stages: fully supervised, then sampled, then humans handling only exceptions.\n\nChapters:\n- 00:00 Policy is the original system prompt\n- 02:53 Where agents fit: people, process, technology\n- 03:49 Workflows as DAGs\n- 05:31 Inside a node: the loop\n- 07:16 Exception flows and bottlenecks\n- 08:59 Quality inputs, quality outputs\n- 10:43 The loop is only as good as the check\n- 11:47 Evals as a confidence mechanism\n- 12:39 Which steps should an agent own?\n- 14:29 Supervised, then sampled, then exceptions only\n- 15:31 Takeaways\n\nEvan Kormos — https://www.coinbase.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
@@ -82,39 +115,6 @@
       "image": "https://i.ytimg.com/vi_webp/-AOxpwVeIWw/maxresdefault.webp",
       "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/-AOxpwVeIWw.mp3",
       "audio_bytes": 9894765
-    },
-    {
-      "id": "7T-gldvgfpo",
-      "title": "Stop Telling Agents How — Dan Barrett, Raymond Weitekamp & Jose Montes de Oca, OpenProse",
-      "description": "Say what you want, not how to get it. The OpenProse team shows how to write multi-agent workflows as declarative contracts in plain markdown, which any harness (Claude Code, Codex and others) can compile and run. Demos include event-driven jobs triggered by webhooks and pull requests, a \"grumpy senior\" PR reviewer, and an end-to-end bank model-documentation workflow. They also discuss composing contracts, pinning a winning run into a reusable workflow, and how this compares to DSPy.\n\nChapters:\n- 00:00 From prompt engineering to declaring intent\n- 05:40 What OpenProse is\n- 09:58 Agents, skills and contracts\n- 12:13 Event-driven jobs: contract + trigger\n- 18:52 Demo: run.prose.md\n- 24:43 Benchmarking every run against a contract\n- 27:01 OpenProse vs DSPy\n- 33:33 Demo: bank model documentation\n- 41:49 Composing contracts\n- 48:23 Q&A\n\nDan Barrett — X: https://x.com/irl_danb | https://prose.md\nRaymond Weitekamp — https://prose.md\nJose Montes de Oca — https://prose.md\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
-      "youtube_url": "https://www.youtube.com/watch?v=7T-gldvgfpo",
-      "published": "2026-10-18T19:00:05+00:00",
-      "duration": 2975,
-      "image": "https://i.ytimg.com/vi_webp/7T-gldvgfpo/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/7T-gldvgfpo.mp3",
-      "audio_bytes": 23804013
-    },
-    {
-      "id": "W4pnzOURwHQ",
-      "title": "Insurance Claims Are AI's Messiest Data Problem — Denys Linkov, Wisedocs",
-      "description": "Insurance claims are full of handwriting, faxes, duplicates and 8GB PDFs. Denys Linkov of Wisedocs explains why that unstructured data is both the biggest barrier and the biggest opportunity for AI in insurance. He covers cleaning the data, analysis within a single document, and cross-claim insights, along with the benchmark Wisedocs built with Artificial Analysis to test how models handle medical records.\n\nChapters:\n- 00:00 Intro\n- 01:43 Insurance's technology transformation\n- 09:34 How a claim actually works\n- 15:50 Step 1: clean data\n- 20:28 Step 2: analysis within documents\n- 23:37 Benchmarking models on medical records\n- 28:19 Step 3: insights across claims\n- 34:30 The processing stack\n- 40:37 Regulation, cost and what's next\n\nDenys Linkov — X: https://x.com/denyslinkov | https://wisedocs.ai\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
-      "youtube_url": "https://www.youtube.com/watch?v=W4pnzOURwHQ",
-      "published": "2026-10-18T09:00:25+00:00",
-      "duration": 2670,
-      "image": "https://i.ytimg.com/vi_webp/W4pnzOURwHQ/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/W4pnzOURwHQ.mp3",
-      "audio_bytes": 21362925
-    },
-    {
-      "id": "obfPzbapMIM",
-      "title": "Evals for High-Stakes AI Agents — Doneyli De Jesus & Annabell Schäfer, Langfuse",
-      "description": "A hands-on workshop on evaluating AI applications where mistakes are expensive. Annabell Schäfer and Doneyli De Jesus from Langfuse use a banking assistant to walk through the whole AI engineering loop. They cover tracing with PII masking, building datasets, turning domain-expert comments into failure modes, LLM-as-judge and code evaluators, and CI that blocks a prompt change when scores drop.\n\nChapters:\n- 00:00 Why evals are hard\n- 05:01 The AI engineering loop\n- 12:47 Demo: a banking assistant with tracing and PII masking\n- 20:35 Building datasets\n- 25:18 Expert review and failure modes\n- 30:07 Choosing evaluators\n- 35:00 Running evals automatically on every prompt change\n- 39:44 Dashboards for stakeholders\n- 45:58 Working with your coding agent\n- 52:13 Q&A\n\nDoneyli De Jesus — https://langfuse.com\nAnnabell Schäfer — https://langfuse.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
-      "youtube_url": "https://www.youtube.com/watch?v=obfPzbapMIM",
-      "published": "2026-10-18T08:00:06+00:00",
-      "duration": 3212,
-      "image": "https://i.ytimg.com/vi_webp/obfPzbapMIM/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/obfPzbapMIM.mp3",
-      "audio_bytes": 25695597
     }
   ],
   "skipped": {
