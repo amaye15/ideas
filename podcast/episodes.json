@@ -7,6 +7,17 @@
   },
   "episodes": [
     {
+      "id": "3axY1wz2OvA",
+      "title": "Same GPU, 50% More Output: Why the Operator Matters — Oliver Kennon, SemiAnalysis",
+      "description": "Buying GPUs gives you potential. The operator decides how much useful work you actually get out of them. Oliver Kennon looks at compute as a commodity market: on the same B200 chip, the serving stack alone can deliver about 50% more output. Cluster security is part of whether intelligence is \"useful\". SemiAnalysis's ClusterMAX rates operators, and rental price and production cost are different numbers. Your spot on the cost curve depends on your competitors, not just you. He closes on what it takes to build credible compute grades and futures.\n\nChapters:\n- 00:00 Intro\n- 01:05 Compute is a commodity market\n- 02:21 GPU hours are the input, intelligence is the output\n- 03:23 Same B200, ~50% more output\n- 04:45 What counts as useful intelligence\n- 06:33 Rating operators with ClusterMAX\n- 07:48 Rental price vs. production cost\n- 10:01 Your cost position is relative\n- 12:41 Grading comparable compute\n- 14:13 What compute futures can hedge\n- 15:54 Takeaways\n\nOliver Kennon, SemiAnalysis: https://semianalysis.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=3axY1wz2OvA",
+      "published": "2026-10-20T23:00:22+00:00",
+      "duration": 1062,
+      "image": "https://i.ytimg.com/vi_webp/3axY1wz2OvA/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/3axY1wz2OvA.mp3",
+      "audio_bytes": 8496045
+    },
+    {
       "id": "adfw3xJBx1o",
       "title": "A Bank Built Its Own Coding Agent. It Took Off — Felipe Felisola Caso & Francesco Galletta, Monzo",
       "description": "Monzo's in-house agent started as an emoji you could react with in Slack. Now it authors over 10% of all merged PRs across Monzo's tech teams and runs more than 1,800 tasks a day. Felipe and Francesco explain why it worked so fast. Their answer is the \"lots of little multipliers\" Monzo already had: an MCP gateway into internal tools and knowledge, a sandboxed agent orchestration system built for a regulated bank, and a platform that turns the agent itself into a building block. That building block now handles incidents, on-call data quality and requests from non-engineers.\n\nChapters:\n- 00:00 Intro\n- 00:28 Monzo by the numbers\n- 01:37 The Slack agent that went viral\n- 02:51 10% of merged PRs, 1,800 tasks a day\n- 03:51 LLMs = lots of little multipliers\n- 05:04 The MCP gateway\n- 05:59 Agent orchestration in a sandbox\n- 08:37 The agent as a building block\n- 10:07 Incident mode and on-call\n- 12:12 Non-engineers shipping changes\n- 12:57 Why keep building it in-house\n\nFelipe Felisola Caso & Francesco Galletta, Monzo: https://monzo.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
@@ -104,17 +115,6 @@
       "image": "https://i.ytimg.com/vi_webp/vS2IA9pq0Q4/maxresdefault.webp",
       "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/vS2IA9pq0Q4.mp3",
       "audio_bytes": 9216621
-    },
-    {
-      "id": "L4dUFimVDKU",
-      "title": "Backtest Your Agent Against Yesterday's Web — Ryan Ahern, Exa",
-      "description": "How do you know whether your agent would have made the right call? Ryan Ahern of Exa shows how to use version-controlled search to see the web exactly as it was on a past date, then backtest an agent's predictions against what actually happened. The hands-on example predicts company acquisitions from signals like leadership turnover, then tunes the system without leaking future information.\n\nChapters:\n- 00:00 Why search matters for agents\n- 04:15 Exa's search benchmark\n- 06:17 Versioning the whole web\n- 10:34 Avoiding look-ahead bias\n- 14:43 Backtesting and tuning a predictor\n- 18:49 Hands-on: predicting acquisitions\n- 22:54 Results and overfitting\n\nRyan Ahern — https://exa.ai\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
-      "youtube_url": "https://www.youtube.com/watch?v=L4dUFimVDKU",
-      "published": "2026-10-19T07:00:39+00:00",
-      "duration": 1601,
-      "image": "https://i.ytimg.com/vi_webp/L4dUFimVDKU/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/L4dUFimVDKU.mp3",
-      "audio_bytes": 12809133
     }
   ],
   "skipped": {
