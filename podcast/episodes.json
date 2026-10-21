@@ -7,6 +7,39 @@
   },
   "episodes": [
     {
+      "id": "DouK81O8R3o",
+      "title": "One Day, $1,000 in Tokens: An AI War Room for Legacy Code — Ford Prior, GEICO",
+      "description": "At GEICO, coding got fast but everything around it (decisions, sign-offs, context) stayed slow. Ford Prior's fix was a multiplayer, AI-native war room: the right decision makers, one driver, and fleets of agents wired into GEICO's knowledge, tools and code. His bet was that one day and $1,000 in tokens could map a legacy claims domain end to end and ship one real change. He ran it three times across rentals, damages and salvage. He covers FleetKit, the markdown rulebook that steers the agent fleet, plus the worksheets and diagrams it produced and what he'd change next.\n\nChapters:\n- 00:00 Inner loop vs. outer loop\n- 02:05 Claims tech at GEICO\n- 04:37 The AI-native war room\n- 05:23 The one-day, $1,000 experiment\n- 06:33 Three modernization missions\n- 08:29 What the vendor brings vs. what GEICO brings\n- 09:47 FleetKit: running an agent fleet\n- 11:55 Inside the war room\n- 15:58 Lessons and what's next\n\nFord Prior, GEICO: https://www.geico.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=DouK81O8R3o",
+      "published": "2026-10-21T09:00:26+00:00",
+      "duration": 1122,
+      "image": "https://i.ytimg.com/vi_webp/DouK81O8R3o/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/DouK81O8R3o.mp3",
+      "audio_bytes": 8977581
+    },
+    {
+      "id": "uA4ah-dVHvU",
+      "title": "AI Cut Our Research Time From 7 Days to 15 Minutes — Gareth Yoder, Vanguard",
+      "description": "Gareth Yoder leads the cash program at Vanguard. He walks through modernizing a cash ledger that takes up to 30 million calls a day, running data, producer and consumer migrations in parallel. The turning point was exposing the legacy code base to AI tools through an MCP server. Research that took a mainframe engineer seven days dropped to 15 minutes. He closes with five lessons: make legacy code AI-queryable, treat migration docs as product, reimagine instead of lift-and-shift, adopt AI incrementally, and never skip observability.\n\nChapters:\n- 00:00 Intro\n- 01:10 What a cash ledger is\n- 01:52 Three migrations in parallel\n- 02:32 Legacy code over MCP: 7 days to 15 minutes\n- 03:20 Data migration\n- 04:12 Producer migration\n- 06:38 Consumer migration\n- 08:58 Onboarding 50 consumers\n- 11:11 What we learned\n- 13:12 Five takeaways\n\nGareth Yoder, Vanguard: https://investor.vanguard.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=uA4ah-dVHvU",
+      "published": "2026-10-21T08:00:37+00:00",
+      "duration": 938,
+      "image": "https://i.ytimg.com/vi_webp/uA4ah-dVHvU/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/uA4ah-dVHvU.mp3",
+      "audio_bytes": 7506861
+    },
+    {
+      "id": "YvQ4BVTWfHI",
+      "title": "Is a Faster Model Actually Faster? Test the Whole Job — Morgan Suo, MiniMax",
+      "description": "A faster model only helps if the finished job gets faster. Morgan Suo of MiniMax uses one real research task to test the changes inside the M3.1 Flash model: an analyst checking whether circuit-board suppliers are turning AI demand into cash. The changes are sparse attention on long inputs, a 4-bit KV cache, low-precision experts, speculative decoding, server load and reasoning budgets. Each one saves compute, and each can quietly cost accuracy or wait time. She then shows how to judge a model switch: check sources and calculations, count the full cost of a usable report, and make the result repeatable.\n\nChapters:\n- 00:00 Intro\n- 01:44 The research job\n- 03:20 Profit vs. cash flow\n- 04:22 What changed inside the model\n- 05:09 Sparse attention on long inputs\n- 07:53 4-bit KV cache\n- 08:59 Low-precision experts\n- 10:20 Speculative decoding\n- 11:39 Throughput vs. wait time\n- 13:09 Reasoning budgets\n- 14:41 How to evaluate a model switch\n- 16:12 Recap\n\nMorgan Suo, MiniMax: https://www.minimax.io\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=YvQ4BVTWfHI",
+      "published": "2026-10-21T07:00:34+00:00",
+      "duration": 1062,
+      "image": "https://i.ytimg.com/vi_webp/YvQ4BVTWfHI/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/YvQ4BVTWfHI.mp3",
+      "audio_bytes": 8498349
+    },
+    {
       "id": "3axY1wz2OvA",
       "title": "Same GPU, 50% More Output: Why the Operator Matters — Oliver Kennon, SemiAnalysis",
       "description": "Buying GPUs gives you potential. The operator decides how much useful work you actually get out of them. Oliver Kennon looks at compute as a commodity market: on the same B200 chip, the serving stack alone can deliver about 50% more output. Cluster security is part of whether intelligence is \"useful\". SemiAnalysis's ClusterMAX rates operators, and rental price and production cost are different numbers. Your spot on the cost curve depends on your competitors, not just you. He closes on what it takes to build credible compute grades and futures.\n\nChapters:\n- 00:00 Intro\n- 01:05 Compute is a commodity market\n- 02:21 GPU hours are the input, intelligence is the output\n- 03:23 Same B200, ~50% more output\n- 04:45 What counts as useful intelligence\n- 06:33 Rating operators with ClusterMAX\n- 07:48 Rental price vs. production cost\n- 10:01 Your cost position is relative\n- 12:41 Grading comparable compute\n- 14:13 What compute futures can hedge\n- 15:54 Takeaways\n\nOliver Kennon, SemiAnalysis: https://semianalysis.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
@@ -82,39 +115,6 @@
       "image": "https://i.ytimg.com/vi_webp/7Y4sbZgBdnc/maxresdefault.webp",
       "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/7Y4sbZgBdnc.mp3",
       "audio_bytes": 8755629
-    },
-    {
-      "id": "UGjk3Uk0MxM",
-      "title": "The Model Swap Workshop: GPT-5.5 vs Kimi vs DeepSeek vs Mistral — Pamela Fox, Microsoft",
-      "description": "Benchmarks won't tell you how a model behaves in your app. Swapping it in and testing will.\n\nNEXT UP: AI ENGINEER CODE SUMMIT\nJoin us in SF for the second annual AIE CODE Summit, Nov 10–12, our last flagship summit of 2026. Applications live now: https://aie.codes\n\nPamela Fox, Principal Cloud Advocate at Microsoft, runs the same scenarios against GPT-5.5, Kimi K2.6, DeepSeek V4 Flash and Mistral Large 3 on Microsoft Foundry so you can see where models differ and what you can do about it. She works up from a letter-counting prompt to RAG groundedness, image input, multilingual pitfalls, tool calling, tool calling in a loop and a LangChain v1 travel agent, then moves to evaluation: string-check evals, LLM-as-a-judge, Microsoft's new ASSERT tool for generating test sets from a spec, and DSPy prompt optimization that finds a prompt the cheapest model can satisfy.\n\nIn this video:\n- Where top models differ: counting, groundedness, vision, tool calls and parallel tool calling\n- How prompt engineering closes some gaps but not image understanding\n- Bulk evals with string checks and LLM-as-a-judge\n- Generating test sets with ASSERT and optimizing prompts with DSPy\n\nSPEAKER\nPamela Fox, Principal Cloud Advocate, Microsoft\nX: https://x.com/pamelafox\nLinkedIn: https://www.linkedin.com/in/pamela-s-fox\nGitHub: https://github.com/pamelafox\n\nLINKS\nASSERT (GitHub): https://github.com/responsibleai/ASSERT\n\nCHAPTERS\n0:00 Workshop setup\n2:23 Why you need to be able to swap models\n3:08 The four models\n5:18 Benchmarks vs your scenario\n5:38 Test 1: counting letters\n7:48 Fixing it with prompt engineering\n8:38 Test 2: RAG and groundedness\n13:03 Test 3: image input\n16:18 Switching languages\n17:13 Test 4: tool calling\n21:03 Test 5: tool calling in a loop\n23:58 Agents with LangChain v1\n26:17 Parallel tool calls\n30:27 Evals with string checks\n33:42 Q&A: eval frameworks\n35:12 LLM as a judge\n40:07 ASSERT: evals from a spec\n43:32 ASSERT results across models\n45:52 Prompt optimization with DSPy\n47:52 A DSPy prompt for Mistral\n49:22 Anthropic and citations\n50:32 Wrap-up\n\nRecorded at the AI Engineer World's Fair 2026 in San Francisco.\nSubscribe for more talks from the engineers building with AI.\n\nAI Engineer: https://ai.engineer\nYouTube: https://www.youtube.com/@aiDotEngineer\nX: https://x.com/aiDotEngineer\nLinkedIn: https://www.linkedin.com/company/aidotengineer/\n\n#LLM #Evals #AIEngineer",
-      "youtube_url": "https://www.youtube.com/watch?v=UGjk3Uk0MxM",
-      "published": "2026-10-19T14:06:53+00:00",
-      "duration": 3097,
-      "image": "https://i.ytimg.com/vi_webp/UGjk3Uk0MxM/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/UGjk3Uk0MxM.mp3",
-      "audio_bytes": 24779949
-    },
-    {
-      "id": "J7n3WJnFTto",
-      "title": "Buy, Build, Deploy: Using M&A to Drive AI Transformation — Prathik Naidu, Long Lake",
-      "description": "Deploying AI into real businesses is hard: org charts are messy, trust takes decades, and service firms don't scale like software. Prathik Naidu, founding partner at Long Lake, explains their strategy: acquire established service businesses, then transform them with AI from the inside. He covers how they choose companies and what changes once they own them, drawing on 40 businesses across residential services, architecture, HR and more.\n\nChapters:\n- 00:00 Intro\n- 02:15 Why deploying AI into businesses is hard\n- 06:27 Why trust and brand win\n- 10:41 Software vs service economics\n- 12:42 The Long Lake model\n- 14:50 Choosing what to buy\n- 16:53 Results\n\nPrathik Naidu — Long Lake\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
-      "youtube_url": "https://www.youtube.com/watch?v=J7n3WJnFTto",
-      "published": "2026-10-19T09:00:32+00:00",
-      "duration": 1131,
-      "image": "https://i.ytimg.com/vi_webp/J7n3WJnFTto/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/J7n3WJnFTto.mp3",
-      "audio_bytes": 9047469
-    },
-    {
-      "id": "vS2IA9pq0Q4",
-      "title": "Version-Controlled Search: The Web as It Was — Ryan Ahern, Exa",
-      "description": "Ryan Ahern of Exa introduces Exa Snapshot, which lets agents search the web as it looked on any past date. He covers why search quality matters when agents broker most searches, how snapshot results compare to live results, and how teams use point-in-time search to build and test predictive signals without overfitting.\n\nChapters:\n- 00:00 Intro\n- 02:14 Agents as the new searchers\n- 04:15 Exa's three core principles\n- 08:19 Snapshot vs live search\n- 12:45 From signals to predictions\n- 16:58 Backtesting without overfitting\n\nRyan Ahern — https://exa.ai\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
-      "youtube_url": "https://www.youtube.com/watch?v=vS2IA9pq0Q4",
-      "published": "2026-10-19T08:00:29+00:00",
-      "duration": 1152,
-      "image": "https://i.ytimg.com/vi_webp/vS2IA9pq0Q4/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/vS2IA9pq0Q4.mp3",
-      "audio_bytes": 9216621
     }
   ],
   "skipped": {
