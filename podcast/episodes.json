@@ -7,6 +7,17 @@
   },
   "episodes": [
     {
+      "id": "bU5gDVyu_28",
+      "title": "Does Code Quality Still Matter? It Depends on This — Max Kanat-Alexander, Capital One",
+      "description": "Every senior engineer's answer is \"it depends.\" Max Kanat-Alexander says what it actually depends on. Code quality always existed for two things: understanding a system and safely changing it. AI is making a new kind of software common: disposable software, with low consequences, few dependents and near-zero cost to replace or maintain. For that software, quality doesn't matter. For durable software it matters more than ever. He also shows how to make systems more disposable and how to make rigor cheap through standards, in-workflow tooling, easy testing and maximum strictness.\n\nChapters:\n- 00:00 \"It depends\" — on what?\n- 01:14 Understanding and execution\n- 02:42 Why structure matters\n- 04:47 The two risks of every change\n- 06:56 Disposable software\n- 07:59 Durable software\n- 09:54 Making software more disposable\n- 12:05 Lowering the cost of rigor\n- 15:50 The answer\n\nMax Kanat-Alexander, Capital One: https://www.capitalone.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=bU5gDVyu_28",
+      "published": "2026-10-21T19:01:02+00:00",
+      "duration": 983,
+      "image": "https://i.ytimg.com/vi_webp/bU5gDVyu_28/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/bU5gDVyu_28.mp3",
+      "audio_bytes": 7863405
+    },
+    {
       "id": "DouK81O8R3o",
       "title": "One Day, $1,000 in Tokens: An AI War Room for Legacy Code — Ford Prior, GEICO",
       "description": "At GEICO, coding got fast but everything around it (decisions, sign-offs, context) stayed slow. Ford Prior's fix was a multiplayer, AI-native war room: the right decision makers, one driver, and fleets of agents wired into GEICO's knowledge, tools and code. His bet was that one day and $1,000 in tokens could map a legacy claims domain end to end and ship one real change. He ran it three times across rentals, damages and salvage. He covers FleetKit, the markdown rulebook that steers the agent fleet, plus the worksheets and diagrams it produced and what he'd change next.\n\nChapters:\n- 00:00 Inner loop vs. outer loop\n- 02:05 Claims tech at GEICO\n- 04:37 The AI-native war room\n- 05:23 The one-day, $1,000 experiment\n- 06:33 Three modernization missions\n- 08:29 What the vendor brings vs. what GEICO brings\n- 09:47 FleetKit: running an agent fleet\n- 11:55 Inside the war room\n- 15:58 Lessons and what's next\n\nFord Prior, GEICO: https://www.geico.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
@@ -104,17 +115,6 @@
       "image": "https://i.ytimg.com/vi_webp/_4Ph2dhmUFI/maxresdefault.webp",
       "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/_4Ph2dhmUFI.mp3",
       "audio_bytes": 8420013
-    },
-    {
-      "id": "7Y4sbZgBdnc",
-      "title": "Smarter Models Killed the Harness. Here's What's Left — Jediah Katz, SpaceXAI",
-      "description": "Is the agent harness dead? Jediah Katz, Cursor's longest-tenured agent-harness engineer and now at SpaceX, explains why fancy harnesses no longer add coding intelligence: the data flywheel teaches models the skills harnesses used to patch in. He then argues why the harness matters more than ever. It opens new frontiers like Grokbot, and it owns what models can't absorb: infrastructure, trust and security, and efficiency. He closes with predictions, including that 90% of agent work runs off the laptop within six months.\n\nChapters:\n- 00:00 Is the harness dead?\n- 01:09 From prompt engineer to harness engineer\n- 02:02 What's inside an agent harness\n- 02:59 Peak harness, and the backlash\n- 05:00 What the research says\n- 06:16 The data flywheel\n- 07:34 The harness unlocks the next frontier\n- 12:07 What models can't absorb: infra, trust, efficiency\n- 14:21 What's next for harnesses\n- 17:36 Long live the harness\n\nJediah Katz — X: https://x.com/jediahkatz | https://cursor.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
-      "youtube_url": "https://www.youtube.com/watch?v=7Y4sbZgBdnc",
-      "published": "2026-10-19T19:00:17+00:00",
-      "duration": 1094,
-      "image": "https://i.ytimg.com/vi_webp/7Y4sbZgBdnc/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/7Y4sbZgBdnc.mp3",
-      "audio_bytes": 8755629
     }
   ],
   "skipped": {
