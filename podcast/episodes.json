@@ -7,6 +7,39 @@
   },
   "episodes": [
     {
+      "id": "mMw3arwQsL0",
+      "title": "1,368 AI Failures and What They Teach About Evals — Vishal Srivastava & Tanmay Sah, New York Life",
+      "description": "Vishal Srivastava and Tanmay Sah studied 1,368 incidents from a public AI incident database to ask what real failures say about how AI systems should be tested. They sort failures across three areas (technical strength, deployment controls and business impact) and 13 sub-areas that cover about 98% of incidents. Weak deployment controls, such as human review and monitoring, are the most closely tied to harm. They show how to rank use cases by how much is at stake, why the evaluator itself needs checking, and a build-break-fix loop that tries to prove a system wrong instead of right, applied to a real airline chatbot that gave a customer the wrong refund policy.\n\nChapters:\n- 00:00 Intro\n- 00:41 AI failures are rising fast\n- 01:35 Three dimensions of failure\n- 03:34 13 sub-dimensions\n- 06:09 What covers 98% of failures\n- 07:12 Which failures cause the most harm\n- 09:43 Ranking use cases by materiality\n- 10:43 Breaking risk into four parts\n- 11:40 What to test in an agentic system\n- 13:14 Can you trust the evaluator?\n- 13:48 Confirmation bias and failure-driven evals\n- 15:20 Build, break, fix\n- 17:03 A real chatbot failure\n- 18:30 Recap\n\nVishal Srivastava & Tanmay Sah, New York Life: https://www.newyorklife.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=mMw3arwQsL0",
+      "published": "2026-10-22T09:00:12+00:00",
+      "duration": 1202,
+      "image": "https://i.ytimg.com/vi_webp/mMw3arwQsL0/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/mMw3arwQsL0.mp3",
+      "audio_bytes": 9612333
+    },
+    {
+      "id": "c_SPW__jF9w",
+      "title": "How to Test AI Agents When No Benchmark Exists — Nathanael Weill, Air Canada",
+      "description": "Nathanael Weill leads a team building AI agents at Air Canada, where tasks are so specific there's no public benchmark and domain experts have little time to grade results. His fix is to write the answer first: start from a known answer, generate the input from it, and check whether the agent finds its way back. He shows how that took a past RAG project from one expert-graded test a week to dozens of automated tests a day, then applies it to a supplier-contract review agent with five ways to build a test set: past decisions, planted rule violations, removed clauses, changes that shouldn't matter, and contract templates with filled-in blanks. He also explains why he avoids LLM judges whenever code can check the answer.\n\nChapters:\n- 00:00 Intro\n- 00:47 No benchmark, no experts\n- 01:41 A lesson from a telecom RAG project\n- 04:43 Weekly expert reviews were too slow\n- 05:38 Flip it: write the answer first\n- 06:33 From one test a week to dozens a day\n- 07:30 Supplier contract review\n- 10:08 How the contract agent works\n- 10:39 Five ways to build a test set\n- 12:31 Planting rule violations\n- 13:39 Removing clauses\n- 14:42 Changes that shouldn't matter\n- 15:38 Templates with blanks\n- 16:39 Avoid LLM judges when code can check\n- 18:07 Use expert feedback to build better tests\n\nNathanael Weill, Air Canada: https://www.aircanada.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=c_SPW__jF9w",
+      "published": "2026-10-22T08:00:01+00:00",
+      "duration": 1190,
+      "image": "https://i.ytimg.com/vi_webp/c_SPW__jF9w/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/c_SPW__jF9w.mp3",
+      "audio_bytes": 9519981
+    },
+    {
+      "id": "_dTF3NpPzGo",
+      "title": "Why AI Writing Still Reads Like Slop — Louis-François Bouchard, Towards AI",
+      "description": "Louis-François Bouchard of Towards AI breaks down what makes AI writing feel like slop: overused words, vague generalities, saying nothing, repetition, hallucination and a voice that sounds like everyone at once. He then shows how his team built a benchmark to measure whether a model can write a video script in his own voice: 10 scripts, 5 drafts per model, 4 LLM judges, nine scoring metrics and 1,000 human A/B checks. He shares what it cost, why judges favor their own model family, and practical tips for writing with AI: very long prompts full of examples, one review pass from a strong model, many cheap drafts merged together, and always a human edit.\n\nChapters:\n- 00:00 What is slop?\n- 02:41 Measuring sloppy writing\n- 03:49 Why build another benchmark\n- 05:44 Can a model write like me?\n- 07:19 10 scripts, 5 drafts, 4 judges\n- 09:14 What gets measured\n- 11:10 How the judges score\n- 12:38 Judges prefer their own models\n- 13:46 Human A/B checks\n- 14:15 What it cost\n- 15:20 What we learned\n- 16:21 How to write better with AI\n\nLouis-François Bouchard, Towards AI: https://towardsai.net\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=_dTF3NpPzGo",
+      "published": "2026-10-22T07:00:28+00:00",
+      "duration": 1142,
+      "image": "https://i.ytimg.com/vi_webp/_dTF3NpPzGo/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/_dTF3NpPzGo.mp3",
+      "audio_bytes": 9136173
+    },
+    {
       "id": "CFbnVpSsDFQ",
       "title": "The AI Content System Behind 200M Views — Sarah Chieng, Cerebras & Cova Lee, OpenAI",
       "description": "Sarah Chieng (head of developer experience at Cerebras) and Cova Lee (OpenAI developer experience, formerly a full-time creator) share the agent-powered system they use to make content. It runs across six stages: ideating, scripting, recording, editing, repurposing and publishing. Topics include swipe files and custom research tools, voice-based scripting and script skills, shot lists, design systems, and editing through APIs and computer use. They also cover cutting long videos into shorts, scheduled publishing, and a weekly skill that reviews your own process. Their main point: let AI take the tedious work so you can treat content as a craft, not make slop.\n\nChapters:\n- 00:00 Intro\n- 01:12 Meet Sarah and Cova\n- 04:05 The six stages\n- 05:19 Ideation: swipe files and research tools\n- 09:34 Scripting with your voice\n- 12:35 Shot lists and recording\n- 17:06 Design systems\n- 18:39 Editing with AI\n- 23:13 Transforming your visuals\n- 26:16 Repurposing and captions\n- 28:00 Publishing on autopilot\n- 29:25 Reviewing your own process\n- 32:02 Don't make slop\n- 34:19 Gear\n- 36:25 Q&A\n\nSarah Chieng, Cerebras: https://www.cerebras.ai\nCova Lee, OpenAI: https://openai.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
@@ -82,39 +115,6 @@
       "image": "https://i.ytimg.com/vi_webp/adfw3xJBx1o/maxresdefault.webp",
       "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/adfw3xJBx1o.mp3",
       "audio_bytes": 7437549
-    },
-    {
-      "id": "Bz1HFxQA1o8",
-      "title": "Shipping AI Into 5 Major Banks Without a 12-Month Compliance Wait — Al Chen, Cisco",
-      "description": "Banks don't buy AI software until it survives their security and compliance review. Al Chen shares what it took to deploy inside five major banks without a year-long bottleneck. He covers the build pipeline, CVE remediation with agents writing and testing exploits, backup and restore verification, PII leaking through LLM judges, and why zero leakage and data sovereignty are never free.\n\nChapters:\n- 00:00 Intro\n- 02:15 What banks check\n- 04:17 Fixing CVEs with agents\n- 08:30 Proving backup and restore\n- 10:33 PII leaking through LLM judges\n- 14:48 Making customer problems engineering problems\n- 16:56 Takeaways\n\nAl Chen — X: https://x.com/bigal123 | https://www.cisco.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
-      "youtube_url": "https://www.youtube.com/watch?v=Bz1HFxQA1o8",
-      "published": "2026-10-20T09:00:06+00:00",
-      "duration": 1061,
-      "image": "https://i.ytimg.com/vi_webp/Bz1HFxQA1o8/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/Bz1HFxQA1o8.mp3",
-      "audio_bytes": 8488941
-    },
-    {
-      "id": "UHbODjuviAU",
-      "title": "The Investor's Edge Lives in Their Head — Anekha Sokhal, Moshi",
-      "description": "Every investor wants an edge: knowing first, seeing their blind spots, and acting with conviction. Anekha Sokhal, founder and CEO of Moshi, argues the most valuable context isn't in a database but in the investor's head. She explains how to build AI that does the data grind of a quant team while leaving the decision to the human.\n\nChapters:\n- 00:00 Intro\n- 04:03 What edge really means\n- 06:06 What AI changed in finance\n- 08:26 One-person pods and the next generation\n- 10:28 Split the grind from the decision\n- 12:31 A quant team for every investor\n\nAnekha Sokhal — https://hellomoshi.ai\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
-      "youtube_url": "https://www.youtube.com/watch?v=UHbODjuviAU",
-      "published": "2026-10-20T08:00:19+00:00",
-      "duration": 989,
-      "image": "https://i.ytimg.com/vi_webp/UHbODjuviAU/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/UHbODjuviAU.mp3",
-      "audio_bytes": 7911213
-    },
-    {
-      "id": "f_HwzoYrZ7s",
-      "title": "Why AI Agents Will Need Their Own Bank Accounts — Lincoln Murr, Coinbase",
-      "description": "Lincoln Murr, head of AI product at Coinbase, explains agentic finance: agents that pay with money and agents that grow it. He covers the path from AgentKit, an early experiment giving an AI a wallet, to x402, an open standard built on the long-unused HTTP 402 \"payment required\" code. x402 now handles hundreds of millions of agent transactions a month. Other topics are microtransactions as a replacement for the ad economy, agents running trades on simple instructions, and what two years of building taught Coinbase. Trust is earned step by step, and the AI is the enabler, not the product. He ends with a look at agents that can pay for their own upkeep.\n\nChapters:\n- 00:00 What is agentic finance?\n- 01:20 AgentKit: giving an AI a wallet\n- 02:09 HTTP 402 and x402\n- 03:13 How fast x402 took off\n- 04:24 Microtransactions vs. the ad economy\n- 06:23 Agents that grow money\n- 08:14 A weekend trade, by voice\n- 09:48 Lesson: trust is earned one step at a time\n- 11:35 AI is the enabler, not the product\n- 14:21 Where agentic finance is heading\n\nLincoln Murr, Coinbase: https://www.coinbase.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
-      "youtube_url": "https://www.youtube.com/watch?v=f_HwzoYrZ7s",
-      "published": "2026-10-20T07:00:35+00:00",
-      "duration": 1018,
-      "image": "https://i.ytimg.com/vi_webp/f_HwzoYrZ7s/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/f_HwzoYrZ7s.mp3",
-      "audio_bytes": 8140269
     }
   ],
   "skipped": {
