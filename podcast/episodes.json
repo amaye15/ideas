@@ -7,6 +7,17 @@
   },
   "episodes": [
     {
+      "id": "Ve2bAarPA2I",
+      "title": "Better AI Models Won't Fix Your Engineering Team — Nicholas Arcolano, Jellyfish",
+      "description": "Nicholas Arcolano, head of AI and research at Jellyfish, uses data from about 50,000 engineers at 447 companies to ask how much the model really matters for AI coding output. When Cursor pushed many of its users onto Grok, merged PRs barely moved. Breaking down what drives throughput, the tool explains under 1%, skill use about 3% (heavy skill users see roughly a 30% bump), token usage about 9%, company and team about 12%, and the individual engineer most of the rest. The engineers who were top performers before AI are mostly still the top performers now. His advice for leaders: focus on the people, skills and environment you can control.\n\nChapters:\n- 00:00 Intro\n- 00:40 A golf analogy\n- 02:01 Models keep getting better\n- 02:59 A natural experiment: the Grok switch\n- 04:54 What actually drives output\n- 07:14 The tool\n- 08:07 How well you use it: skills\n- 10:00 How much you use it: tokens\n- 11:23 Where you work\n- 12:22 You, the individual\n- 13:42 Is AI reshuffling the top engineers?\n- 14:50 What leaders can control\n\nNicholas Arcolano, Jellyfish: https://jellyfish.co\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=Ve2bAarPA2I",
+      "published": "2026-10-22T19:00:39+00:00",
+      "duration": 998,
+      "image": "https://i.ytimg.com/vi_webp/Ve2bAarPA2I/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/Ve2bAarPA2I.mp3",
+      "audio_bytes": 7987053
+    },
+    {
       "id": "mMw3arwQsL0",
       "title": "1,368 AI Failures and What They Teach About Evals — Vishal Srivastava & Tanmay Sah, New York Life",
       "description": "Vishal Srivastava and Tanmay Sah studied 1,368 incidents from a public AI incident database to ask what real failures say about how AI systems should be tested. They sort failures across three areas (technical strength, deployment controls and business impact) and 13 sub-areas that cover about 98% of incidents. Weak deployment controls, such as human review and monitoring, are the most closely tied to harm. They show how to rank use cases by how much is at stake, why the evaluator itself needs checking, and a build-break-fix loop that tries to prove a system wrong instead of right, applied to a real airline chatbot that gave a customer the wrong refund policy.\n\nChapters:\n- 00:00 Intro\n- 00:41 AI failures are rising fast\n- 01:35 Three dimensions of failure\n- 03:34 13 sub-dimensions\n- 06:09 What covers 98% of failures\n- 07:12 Which failures cause the most harm\n- 09:43 Ranking use cases by materiality\n- 10:43 Breaking risk into four parts\n- 11:40 What to test in an agentic system\n- 13:14 Can you trust the evaluator?\n- 13:48 Confirmation bias and failure-driven evals\n- 15:20 Build, break, fix\n- 17:03 A real chatbot failure\n- 18:30 Recap\n\nVishal Srivastava & Tanmay Sah, New York Life: https://www.newyorklife.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
@@ -104,17 +115,6 @@
       "image": "https://i.ytimg.com/vi_webp/3axY1wz2OvA/maxresdefault.webp",
       "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/3axY1wz2OvA.mp3",
       "audio_bytes": 8496045
-    },
-    {
-      "id": "adfw3xJBx1o",
-      "title": "A Bank Built Its Own Coding Agent. It Took Off — Felipe Felisola Caso & Francesco Galletta, Monzo",
-      "description": "Monzo's in-house agent started as an emoji you could react with in Slack. Now it authors over 10% of all merged PRs across Monzo's tech teams and runs more than 1,800 tasks a day. Felipe and Francesco explain why it worked so fast. Their answer is the \"lots of little multipliers\" Monzo already had: an MCP gateway into internal tools and knowledge, a sandboxed agent orchestration system built for a regulated bank, and a platform that turns the agent itself into a building block. That building block now handles incidents, on-call data quality and requests from non-engineers.\n\nChapters:\n- 00:00 Intro\n- 00:28 Monzo by the numbers\n- 01:37 The Slack agent that went viral\n- 02:51 10% of merged PRs, 1,800 tasks a day\n- 03:51 LLMs = lots of little multipliers\n- 05:04 The MCP gateway\n- 05:59 Agent orchestration in a sandbox\n- 08:37 The agent as a building block\n- 10:07 Incident mode and on-call\n- 12:12 Non-engineers shipping changes\n- 12:57 Why keep building it in-house\n\nFelipe Felisola Caso & Francesco Galletta, Monzo: https://monzo.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
-      "youtube_url": "https://www.youtube.com/watch?v=adfw3xJBx1o",
-      "published": "2026-10-20T19:00:34+00:00",
-      "duration": 930,
-      "image": "https://i.ytimg.com/vi_webp/adfw3xJBx1o/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/adfw3xJBx1o.mp3",
-      "audio_bytes": 7437549
     }
   ],
   "skipped": {
