@@ -7,6 +7,17 @@
   },
   "episodes": [
     {
+      "id": "CFbnVpSsDFQ",
+      "title": "The AI Content System Behind 200M Views — Sarah Chieng, Cerebras & Cova Lee, OpenAI",
+      "description": "Sarah Chieng (head of developer experience at Cerebras) and Cova Lee (OpenAI developer experience, formerly a full-time creator) share the agent-powered system they use to make content. It runs across six stages: ideating, scripting, recording, editing, repurposing and publishing. Topics include swipe files and custom research tools, voice-based scripting and script skills, shot lists, design systems, and editing through APIs and computer use. They also cover cutting long videos into shorts, scheduled publishing, and a weekly skill that reviews your own process. Their main point: let AI take the tedious work so you can treat content as a craft, not make slop.\n\nChapters:\n- 00:00 Intro\n- 01:12 Meet Sarah and Cova\n- 04:05 The six stages\n- 05:19 Ideation: swipe files and research tools\n- 09:34 Scripting with your voice\n- 12:35 Shot lists and recording\n- 17:06 Design systems\n- 18:39 Editing with AI\n- 23:13 Transforming your visuals\n- 26:16 Repurposing and captions\n- 28:00 Publishing on autopilot\n- 29:25 Reviewing your own process\n- 32:02 Don't make slop\n- 34:19 Gear\n- 36:25 Q&A\n\nSarah Chieng, Cerebras: https://www.cerebras.ai\nCova Lee, OpenAI: https://openai.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=CFbnVpSsDFQ",
+      "published": "2026-10-21T23:00:14+00:00",
+      "duration": 3197,
+      "image": "https://i.ytimg.com/vi_webp/CFbnVpSsDFQ/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/CFbnVpSsDFQ.mp3",
+      "audio_bytes": 25577901
+    },
+    {
       "id": "bU5gDVyu_28",
       "title": "Does Code Quality Still Matter? It Depends on This — Max Kanat-Alexander, Capital One",
       "description": "Every senior engineer's answer is \"it depends.\" Max Kanat-Alexander says what it actually depends on. Code quality always existed for two things: understanding a system and safely changing it. AI is making a new kind of software common: disposable software, with low consequences, few dependents and near-zero cost to replace or maintain. For that software, quality doesn't matter. For durable software it matters more than ever. He also shows how to make systems more disposable and how to make rigor cheap through standards, in-workflow tooling, easy testing and maximum strictness.\n\nChapters:\n- 00:00 \"It depends\" — on what?\n- 01:14 Understanding and execution\n- 02:42 Why structure matters\n- 04:47 The two risks of every change\n- 06:56 Disposable software\n- 07:59 Durable software\n- 09:54 Making software more disposable\n- 12:05 Lowering the cost of rigor\n- 15:50 The answer\n\nMax Kanat-Alexander, Capital One: https://www.capitalone.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
@@ -104,17 +115,6 @@
       "image": "https://i.ytimg.com/vi_webp/f_HwzoYrZ7s/maxresdefault.webp",
       "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/f_HwzoYrZ7s.mp3",
       "audio_bytes": 8140269
-    },
-    {
-      "id": "_4Ph2dhmUFI",
-      "title": "How to Know When an AI Agent Can Work Unsupervised — Evan Kormos, Coinbase",
-      "description": "Evan Kormos, a player-coach at Coinbase with 15 years in enterprise financial services, lays out a practical way to bring agents into policy-driven, regulated workflows. He models processes as DAGs and loops, explains why a loop is only as trustworthy as its check, and shows how evals and traces become a new confidence mechanism. Agents then move through three stages: fully supervised, then sampled, then humans handling only exceptions.\n\nChapters:\n- 00:00 Policy is the original system prompt\n- 02:53 Where agents fit: people, process, technology\n- 03:49 Workflows as DAGs\n- 05:31 Inside a node: the loop\n- 07:16 Exception flows and bottlenecks\n- 08:59 Quality inputs, quality outputs\n- 10:43 The loop is only as good as the check\n- 11:47 Evals as a confidence mechanism\n- 12:39 Which steps should an agent own?\n- 14:29 Supervised, then sampled, then exceptions only\n- 15:31 Takeaways\n\nEvan Kormos — https://www.coinbase.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
-      "youtube_url": "https://www.youtube.com/watch?v=_4Ph2dhmUFI",
-      "published": "2026-10-19T23:00:08+00:00",
-      "duration": 1052,
-      "image": "https://i.ytimg.com/vi_webp/_4Ph2dhmUFI/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/_4Ph2dhmUFI.mp3",
-      "audio_bytes": 8420013
     }
   ],
   "skipped": {
