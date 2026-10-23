@@ -7,6 +7,39 @@
   },
   "episodes": [
     {
+      "id": "UB6hoWyh3B0",
+      "title": "A Bank Trained Its Own Foundation Model to Catch Fraud — Freddy Lecue, Wells Fargo",
+      "description": "Freddy Lecue explains how Wells Fargo pre-trained its own transformer from scratch on billions of customer transactions instead of words. The model learns to predict the next transaction, and that one backbone can then be fine-tuned for fraud detection, credit line decisions, anti-money laundering and marketing. He covers the hardest part, turning tabular data like amounts, timing, merchants and zip codes into tokens, plus the model's size and training setup. On fraud, it caught more fraudulent transactions with fewer false alarms than the production XGBoost model, while staying fast enough for real-time card approvals.\n\nChapters:\n- 00:00 Why a foundation model for transactions\n- 02:14 Why not just XGBoost?\n- 02:47 Billions of transactions\n- 03:22 Language models vs. transaction models\n- 04:45 Pre-training from scratch\n- 05:58 Who, what, how, when and where\n- 07:59 Turning tabular data into tokens\n- 09:42 Architecture and scaling\n- 12:10 Training setup\n- 13:44 Fraud detection results\n- 16:47 Recap\n\nFreddy Lecue, Wells Fargo: https://www.wellsfargo.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=UB6hoWyh3B0",
+      "published": "2026-10-23T09:00:35+00:00",
+      "duration": 1060,
+      "image": "https://i.ytimg.com/vi_webp/UB6hoWyh3B0/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/UB6hoWyh3B0.mp3",
+      "audio_bytes": 8477229
+    },
+    {
+      "id": "uTrY8slys0w",
+      "title": "How to Let AI Agents Sign Up for Your App Safely — Isabelle Williams, WorkOS",
+      "description": "Isabelle Williams, a product manager at WorkOS, uses a travel app she built to show how to make an app ready for users who arrive as agents. She covers auth.md, an open file that tells agents how to get access; an anonymous mode where an agent can try the app before a person claims its work; and ID-JAG identity assertions, which let the agent's provider vouch for the user so nobody has to fill in a signup form. In a live demo, an agent signs up, plans a trip and books dinner on its own. She then shows how to give an in-app agent its own scoped token so it can be audited, limited and revoked without touching the user's access.\n\nChapters:\n- 00:00 Intro\n- 00:39 The demo app: Waypoint\n- 01:07 Three questions for agent-ready apps\n- 02:02 auth.md: a front door for agents\n- 03:45 Anonymous mode and claiming an agent's work\n- 04:50 Skipping signup with identity assertions\n- 07:22 What is an ID-JAG?\n- 09:15 Demo: an agent signs up and plans a trip\n- 11:22 Why this needs open standards\n- 11:49 Limiting and revoking agents\n- 14:46 Demo: a scoped funding agent\n- 17:44 Takeaways\n\nIsabelle Williams, WorkOS: https://workos.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=uTrY8slys0w",
+      "published": "2026-10-23T08:00:39+00:00",
+      "duration": 1113,
+      "image": "https://i.ytimg.com/vi_webp/uTrY8slys0w/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/uTrY8slys0w.mp3",
+      "audio_bytes": 8903277
+    },
+    {
+      "id": "A3FL_zTQKU0",
+      "title": "Don't Trust Your AI Agents. Test Them Like a Scientist — Stephanie Jarmak, Omni Analytics",
+      "description": "Stephanie Jarmak, a former astronomer who now builds evals at Omni Analytics after building a large coding benchmark at Sourcegraph, argues that most agent evaluations are easy to misread. She shows how swapping only the harness moved results by 30%, why public benchmarks are for shortlisting rather than decisions, and how to design your own evals like an experiment: realistic tasks, repeated runs, full traces and a measurement that matches what you care about. She also covers quality gates that actually stop work, the human review bottleneck, agent records you can't trust, and why production is the final test.\n\nChapters:\n- 00:00 Intro\n- 01:11 When the agent ignores your tool\n- 02:47 The harness changes the results\n- 03:51 Public benchmarks vs. your own evals\n- 05:34 Designing evals like a scientist\n- 07:05 Trace the whole pipeline\n- 08:50 Choose what you measure\n- 09:48 Quality gates that actually stop work\n- 11:20 The human review bottleneck\n- 12:20 When the agent's record can't be trusted\n- 13:21 Production is truth\n- 15:05 When to escalate to a human\n\nStephanie Jarmak, Omni Analytics: https://omni.co\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=A3FL_zTQKU0",
+      "published": "2026-10-23T07:00:08+00:00",
+      "duration": 1031,
+      "image": "https://i.ytimg.com/vi_webp/A3FL_zTQKU0/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/A3FL_zTQKU0.mp3",
+      "audio_bytes": 8251053
+    },
+    {
       "id": "Wk2bUUGFC_o",
       "title": "Why AI Startups Will Disappear Without Compute Markets — Evan Conrad, San Francisco Compute",
       "description": "Evan Conrad explains how San Francisco Compute, which began as an AI lab that had to sublease its own GPU cluster to stay alive, ended up both operating clusters and running a market for them. He walks through the chain of problems a new lab or inference company hits: everyone is sold out, the deposit eats the bank balance, clusters arrive late and break, and demand is nearly impossible to predict. He argues these are all one risk problem, that AI companies run into credit limits before power limits, and that without a working compute market the price of entry keeps climbing until no new startups can get in.\n\nChapters:\n- 00:00 Intro\n- 00:42 Physically settled compute\n- 01:35 Supercomputing as a service\n- 02:08 How a struggling AI lab became a GPU broker\n- 03:32 Two miracle problems\n- 04:26 Sold out, deposits and delays\n- 06:20 It's all one risk problem\n- 08:13 Credit, not power, is the bottleneck\n- 10:13 What a compute market has to solve\n- 11:37 Why you have to operate the cluster\n- 13:05 Why nobody does physical settlement\n- 13:59 From $10M to $1B deposits\n- 15:26 Why startups need this\n\nEvan Conrad, San Francisco Compute: https://sfcompute.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
@@ -82,39 +115,6 @@
       "image": "https://i.ytimg.com/vi_webp/bU5gDVyu_28/maxresdefault.webp",
       "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/bU5gDVyu_28.mp3",
       "audio_bytes": 7863405
-    },
-    {
-      "id": "DouK81O8R3o",
-      "title": "One Day, $1,000 in Tokens: An AI War Room for Legacy Code — Ford Prior, GEICO",
-      "description": "At GEICO, coding got fast but everything around it (decisions, sign-offs, context) stayed slow. Ford Prior's fix was a multiplayer, AI-native war room: the right decision makers, one driver, and fleets of agents wired into GEICO's knowledge, tools and code. His bet was that one day and $1,000 in tokens could map a legacy claims domain end to end and ship one real change. He ran it three times across rentals, damages and salvage. He covers FleetKit, the markdown rulebook that steers the agent fleet, plus the worksheets and diagrams it produced and what he'd change next.\n\nChapters:\n- 00:00 Inner loop vs. outer loop\n- 02:05 Claims tech at GEICO\n- 04:37 The AI-native war room\n- 05:23 The one-day, $1,000 experiment\n- 06:33 Three modernization missions\n- 08:29 What the vendor brings vs. what GEICO brings\n- 09:47 FleetKit: running an agent fleet\n- 11:55 Inside the war room\n- 15:58 Lessons and what's next\n\nFord Prior, GEICO: https://www.geico.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
-      "youtube_url": "https://www.youtube.com/watch?v=DouK81O8R3o",
-      "published": "2026-10-21T09:00:26+00:00",
-      "duration": 1122,
-      "image": "https://i.ytimg.com/vi_webp/DouK81O8R3o/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/DouK81O8R3o.mp3",
-      "audio_bytes": 8977581
-    },
-    {
-      "id": "uA4ah-dVHvU",
-      "title": "AI Cut Our Research Time From 7 Days to 15 Minutes — Gareth Yoder, Vanguard",
-      "description": "Gareth Yoder leads the cash program at Vanguard. He walks through modernizing a cash ledger that takes up to 30 million calls a day, running data, producer and consumer migrations in parallel. The turning point was exposing the legacy code base to AI tools through an MCP server. Research that took a mainframe engineer seven days dropped to 15 minutes. He closes with five lessons: make legacy code AI-queryable, treat migration docs as product, reimagine instead of lift-and-shift, adopt AI incrementally, and never skip observability.\n\nChapters:\n- 00:00 Intro\n- 01:10 What a cash ledger is\n- 01:52 Three migrations in parallel\n- 02:32 Legacy code over MCP: 7 days to 15 minutes\n- 03:20 Data migration\n- 04:12 Producer migration\n- 06:38 Consumer migration\n- 08:58 Onboarding 50 consumers\n- 11:11 What we learned\n- 13:12 Five takeaways\n\nGareth Yoder, Vanguard: https://investor.vanguard.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
-      "youtube_url": "https://www.youtube.com/watch?v=uA4ah-dVHvU",
-      "published": "2026-10-21T08:00:37+00:00",
-      "duration": 938,
-      "image": "https://i.ytimg.com/vi_webp/uA4ah-dVHvU/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/uA4ah-dVHvU.mp3",
-      "audio_bytes": 7506861
-    },
-    {
-      "id": "YvQ4BVTWfHI",
-      "title": "Is a Faster Model Actually Faster? Test the Whole Job — Morgan Suo, MiniMax",
-      "description": "A faster model only helps if the finished job gets faster. Morgan Suo of MiniMax uses one real research task to test the changes inside the M3.1 Flash model: an analyst checking whether circuit-board suppliers are turning AI demand into cash. The changes are sparse attention on long inputs, a 4-bit KV cache, low-precision experts, speculative decoding, server load and reasoning budgets. Each one saves compute, and each can quietly cost accuracy or wait time. She then shows how to judge a model switch: check sources and calculations, count the full cost of a usable report, and make the result repeatable.\n\nChapters:\n- 00:00 Intro\n- 01:44 The research job\n- 03:20 Profit vs. cash flow\n- 04:22 What changed inside the model\n- 05:09 Sparse attention on long inputs\n- 07:53 4-bit KV cache\n- 08:59 Low-precision experts\n- 10:20 Speculative decoding\n- 11:39 Throughput vs. wait time\n- 13:09 Reasoning budgets\n- 14:41 How to evaluate a model switch\n- 16:12 Recap\n\nMorgan Suo, MiniMax: https://www.minimax.io\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
-      "youtube_url": "https://www.youtube.com/watch?v=YvQ4BVTWfHI",
-      "published": "2026-10-21T07:00:34+00:00",
-      "duration": 1062,
-      "image": "https://i.ytimg.com/vi_webp/YvQ4BVTWfHI/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/YvQ4BVTWfHI.mp3",
-      "audio_bytes": 8498349
     }
   ],
   "skipped": {
