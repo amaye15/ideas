@@ -7,6 +7,17 @@
   },
   "episodes": [
     {
+      "id": "Wk2bUUGFC_o",
+      "title": "Why AI Startups Will Disappear Without Compute Markets — Evan Conrad, San Francisco Compute",
+      "description": "Evan Conrad explains how San Francisco Compute, which began as an AI lab that had to sublease its own GPU cluster to stay alive, ended up both operating clusters and running a market for them. He walks through the chain of problems a new lab or inference company hits: everyone is sold out, the deposit eats the bank balance, clusters arrive late and break, and demand is nearly impossible to predict. He argues these are all one risk problem, that AI companies run into credit limits before power limits, and that without a working compute market the price of entry keeps climbing until no new startups can get in.\n\nChapters:\n- 00:00 Intro\n- 00:42 Physically settled compute\n- 01:35 Supercomputing as a service\n- 02:08 How a struggling AI lab became a GPU broker\n- 03:32 Two miracle problems\n- 04:26 Sold out, deposits and delays\n- 06:20 It's all one risk problem\n- 08:13 Credit, not power, is the bottleneck\n- 10:13 What a compute market has to solve\n- 11:37 Why you have to operate the cluster\n- 13:05 Why nobody does physical settlement\n- 13:59 From $10M to $1B deposits\n- 15:26 Why startups need this\n\nEvan Conrad, San Francisco Compute: https://sfcompute.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=Wk2bUUGFC_o",
+      "published": "2026-10-22T23:00:12+00:00",
+      "duration": 1069,
+      "image": "https://i.ytimg.com/vi_webp/Wk2bUUGFC_o/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/Wk2bUUGFC_o.mp3",
+      "audio_bytes": 8548461
+    },
+    {
       "id": "Ve2bAarPA2I",
       "title": "Better AI Models Won't Fix Your Engineering Team — Nicholas Arcolano, Jellyfish",
       "description": "Nicholas Arcolano, head of AI and research at Jellyfish, uses data from about 50,000 engineers at 447 companies to ask how much the model really matters for AI coding output. When Cursor pushed many of its users onto Grok, merged PRs barely moved. Breaking down what drives throughput, the tool explains under 1%, skill use about 3% (heavy skill users see roughly a 30% bump), token usage about 9%, company and team about 12%, and the individual engineer most of the rest. The engineers who were top performers before AI are mostly still the top performers now. His advice for leaders: focus on the people, skills and environment you can control.\n\nChapters:\n- 00:00 Intro\n- 00:40 A golf analogy\n- 02:01 Models keep getting better\n- 02:59 A natural experiment: the Grok switch\n- 04:54 What actually drives output\n- 07:14 The tool\n- 08:07 How well you use it: skills\n- 10:00 How much you use it: tokens\n- 11:23 Where you work\n- 12:22 You, the individual\n- 13:42 Is AI reshuffling the top engineers?\n- 14:50 What leaders can control\n\nNicholas Arcolano, Jellyfish: https://jellyfish.co\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
@@ -104,17 +115,6 @@
       "image": "https://i.ytimg.com/vi_webp/YvQ4BVTWfHI/maxresdefault.webp",
       "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/YvQ4BVTWfHI.mp3",
       "audio_bytes": 8498349
-    },
-    {
-      "id": "3axY1wz2OvA",
-      "title": "Same GPU, 50% More Output: Why the Operator Matters — Oliver Kennon, SemiAnalysis",
-      "description": "Buying GPUs gives you potential. The operator decides how much useful work you actually get out of them. Oliver Kennon looks at compute as a commodity market: on the same B200 chip, the serving stack alone can deliver about 50% more output. Cluster security is part of whether intelligence is \"useful\". SemiAnalysis's ClusterMAX rates operators, and rental price and production cost are different numbers. Your spot on the cost curve depends on your competitors, not just you. He closes on what it takes to build credible compute grades and futures.\n\nChapters:\n- 00:00 Intro\n- 01:05 Compute is a commodity market\n- 02:21 GPU hours are the input, intelligence is the output\n- 03:23 Same B200, ~50% more output\n- 04:45 What counts as useful intelligence\n- 06:33 Rating operators with ClusterMAX\n- 07:48 Rental price vs. production cost\n- 10:01 Your cost position is relative\n- 12:41 Grading comparable compute\n- 14:13 What compute futures can hedge\n- 15:54 Takeaways\n\nOliver Kennon, SemiAnalysis: https://semianalysis.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
-      "youtube_url": "https://www.youtube.com/watch?v=3axY1wz2OvA",
-      "published": "2026-10-20T23:00:22+00:00",
-      "duration": 1062,
-      "image": "https://i.ytimg.com/vi_webp/3axY1wz2OvA/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/3axY1wz2OvA.mp3",
-      "audio_bytes": 8496045
     }
   ],
   "skipped": {
