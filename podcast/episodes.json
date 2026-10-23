@@ -7,6 +7,61 @@
   },
   "episodes": [
     {
+      "id": "oP2WLFpMoDY",
+      "title": "Inside Arca's Long-Horizon Agents That Run the Business - Aman Singh, Arca",
+      "description": "Arca is an AI-native financial services firm where agents don't assist the business, they run it. Aman Singh, who leads AI at Arca, shows how long-horizon agents own a client goal end to end across days of stop-start work: a signal system that keeps agents aware of emails, calls, custodian events and in-app actions; operational context and a harness to do the work; persistent memory; and shared spaces where agents pull in the right person at the right time. The result: agents prompt people more than people prompt agents, and the firm steers the business by steering its agents.\n\nChapters\n00:00 Intro: Arca, an AI-native services firm\n01:19 Long-horizon vs long-running work\n01:54 Example: raising cash for a client's tax bill\n02:51 Agents own the outcome end to end\n04:17 Following one signal: the journey of an email\n05:28 Spaces: where agents pull in people\n06:08 Agents watch the world so people don't have to\n06:52 Handling a messy real world\n08:24 The primitives of long-horizon work\n09:00 Emergent complexity, and the last six months\n10:11 Why do this? Agents run the business\n11:15 Steering the business by steering agents\n12:28 Using AI tools vs being AI native\n\nAman Singh, Arca\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=oP2WLFpMoDY",
+      "published": "2026-10-23T21:00:21+00:00",
+      "duration": 795,
+      "image": "https://i.ytimg.com/vi_webp/oP2WLFpMoDY/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/oP2WLFpMoDY.mp3",
+      "audio_bytes": 6361389
+    },
+    {
+      "id": "5O6jLtoeKrg",
+      "title": "Real AI Agent Attacks and What Would Have Stopped Them — Andrey Rybka, Bloomberg",
+      "description": "Andrey Rybka of Bloomberg walks through real security incidents involving AI agents and the controls that would have stopped each one: an agent that escaped its sandbox and took 17,600 actions over four and a half days, a zero-click email injection, instructions hidden in Morse code that drained a wallet, data smuggled out through DNS lookups, a poisoned MCP package, and an agent that dropped a production database after promising not to touch prod. His layered defense: one identity per agent with short-lived scoped credentials, treat all input as hostile, route every tool call through a deterministic broker, default-deny outbound traffic including DNS, and require human sign-off for high-value actions.\n\nChapters:\n- 00:00 Intro\n- 00:40 An agent that escaped its sandbox\n- 02:07 Autonomy vs. blast radius\n- 03:04 The layered defense toolbox\n- 03:33 Identity and trust\n- 05:04 Prompt and input defense\n- 06:09 The rule of two\n- 06:36 Tool and action governance\n- 07:41 The Morse code attack\n- 08:38 Sandboxing and DNS exfiltration\n- 09:33 Data protection and memory\n- 11:32 Governance and observability\n- 13:18 Recap: three priorities\n\nAndrey Rybka, Bloomberg: https://www.bloomberg.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=5O6jLtoeKrg",
+      "published": "2026-10-23T19:00:34+00:00",
+      "duration": 944,
+      "image": "https://i.ytimg.com/vi_webp/5O6jLtoeKrg/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/5O6jLtoeKrg.mp3",
+      "audio_bytes": 7550061
+    },
+    {
+      "id": "GCse4OMzY8U",
+      "title": "Why Compute Still Trades in Group Chats — Affaan Mustafa & Alejandro Soumah Fernandez, Jump Trading",
+      "description": "Affaan Mustafa and Alejandro Soumah Fernandez lead compute trading at Jump Trading. They explain why most GPU capacity still trades out of public view: private quotes, bilateral contracts and deals struck over Slack, X and Telegram. They look at why GPU prices have held up even as token prices fell, how chips, power, buildings and capital all feed into the price of a GPU hour, and why mid-size companies get squeezed when a 15 to 25% prepayment on a three-year contract can eat a whole funding round. They also cover brokers, exchanges, futures and flexible contracts, export controls, and why the market needs standard contracts and well-capitalized players to bridge buyers and suppliers.\n\nChapters:\n- 00:00 Intro\n- 00:28 What a dark pool of compute is\n- 02:26 Cheaper tokens, more usage\n- 03:31 Why GPU prices held up\n- 05:08 Chips, power, buildings and capital\n- 06:06 Who's in the market\n- 07:32 The middle-market financing gap\n- 10:38 Build, colocate or rent\n- 12:50 Compute procurement and runway\n- 13:27 Who places capacity\n- 15:39 Why every deal is bespoke\n- 17:18 Structures for mismatched risk\n- 18:15 Policy and export controls\n- 19:17 Where the opportunity is\n\nAffaan Mustafa & Alejandro Soumah Fernandez, Jump Trading: https://www.jumptrading.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=GCse4OMzY8U",
+      "published": "2026-10-23T17:18:49+00:00",
+      "duration": 1237,
+      "image": "https://i.ytimg.com/vi_webp/GCse4OMzY8U/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/GCse4OMzY8U.mp3",
+      "audio_bytes": 9892461
+    },
+    {
+      "id": "opHmX7qClzE",
+      "title": "How OpenAI Built ChatGPT for Bankers and Analysts — Joseph Kim, OpenAI",
+      "description": "Joseph Kim leads ChatGPT for Financial Services, which launched a month before this talk with design partners Morgan Stanley and Evercore. He demos the product and explains the \"capability overhang\": the gap between what models can do and the value people actually get from them at work. He covers why the team licensed and indexed financial data themselves instead of relying on existing MCP connectors, and how firm templates, interactive charts and citation viewers were built on the same ChatGPT plugin platform open to developers. He then looks at where models are headed, the point where a task crosses the \"threshold of usefulness,\" and his three bets for finance in 2027.\n\nChapters:\n- 00:00 Intro\n- 01:07 What ChatGPT for Financial Services does\n- 02:37 Demo\n- 04:12 The capability overhang\n- 05:07 What Codex usage taught us\n- 06:01 Licensing and indexing financial data\n- 06:59 Firm templates, charts and citations\n- 07:55 Built on the ChatGPT plugin platform\n- 09:26 Where models are headed\n- 12:55 The threshold of usefulness\n- 14:50 Finance-specific training\n- 16:49 Proactive, persistent agents\n- 17:51 Three bets for finance in 2027\n\nJoseph Kim, OpenAI: https://openai.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=opHmX7qClzE",
+      "published": "2026-10-23T17:00:10+00:00",
+      "duration": 1139,
+      "image": "https://i.ytimg.com/vi_webp/opHmX7qClzE/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/opHmX7qClzE.mp3",
+      "audio_bytes": 9111213
+    },
+    {
+      "id": "laQ8wMysnkk",
+      "title": "Buying GPUs Should Work Like Buying Stocks — Carmen Li, Compute Exchange",
+      "description": "Carmen Li, CEO of Compute Exchange and Silicon Data and a former energy options market maker, explains why buying compute should work more like trading on an exchange than calling hundreds of salespeople. Compute Exchange is a neutral marketplace that owns no GPUs, verifies both providers and buyers, and handles reserved and forward contracts for GPUs and tokens, plus a busy market for used servers. After a platform demo, she turns to Silicon Data's numbers: forward curves for H100 and B200 have shifted up, the market expects prices to keep rising, and used H100s and B200s are holding their value well above standard depreciation.\n\nChapters:\n- 00:00 Intro\n- 00:40 Why compute needs an exchange\n- 02:19 Why a neutral exchange owns no GPUs\n- 03:25 Verifying providers and buyers\n- 04:24 Lessons from energy markets\n- 05:23 Reserved, forward and token contracts\n- 06:24 The secondary server market\n- 07:52 Requests for quote\n- 11:19 Platform demo\n- 12:29 Silicon Data and GPU futures\n- 13:00 The GPU forward curve\n- 15:54 What a GPU is worth over time\n\nCarmen Li, Compute Exchange & Silicon Data\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=laQ8wMysnkk",
+      "published": "2026-10-23T15:00:36+00:00",
+      "duration": 1085,
+      "image": "https://i.ytimg.com/vi_webp/laQ8wMysnkk/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/laQ8wMysnkk.mp3",
+      "audio_bytes": 8677101
+    },
+    {
       "id": "UB6hoWyh3B0",
       "title": "A Bank Trained Its Own Foundation Model to Catch Fraud — Freddy Lecue, Wells Fargo",
       "description": "Freddy Lecue explains how Wells Fargo pre-trained its own transformer from scratch on billions of customer transactions instead of words. The model learns to predict the next transaction, and that one backbone can then be fine-tuned for fraud detection, credit line decisions, anti-money laundering and marketing. He covers the hardest part, turning tabular data like amounts, timing, merchants and zip codes into tokens, plus the model's size and training setup. On fraud, it caught more fraudulent transactions with fewer false alarms than the production XGBoost model, while staying fast enough for real-time card approvals.\n\nChapters:\n- 00:00 Why a foundation model for transactions\n- 02:14 Why not just XGBoost?\n- 02:47 Billions of transactions\n- 03:22 Language models vs. transaction models\n- 04:45 Pre-training from scratch\n- 05:58 Who, what, how, when and where\n- 07:59 Turning tabular data into tokens\n- 09:42 Architecture and scaling\n- 12:10 Training setup\n- 13:44 Fraud detection results\n- 16:47 Recap\n\nFreddy Lecue, Wells Fargo: https://www.wellsfargo.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
@@ -60,61 +115,6 @@
       "image": "https://i.ytimg.com/vi_webp/Ve2bAarPA2I/maxresdefault.webp",
       "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/Ve2bAarPA2I.mp3",
       "audio_bytes": 7987053
-    },
-    {
-      "id": "mMw3arwQsL0",
-      "title": "1,368 AI Failures and What They Teach About Evals — Vishal Srivastava & Tanmay Sah, New York Life",
-      "description": "Vishal Srivastava and Tanmay Sah studied 1,368 incidents from a public AI incident database to ask what real failures say about how AI systems should be tested. They sort failures across three areas (technical strength, deployment controls and business impact) and 13 sub-areas that cover about 98% of incidents. Weak deployment controls, such as human review and monitoring, are the most closely tied to harm. They show how to rank use cases by how much is at stake, why the evaluator itself needs checking, and a build-break-fix loop that tries to prove a system wrong instead of right, applied to a real airline chatbot that gave a customer the wrong refund policy.\n\nChapters:\n- 00:00 Intro\n- 00:41 AI failures are rising fast\n- 01:35 Three dimensions of failure\n- 03:34 13 sub-dimensions\n- 06:09 What covers 98% of failures\n- 07:12 Which failures cause the most harm\n- 09:43 Ranking use cases by materiality\n- 10:43 Breaking risk into four parts\n- 11:40 What to test in an agentic system\n- 13:14 Can you trust the evaluator?\n- 13:48 Confirmation bias and failure-driven evals\n- 15:20 Build, break, fix\n- 17:03 A real chatbot failure\n- 18:30 Recap\n\nVishal Srivastava & Tanmay Sah, New York Life: https://www.newyorklife.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
-      "youtube_url": "https://www.youtube.com/watch?v=mMw3arwQsL0",
-      "published": "2026-10-22T09:00:12+00:00",
-      "duration": 1202,
-      "image": "https://i.ytimg.com/vi_webp/mMw3arwQsL0/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/mMw3arwQsL0.mp3",
-      "audio_bytes": 9612333
-    },
-    {
-      "id": "c_SPW__jF9w",
-      "title": "How to Test AI Agents When No Benchmark Exists — Nathanael Weill, Air Canada",
-      "description": "Nathanael Weill leads a team building AI agents at Air Canada, where tasks are so specific there's no public benchmark and domain experts have little time to grade results. His fix is to write the answer first: start from a known answer, generate the input from it, and check whether the agent finds its way back. He shows how that took a past RAG project from one expert-graded test a week to dozens of automated tests a day, then applies it to a supplier-contract review agent with five ways to build a test set: past decisions, planted rule violations, removed clauses, changes that shouldn't matter, and contract templates with filled-in blanks. He also explains why he avoids LLM judges whenever code can check the answer.\n\nChapters:\n- 00:00 Intro\n- 00:47 No benchmark, no experts\n- 01:41 A lesson from a telecom RAG project\n- 04:43 Weekly expert reviews were too slow\n- 05:38 Flip it: write the answer first\n- 06:33 From one test a week to dozens a day\n- 07:30 Supplier contract review\n- 10:08 How the contract agent works\n- 10:39 Five ways to build a test set\n- 12:31 Planting rule violations\n- 13:39 Removing clauses\n- 14:42 Changes that shouldn't matter\n- 15:38 Templates with blanks\n- 16:39 Avoid LLM judges when code can check\n- 18:07 Use expert feedback to build better tests\n\nNathanael Weill, Air Canada: https://www.aircanada.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
-      "youtube_url": "https://www.youtube.com/watch?v=c_SPW__jF9w",
-      "published": "2026-10-22T08:00:01+00:00",
-      "duration": 1190,
-      "image": "https://i.ytimg.com/vi_webp/c_SPW__jF9w/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/c_SPW__jF9w.mp3",
-      "audio_bytes": 9519981
-    },
-    {
-      "id": "_dTF3NpPzGo",
-      "title": "Why AI Writing Still Reads Like Slop — Louis-François Bouchard, Towards AI",
-      "description": "Louis-François Bouchard of Towards AI breaks down what makes AI writing feel like slop: overused words, vague generalities, saying nothing, repetition, hallucination and a voice that sounds like everyone at once. He then shows how his team built a benchmark to measure whether a model can write a video script in his own voice: 10 scripts, 5 drafts per model, 4 LLM judges, nine scoring metrics and 1,000 human A/B checks. He shares what it cost, why judges favor their own model family, and practical tips for writing with AI: very long prompts full of examples, one review pass from a strong model, many cheap drafts merged together, and always a human edit.\n\nChapters:\n- 00:00 What is slop?\n- 02:41 Measuring sloppy writing\n- 03:49 Why build another benchmark\n- 05:44 Can a model write like me?\n- 07:19 10 scripts, 5 drafts, 4 judges\n- 09:14 What gets measured\n- 11:10 How the judges score\n- 12:38 Judges prefer their own models\n- 13:46 Human A/B checks\n- 14:15 What it cost\n- 15:20 What we learned\n- 16:21 How to write better with AI\n\nLouis-François Bouchard, Towards AI: https://towardsai.net\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
-      "youtube_url": "https://www.youtube.com/watch?v=_dTF3NpPzGo",
-      "published": "2026-10-22T07:00:28+00:00",
-      "duration": 1142,
-      "image": "https://i.ytimg.com/vi_webp/_dTF3NpPzGo/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/_dTF3NpPzGo.mp3",
-      "audio_bytes": 9136173
-    },
-    {
-      "id": "CFbnVpSsDFQ",
-      "title": "The AI Content System Behind 200M Views — Sarah Chieng, Cerebras & Cova Lee, OpenAI",
-      "description": "Sarah Chieng (head of developer experience at Cerebras) and Cova Lee (OpenAI developer experience, formerly a full-time creator) share the agent-powered system they use to make content. It runs across six stages: ideating, scripting, recording, editing, repurposing and publishing. Topics include swipe files and custom research tools, voice-based scripting and script skills, shot lists, design systems, and editing through APIs and computer use. They also cover cutting long videos into shorts, scheduled publishing, and a weekly skill that reviews your own process. Their main point: let AI take the tedious work so you can treat content as a craft, not make slop.\n\nChapters:\n- 00:00 Intro\n- 01:12 Meet Sarah and Cova\n- 04:05 The six stages\n- 05:19 Ideation: swipe files and research tools\n- 09:34 Scripting with your voice\n- 12:35 Shot lists and recording\n- 17:06 Design systems\n- 18:39 Editing with AI\n- 23:13 Transforming your visuals\n- 26:16 Repurposing and captions\n- 28:00 Publishing on autopilot\n- 29:25 Reviewing your own process\n- 32:02 Don't make slop\n- 34:19 Gear\n- 36:25 Q&A\n\nSarah Chieng, Cerebras: https://www.cerebras.ai\nCova Lee, OpenAI: https://openai.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
-      "youtube_url": "https://www.youtube.com/watch?v=CFbnVpSsDFQ",
-      "published": "2026-10-21T23:00:14+00:00",
-      "duration": 3197,
-      "image": "https://i.ytimg.com/vi_webp/CFbnVpSsDFQ/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/CFbnVpSsDFQ.mp3",
-      "audio_bytes": 25577901
-    },
-    {
-      "id": "bU5gDVyu_28",
-      "title": "Does Code Quality Still Matter? It Depends on This — Max Kanat-Alexander, Capital One",
-      "description": "Every senior engineer's answer is \"it depends.\" Max Kanat-Alexander says what it actually depends on. Code quality always existed for two things: understanding a system and safely changing it. AI is making a new kind of software common: disposable software, with low consequences, few dependents and near-zero cost to replace or maintain. For that software, quality doesn't matter. For durable software it matters more than ever. He also shows how to make systems more disposable and how to make rigor cheap through standards, in-workflow tooling, easy testing and maximum strictness.\n\nChapters:\n- 00:00 \"It depends\" — on what?\n- 01:14 Understanding and execution\n- 02:42 Why structure matters\n- 04:47 The two risks of every change\n- 06:56 Disposable software\n- 07:59 Durable software\n- 09:54 Making software more disposable\n- 12:05 Lowering the cost of rigor\n- 15:50 The answer\n\nMax Kanat-Alexander, Capital One: https://www.capitalone.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
-      "youtube_url": "https://www.youtube.com/watch?v=bU5gDVyu_28",
-      "published": "2026-10-21T19:01:02+00:00",
-      "duration": 983,
-      "image": "https://i.ytimg.com/vi_webp/bU5gDVyu_28/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/bU5gDVyu_28.mp3",
-      "audio_bytes": 7863405
     }
   ],
   "skipped": {
