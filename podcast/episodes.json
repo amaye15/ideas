@@ -7,6 +7,17 @@
   },
   "episodes": [
     {
+      "id": "v5tm5EAzsAs",
+      "title": "Your Agent Fix Just Broke Something Else - Sofia Jakovcevic, Arize AI",
+      "description": "A one-line prompt change made a support agent 17 points safer and 17 points worse at finishing tasks. Sofia Jakovcevic, forward deployed engineer at Arize AI, explains why agents fail at runtime rather than in code, and walks through a five-step regression loop built from production traces: curate datasets, score with evaluators, run baseline experiments, compare changes, and gate merges in CI. Then she shows how to close the loop at agent speed, with coding agents that read traces and fix themselves.\n\nChapters\n00:00 Intro: observability for agents\n01:08 The real problem: fixes that break other things\n02:26 A one-line prompt change: +17 and -17\n04:48 Agents fail at runtime, not in code\n06:25 The five-step regression loop\n06:48 Step 1: Build datasets from production traces\n07:50 Step 2: Score with evaluators\n09:48 Steps 3-4: Baseline experiments and comparisons\n11:14 Step 5: Gate merges in CI\n11:48 Demo: experiments in Arise\n15:38 Using coding agents and skills\n16:12 Closing the loop at agent speed\n\nSofia Jakovcevic, Arize AI\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=v5tm5EAzsAs",
+      "published": "2026-10-24T19:00:09+00:00",
+      "duration": 1164,
+      "image": "https://i.ytimg.com/vi_webp/v5tm5EAzsAs/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/v5tm5EAzsAs.mp3",
+      "audio_bytes": 9313964
+    },
+    {
       "id": "CLve4Nx_RwI",
       "title": "How Bridgewater Turned 100 Million Documents Into an Edge - Sam Green & Aaron Linsky, Bridgewater",
       "description": "Bridgewater Associates built the Vault: more than 100 million documents from 135 external sources plus the firm's own memos and meetings, cleaned, permissioned and tagged to its internal ontology. Sam Green (team lead, Applied AI) and Aaron Linsky (head of product engineering) share three lessons: humans and agents need different things from search, the biggest wins come from one tool that serves both, and the real prize is agents that proactively bring investors what deserves their attention. Includes how a hand-built benchmark took precision at 10 from about 60% to over 90%.\n\nChapters\n00:00 Intro: three lessons from building the Vault\n01:11 Bridgewater's 50-year research process\n02:35 Why unstructured data needed the same rigor\n03:25 What's in the Vault\n04:14 Open web vs the Vault: a side-by-side\n06:53 Search for humans vs search for agents\n08:19 Benchmarking precision: \"Vault search is bad\"\n09:32 Fast filtering at scale\n11:35 Getting investors to change their habits\n13:02 What the Vault enables: analysts, forecasts, signals\n14:05 Proactive agents: the investor workbench\n15:44 How the Vault compounds what the firm learns\n\nSam Green, Bridgewater Associates\nAaron Linsky, Bridgewater Associates\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
@@ -104,17 +115,6 @@
       "image": "https://i.ytimg.com/vi_webp/UB6hoWyh3B0/maxresdefault.webp",
       "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/UB6hoWyh3B0.mp3",
       "audio_bytes": 8477229
-    },
-    {
-      "id": "uTrY8slys0w",
-      "title": "How to Let AI Agents Sign Up for Your App Safely — Isabelle Williams, WorkOS",
-      "description": "Isabelle Williams, a product manager at WorkOS, uses a travel app she built to show how to make an app ready for users who arrive as agents. She covers auth.md, an open file that tells agents how to get access; an anonymous mode where an agent can try the app before a person claims its work; and ID-JAG identity assertions, which let the agent's provider vouch for the user so nobody has to fill in a signup form. In a live demo, an agent signs up, plans a trip and books dinner on its own. She then shows how to give an in-app agent its own scoped token so it can be audited, limited and revoked without touching the user's access.\n\nChapters:\n- 00:00 Intro\n- 00:39 The demo app: Waypoint\n- 01:07 Three questions for agent-ready apps\n- 02:02 auth.md: a front door for agents\n- 03:45 Anonymous mode and claiming an agent's work\n- 04:50 Skipping signup with identity assertions\n- 07:22 What is an ID-JAG?\n- 09:15 Demo: an agent signs up and plans a trip\n- 11:22 Why this needs open standards\n- 11:49 Limiting and revoking agents\n- 14:46 Demo: a scoped funding agent\n- 17:44 Takeaways\n\nIsabelle Williams, WorkOS: https://workos.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
-      "youtube_url": "https://www.youtube.com/watch?v=uTrY8slys0w",
-      "published": "2026-10-23T08:00:39+00:00",
-      "duration": 1113,
-      "image": "https://i.ytimg.com/vi_webp/uTrY8slys0w/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/uTrY8slys0w.mp3",
-      "audio_bytes": 8903277
     }
   ],
   "skipped": {
