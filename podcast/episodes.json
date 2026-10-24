@@ -7,6 +7,28 @@
   },
   "episodes": [
     {
+      "id": "WOszaC1WWbQ",
+      "title": "Can AI Understand a Distressed Credit? - Harneet Kaur, Axim Intelligence",
+      "description": "Harneet Kaur, founder and CEO of Axim Intelligence and a former distressed credit investor, tests whether frontier models can reason about a live distressed situation: iHeartMedia. Given the same context, two top models disagreed sharply on the odds of bankruptcy versus a negotiated restructuring. Breaking the analysis into checked layers (extraction, derivation, judgment, prediction) brought them to the same answer, which raises a new question: is agreement the same as being right?\n\nChapters\n00:00 Intro\n00:42 What distressed credit actually means\n02:34 Why old scoring models fall short\n04:30 What it means to understand a credit\n05:46 Can AI predict what happens next?\n06:13 Case study: iHeartMedia, and two models disagree\n08:01 Benchmarking each layer of reasoning\n11:07 Structured reasoning makes the models converge\n12:03 Takeaways: convergence vs correctness\n\nHarneet Kaur, Axim Intelligence\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=WOszaC1WWbQ",
+      "published": "2026-10-24T09:00:16+00:00",
+      "duration": 854,
+      "image": "https://i.ytimg.com/vi_webp/WOszaC1WWbQ/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/WOszaC1WWbQ.mp3",
+      "audio_bytes": 6833708
+    },
+    {
+      "id": "ZMZlAn6Pyfg",
+      "title": "Proving Alpha: How a Hedge Fund Measures AI's ROI - Hari Kumar, Contour Asset Management",
+      "description": "Hari Kumar, head of AI at Contour Asset Management, a $6B fundamental long/short fund focused on tech, media and telecom, tackles the hardest question in AI adoption: what are we actually getting for the spend? He shares how Contour runs live A/B tests of analysts' research with and without AI tools, tracks \"cost per useful insight,\" uses agents to resurface old ideas when the market makes them interesting again, and extends the same thinking to trading, ops and compliance.\n\nChapters\n00:00 Intro: AI at a $6B fundamental fund\n01:45 Why AI ROI is so hard to capture\n02:25 Live A/B tests of research with and without AI\n05:42 Measuring the process, not just P&L\n06:24 Idea generation and timing agents\n08:57 Bringing alternative data together\n10:04 Time spent and cost per useful insight\n11:44 AI across trading, ops and compliance\n14:35 Getting more from existing data spend\n16:40 The hidden cost of fixing AI tools\n\nHari Kumar, Contour Asset Management\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=ZMZlAn6Pyfg",
+      "published": "2026-10-24T08:00:28+00:00",
+      "duration": 1104,
+      "image": "https://i.ytimg.com/vi_webp/ZMZlAn6Pyfg/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/ZMZlAn6Pyfg.mp3",
+      "audio_bytes": 8829164
+    },
+    {
       "id": "oP2WLFpMoDY",
       "title": "Inside Arca's Long-Horizon Agents That Run the Business - Aman Singh, Arca",
       "description": "Arca is an AI-native financial services firm where agents don't assist the business, they run it. Aman Singh, who leads AI at Arca, shows how long-horizon agents own a client goal end to end across days of stop-start work: a signal system that keeps agents aware of emails, calls, custodian events and in-app actions; operational context and a harness to do the work; persistent memory; and shared spaces where agents pull in the right person at the right time. The result: agents prompt people more than people prompt agents, and the firm steers the business by steering its agents.\n\nChapters\n00:00 Intro: Arca, an AI-native services firm\n01:19 Long-horizon vs long-running work\n01:54 Example: raising cash for a client's tax bill\n02:51 Agents own the outcome end to end\n04:17 Following one signal: the journey of an email\n05:28 Spaces: where agents pull in people\n06:08 Agents watch the world so people don't have to\n06:52 Handling a messy real world\n08:24 The primitives of long-horizon work\n09:00 Emergent complexity, and the last six months\n10:11 Why do this? Agents run the business\n11:15 Steering the business by steering agents\n12:28 Using AI tools vs being AI native\n\nAman Singh, Arca\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
@@ -93,28 +115,6 @@
       "image": "https://i.ytimg.com/vi_webp/A3FL_zTQKU0/maxresdefault.webp",
       "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/A3FL_zTQKU0.mp3",
       "audio_bytes": 8251053
-    },
-    {
-      "id": "Wk2bUUGFC_o",
-      "title": "Why AI Startups Will Disappear Without Compute Markets — Evan Conrad, San Francisco Compute",
-      "description": "Evan Conrad explains how San Francisco Compute, which began as an AI lab that had to sublease its own GPU cluster to stay alive, ended up both operating clusters and running a market for them. He walks through the chain of problems a new lab or inference company hits: everyone is sold out, the deposit eats the bank balance, clusters arrive late and break, and demand is nearly impossible to predict. He argues these are all one risk problem, that AI companies run into credit limits before power limits, and that without a working compute market the price of entry keeps climbing until no new startups can get in.\n\nChapters:\n- 00:00 Intro\n- 00:42 Physically settled compute\n- 01:35 Supercomputing as a service\n- 02:08 How a struggling AI lab became a GPU broker\n- 03:32 Two miracle problems\n- 04:26 Sold out, deposits and delays\n- 06:20 It's all one risk problem\n- 08:13 Credit, not power, is the bottleneck\n- 10:13 What a compute market has to solve\n- 11:37 Why you have to operate the cluster\n- 13:05 Why nobody does physical settlement\n- 13:59 From $10M to $1B deposits\n- 15:26 Why startups need this\n\nEvan Conrad, San Francisco Compute: https://sfcompute.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
-      "youtube_url": "https://www.youtube.com/watch?v=Wk2bUUGFC_o",
-      "published": "2026-10-22T23:00:12+00:00",
-      "duration": 1069,
-      "image": "https://i.ytimg.com/vi_webp/Wk2bUUGFC_o/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/Wk2bUUGFC_o.mp3",
-      "audio_bytes": 8548461
-    },
-    {
-      "id": "Ve2bAarPA2I",
-      "title": "Better AI Models Won't Fix Your Engineering Team — Nicholas Arcolano, Jellyfish",
-      "description": "Nicholas Arcolano, head of AI and research at Jellyfish, uses data from about 50,000 engineers at 447 companies to ask how much the model really matters for AI coding output. When Cursor pushed many of its users onto Grok, merged PRs barely moved. Breaking down what drives throughput, the tool explains under 1%, skill use about 3% (heavy skill users see roughly a 30% bump), token usage about 9%, company and team about 12%, and the individual engineer most of the rest. The engineers who were top performers before AI are mostly still the top performers now. His advice for leaders: focus on the people, skills and environment you can control.\n\nChapters:\n- 00:00 Intro\n- 00:40 A golf analogy\n- 02:01 Models keep getting better\n- 02:59 A natural experiment: the Grok switch\n- 04:54 What actually drives output\n- 07:14 The tool\n- 08:07 How well you use it: skills\n- 10:00 How much you use it: tokens\n- 11:23 Where you work\n- 12:22 You, the individual\n- 13:42 Is AI reshuffling the top engineers?\n- 14:50 What leaders can control\n\nNicholas Arcolano, Jellyfish: https://jellyfish.co\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
-      "youtube_url": "https://www.youtube.com/watch?v=Ve2bAarPA2I",
-      "published": "2026-10-22T19:00:39+00:00",
-      "duration": 998,
-      "image": "https://i.ytimg.com/vi_webp/Ve2bAarPA2I/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/Ve2bAarPA2I.mp3",
-      "audio_bytes": 7987053
     }
   ],
   "skipped": {
