@@ -7,6 +7,17 @@
   },
   "episodes": [
     {
+      "id": "CLve4Nx_RwI",
+      "title": "How Bridgewater Turned 100 Million Documents Into an Edge - Sam Green & Aaron Linsky, Bridgewater",
+      "description": "Bridgewater Associates built the Vault: more than 100 million documents from 135 external sources plus the firm's own memos and meetings, cleaned, permissioned and tagged to its internal ontology. Sam Green (team lead, Applied AI) and Aaron Linsky (head of product engineering) share three lessons: humans and agents need different things from search, the biggest wins come from one tool that serves both, and the real prize is agents that proactively bring investors what deserves their attention. Includes how a hand-built benchmark took precision at 10 from about 60% to over 90%.\n\nChapters\n00:00 Intro: three lessons from building the Vault\n01:11 Bridgewater's 50-year research process\n02:35 Why unstructured data needed the same rigor\n03:25 What's in the Vault\n04:14 Open web vs the Vault: a side-by-side\n06:53 Search for humans vs search for agents\n08:19 Benchmarking precision: \"Vault search is bad\"\n09:32 Fast filtering at scale\n11:35 Getting investors to change their habits\n13:02 What the Vault enables: analysts, forecasts, signals\n14:05 Proactive agents: the investor workbench\n15:44 How the Vault compounds what the firm learns\n\nSam Green, Bridgewater Associates\nAaron Linsky, Bridgewater Associates\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=CLve4Nx_RwI",
+      "published": "2026-10-24T15:00:38+00:00",
+      "duration": 1004,
+      "image": "https://i.ytimg.com/vi_webp/CLve4Nx_RwI/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/CLve4Nx_RwI.mp3",
+      "audio_bytes": 8035244
+    },
+    {
       "id": "WOszaC1WWbQ",
       "title": "Can AI Understand a Distressed Credit? - Harneet Kaur, Axim Intelligence",
       "description": "Harneet Kaur, founder and CEO of Axim Intelligence and a former distressed credit investor, tests whether frontier models can reason about a live distressed situation: iHeartMedia. Given the same context, two top models disagreed sharply on the odds of bankruptcy versus a negotiated restructuring. Breaking the analysis into checked layers (extraction, derivation, judgment, prediction) brought them to the same answer, which raises a new question: is agreement the same as being right?\n\nChapters\n00:00 Intro\n00:42 What distressed credit actually means\n02:34 Why old scoring models fall short\n04:30 What it means to understand a credit\n05:46 Can AI predict what happens next?\n06:13 Case study: iHeartMedia, and two models disagree\n08:01 Benchmarking each layer of reasoning\n11:07 Structured reasoning makes the models converge\n12:03 Takeaways: convergence vs correctness\n\nHarneet Kaur, Axim Intelligence\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
@@ -104,17 +115,6 @@
       "image": "https://i.ytimg.com/vi_webp/uTrY8slys0w/maxresdefault.webp",
       "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/uTrY8slys0w.mp3",
       "audio_bytes": 8903277
-    },
-    {
-      "id": "A3FL_zTQKU0",
-      "title": "Don't Trust Your AI Agents. Test Them Like a Scientist — Stephanie Jarmak, Omni Analytics",
-      "description": "Stephanie Jarmak, a former astronomer who now builds evals at Omni Analytics after building a large coding benchmark at Sourcegraph, argues that most agent evaluations are easy to misread. She shows how swapping only the harness moved results by 30%, why public benchmarks are for shortlisting rather than decisions, and how to design your own evals like an experiment: realistic tasks, repeated runs, full traces and a measurement that matches what you care about. She also covers quality gates that actually stop work, the human review bottleneck, agent records you can't trust, and why production is the final test.\n\nChapters:\n- 00:00 Intro\n- 01:11 When the agent ignores your tool\n- 02:47 The harness changes the results\n- 03:51 Public benchmarks vs. your own evals\n- 05:34 Designing evals like a scientist\n- 07:05 Trace the whole pipeline\n- 08:50 Choose what you measure\n- 09:48 Quality gates that actually stop work\n- 11:20 The human review bottleneck\n- 12:20 When the agent's record can't be trusted\n- 13:21 Production is truth\n- 15:05 When to escalate to a human\n\nStephanie Jarmak, Omni Analytics: https://omni.co\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
-      "youtube_url": "https://www.youtube.com/watch?v=A3FL_zTQKU0",
-      "published": "2026-10-23T07:00:08+00:00",
-      "duration": 1031,
-      "image": "https://i.ytimg.com/vi_webp/A3FL_zTQKU0/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/A3FL_zTQKU0.mp3",
-      "audio_bytes": 8251053
     }
   ],
   "skipped": {
