@@ -7,6 +7,17 @@
   },
   "episodes": [
     {
+      "id": "ImnZ7s68jw8",
+      "title": "What Does an AI Engineer Do Now? - Aparna Dhinakaran, Arize AI",
+      "description": "Aparna Dhinakaran of Arize AI revisits what an AI engineer actually does as the field moves from writing features to running factories of agents. The job now is building the loop: evals that review non-deterministic work, telemetry that agents consume, and agents that act on it. She walks through how Arize built Signal, an always-on agent that reads traces, remembers past issues and opens PRs, covering triggers, sandboxes, durable state, and evaluating the evaluators.\n\nChapters\n00:00 Intro: what does an AI engineer do?\n00:38 Karpathy's funnel: who's running thousands of agents\n01:45 Rising abstraction, from code to agent factories\n02:23 Then vs now: build the loop, not the feature\n03:31 Signal: an always-on agent for your traces\n04:45 Agents are now the main consumers of telemetry\n05:19 What triggers an always-on agent\n06:01 Inside a run: context, sandbox, proxy\n07:11 What persists and what gets torn down\n08:13 Designing durable agents\n09:14 Model and harness agnostic\n10:21 Writing evals, and evaluating the evaluators\n12:48 Trace everything, including your coding agents\n14:17 Closing the gap between labs and businesses\n\nAparna Dhinakaran, Arize AI\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=ImnZ7s68jw8",
+      "published": "2026-10-25T19:00:32+00:00",
+      "duration": 927,
+      "image": "https://i.ytimg.com/vi_webp/ImnZ7s68jw8/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/ImnZ7s68jw8.mp3",
+      "audio_bytes": 7416620
+    },
+    {
       "id": "u_jvuCjuvEk",
       "title": "Can Your AI Analyst Keep a Secret? - Aaron Linsky, Bridgewater & Nikhil Benesch, turbopuffer",
       "description": "An AI analyst at a firm like Bridgewater needs private documents, but every email, memo and research note carries its own permissions. Aaron Linsky (head of product engineering, Bridgewater Associates) explains why the Vault's 100 million permissioned documents broke their first search setup, and Nikhil Benesch (CTO, turbopuffer) breaks down the fix: post-filtering loses recall, pre-filtering is too slow, and \"native filtering\" over a clustered vector index gets both, delivering about 120ms P90 searches across 400 million vectors.\n\nChapters\n00:00 Intro: why permissions matter for AI analysts\n02:07 Bridgewater's research process\n03:43 The Vault: 100M documents, many permissions\n05:14 Modeling permissions, and where it broke\n06:25 What turbopuffer is\n08:01 Napkin math: why brute force fails at scale\n09:43 How vector indexes work\n11:50 Permissions break the index\n12:19 Post-filtering vs pre-filtering\n14:09 Native filtering: the best of both\n15:23 Results: 120ms across 100M documents\n15:47 Writing permission filters in practice\n17:00 Beyond permissions: isolation-native search\n\nAaron Linsky, Bridgewater Associates\nNikhil Benesch, turbopuffer\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
@@ -104,17 +115,6 @@
       "image": "https://i.ytimg.com/vi_webp/ZMZlAn6Pyfg/maxresdefault.webp",
       "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/ZMZlAn6Pyfg.mp3",
       "audio_bytes": 8829164
-    },
-    {
-      "id": "oP2WLFpMoDY",
-      "title": "Inside Arca's Long-Horizon Agents That Run the Business - Aman Singh, Arca",
-      "description": "Arca is an AI-native financial services firm where agents don't assist the business, they run it. Aman Singh, who leads AI at Arca, shows how long-horizon agents own a client goal end to end across days of stop-start work: a signal system that keeps agents aware of emails, calls, custodian events and in-app actions; operational context and a harness to do the work; persistent memory; and shared spaces where agents pull in the right person at the right time. The result: agents prompt people more than people prompt agents, and the firm steers the business by steering its agents.\n\nChapters\n00:00 Intro: Arca, an AI-native services firm\n01:19 Long-horizon vs long-running work\n01:54 Example: raising cash for a client's tax bill\n02:51 Agents own the outcome end to end\n04:17 Following one signal: the journey of an email\n05:28 Spaces: where agents pull in people\n06:08 Agents watch the world so people don't have to\n06:52 Handling a messy real world\n08:24 The primitives of long-horizon work\n09:00 Emergent complexity, and the last six months\n10:11 Why do this? Agents run the business\n11:15 Steering the business by steering agents\n12:28 Using AI tools vs being AI native\n\nAman Singh, Arca\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
-      "youtube_url": "https://www.youtube.com/watch?v=oP2WLFpMoDY",
-      "published": "2026-10-23T21:00:21+00:00",
-      "duration": 795,
-      "image": "https://i.ytimg.com/vi_webp/oP2WLFpMoDY/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/oP2WLFpMoDY.mp3",
-      "audio_bytes": 6361389
     }
   ],
   "skipped": {
