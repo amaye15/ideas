@@ -7,6 +7,17 @@
   },
   "episodes": [
     {
+      "id": "u_jvuCjuvEk",
+      "title": "Can Your AI Analyst Keep a Secret? - Aaron Linsky, Bridgewater & Nikhil Benesch, turbopuffer",
+      "description": "An AI analyst at a firm like Bridgewater needs private documents, but every email, memo and research note carries its own permissions. Aaron Linsky (head of product engineering, Bridgewater Associates) explains why the Vault's 100 million permissioned documents broke their first search setup, and Nikhil Benesch (CTO, turbopuffer) breaks down the fix: post-filtering loses recall, pre-filtering is too slow, and \"native filtering\" over a clustered vector index gets both, delivering about 120ms P90 searches across 400 million vectors.\n\nChapters\n00:00 Intro: why permissions matter for AI analysts\n02:07 Bridgewater's research process\n03:43 The Vault: 100M documents, many permissions\n05:14 Modeling permissions, and where it broke\n06:25 What turbopuffer is\n08:01 Napkin math: why brute force fails at scale\n09:43 How vector indexes work\n11:50 Permissions break the index\n12:19 Post-filtering vs pre-filtering\n14:09 Native filtering: the best of both\n15:23 Results: 120ms across 100M documents\n15:47 Writing permission filters in practice\n17:00 Beyond permissions: isolation-native search\n\nAaron Linsky, Bridgewater Associates\nNikhil Benesch, turbopuffer\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=u_jvuCjuvEk",
+      "published": "2026-10-25T15:00:33+00:00",
+      "duration": 1076,
+      "image": "https://i.ytimg.com/vi_webp/u_jvuCjuvEk/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/u_jvuCjuvEk.mp3",
+      "audio_bytes": 8610284
+    },
+    {
       "id": "DZ24Xbm9Joc",
       "title": "How to Build Financial Agents That Work Across the Web - Jay Sahnan & Arik Bird, Browserbase",
       "description": "Some of the most important financial data sits behind logins and anti-bot walls, with no API. Jay Sahnan and Arik Bird of Browserbase show how browser agents solve this through three case studies: Ramp fetching receipts at scale (over 30,000 manual hours saved), Bill paying across thousands of different vendor portals with one agent, and Stripe automating KYC checks. They also cover how Browserbase forked Chromium to run reliably in the cloud, and how Stagehand's act, extract and observe primitives keep automations from breaking when sites change.\n\nChapters\n00:00 Intro\n00:27 What is a browser agent?\n01:37 Ramp, Bill and Stripe: data on the hardest-to-reach web\n02:13 Ramp: fetching receipts at scale\n03:34 Why browsers get blocked in the data center\n06:03 Forking Chromium for the cloud\n07:49 Demo: 100 browsers at once\n10:11 Bill: one agent, thousands of portals\n11:08 Stagehand vs Playwright\n14:52 Stripe: automating KYC\n15:52 Act, extract and observe\n16:35 Demo: researching 20 companies in parallel\n\nJay Sahnan, Browserbase\nArik Bird, Browserbase\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
@@ -104,17 +115,6 @@
       "image": "https://i.ytimg.com/vi_webp/oP2WLFpMoDY/maxresdefault.webp",
       "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/oP2WLFpMoDY.mp3",
       "audio_bytes": 6361389
-    },
-    {
-      "id": "5O6jLtoeKrg",
-      "title": "Real AI Agent Attacks and What Would Have Stopped Them — Andrey Rybka, Bloomberg",
-      "description": "Andrey Rybka of Bloomberg walks through real security incidents involving AI agents and the controls that would have stopped each one: an agent that escaped its sandbox and took 17,600 actions over four and a half days, a zero-click email injection, instructions hidden in Morse code that drained a wallet, data smuggled out through DNS lookups, a poisoned MCP package, and an agent that dropped a production database after promising not to touch prod. His layered defense: one identity per agent with short-lived scoped credentials, treat all input as hostile, route every tool call through a deterministic broker, default-deny outbound traffic including DNS, and require human sign-off for high-value actions.\n\nChapters:\n- 00:00 Intro\n- 00:40 An agent that escaped its sandbox\n- 02:07 Autonomy vs. blast radius\n- 03:04 The layered defense toolbox\n- 03:33 Identity and trust\n- 05:04 Prompt and input defense\n- 06:09 The rule of two\n- 06:36 Tool and action governance\n- 07:41 The Morse code attack\n- 08:38 Sandboxing and DNS exfiltration\n- 09:33 Data protection and memory\n- 11:32 Governance and observability\n- 13:18 Recap: three priorities\n\nAndrey Rybka, Bloomberg: https://www.bloomberg.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
-      "youtube_url": "https://www.youtube.com/watch?v=5O6jLtoeKrg",
-      "published": "2026-10-23T19:00:34+00:00",
-      "duration": 944,
-      "image": "https://i.ytimg.com/vi_webp/5O6jLtoeKrg/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/5O6jLtoeKrg.mp3",
-      "audio_bytes": 7550061
     }
   ],
   "skipped": {
