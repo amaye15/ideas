@@ -7,6 +7,17 @@
   },
   "episodes": [
     {
+      "id": "kspZP5BgkEU",
+      "title": "AI Writes the Code. So What's Left for Engineers? - Laurie Voss, Arize AI",
+      "description": "Laurie Voss, head of developer relations at Arize AI and co-founder of npm, argues that coding agents made writing code nearly free, so the bottleneck keeps moving: first to code review, then to operations and security. What agents can't take over is finding out what people actually need and defining what \"good\" means. He calls the job that remains the product engineer, looks at the data on collapsing junior hiring, and lays out what engineering leaders should do now.\n\nChapters\n00:00 Intro: beyond the AI engineer\n01:19 Code got free, so the bottleneck moved\n03:04 8x more code, only 30% faster shipping\n04:39 Can machines do code review?\n08:02 The theory of constraints\n09:00 The next bottlenecks: ops and security\n11:21 What agents won't eat: deciding what good means\n13:45 Essential complexity and the spec\n16:34 The product engineer\n19:45 The junior developer problem\n22:57 For people who love the craft\n25:11 What to do now\n\nLaurie Voss, Arize AI\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=kspZP5BgkEU",
+      "published": "2026-10-24T23:00:29+00:00",
+      "duration": 1629,
+      "image": "https://i.ytimg.com/vi_webp/kspZP5BgkEU/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/kspZP5BgkEU.mp3",
+      "audio_bytes": 13031852
+    },
+    {
       "id": "v5tm5EAzsAs",
       "title": "Your Agent Fix Just Broke Something Else - Sofia Jakovcevic, Arize AI",
       "description": "A one-line prompt change made a support agent 17 points safer and 17 points worse at finishing tasks. Sofia Jakovcevic, forward deployed engineer at Arize AI, explains why agents fail at runtime rather than in code, and walks through a five-step regression loop built from production traces: curate datasets, score with evaluators, run baseline experiments, compare changes, and gate merges in CI. Then she shows how to close the loop at agent speed, with coding agents that read traces and fix themselves.\n\nChapters\n00:00 Intro: observability for agents\n01:08 The real problem: fixes that break other things\n02:26 A one-line prompt change: +17 and -17\n04:48 Agents fail at runtime, not in code\n06:25 The five-step regression loop\n06:48 Step 1: Build datasets from production traces\n07:50 Step 2: Score with evaluators\n09:48 Steps 3-4: Baseline experiments and comparisons\n11:14 Step 5: Gate merges in CI\n11:48 Demo: experiments in Arise\n15:38 Using coding agents and skills\n16:12 Closing the loop at agent speed\n\nSofia Jakovcevic, Arize AI\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
@@ -104,17 +115,6 @@
       "image": "https://i.ytimg.com/vi_webp/laQ8wMysnkk/maxresdefault.webp",
       "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/laQ8wMysnkk.mp3",
       "audio_bytes": 8677101
-    },
-    {
-      "id": "UB6hoWyh3B0",
-      "title": "A Bank Trained Its Own Foundation Model to Catch Fraud — Freddy Lecue, Wells Fargo",
-      "description": "Freddy Lecue explains how Wells Fargo pre-trained its own transformer from scratch on billions of customer transactions instead of words. The model learns to predict the next transaction, and that one backbone can then be fine-tuned for fraud detection, credit line decisions, anti-money laundering and marketing. He covers the hardest part, turning tabular data like amounts, timing, merchants and zip codes into tokens, plus the model's size and training setup. On fraud, it caught more fraudulent transactions with fewer false alarms than the production XGBoost model, while staying fast enough for real-time card approvals.\n\nChapters:\n- 00:00 Why a foundation model for transactions\n- 02:14 Why not just XGBoost?\n- 02:47 Billions of transactions\n- 03:22 Language models vs. transaction models\n- 04:45 Pre-training from scratch\n- 05:58 Who, what, how, when and where\n- 07:59 Turning tabular data into tokens\n- 09:42 Architecture and scaling\n- 12:10 Training setup\n- 13:44 Fraud detection results\n- 16:47 Recap\n\nFreddy Lecue, Wells Fargo: https://www.wellsfargo.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
-      "youtube_url": "https://www.youtube.com/watch?v=UB6hoWyh3B0",
-      "published": "2026-10-23T09:00:35+00:00",
-      "duration": 1060,
-      "image": "https://i.ytimg.com/vi_webp/UB6hoWyh3B0/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/UB6hoWyh3B0.mp3",
-      "audio_bytes": 8477229
     }
   ],
   "skipped": {
