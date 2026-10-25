@@ -7,6 +7,39 @@
   },
   "episodes": [
     {
+      "id": "DZ24Xbm9Joc",
+      "title": "How to Build Financial Agents That Work Across the Web - Jay Sahnan & Arik Bird, Browserbase",
+      "description": "Some of the most important financial data sits behind logins and anti-bot walls, with no API. Jay Sahnan and Arik Bird of Browserbase show how browser agents solve this through three case studies: Ramp fetching receipts at scale (over 30,000 manual hours saved), Bill paying across thousands of different vendor portals with one agent, and Stripe automating KYC checks. They also cover how Browserbase forked Chromium to run reliably in the cloud, and how Stagehand's act, extract and observe primitives keep automations from breaking when sites change.\n\nChapters\n00:00 Intro\n00:27 What is a browser agent?\n01:37 Ramp, Bill and Stripe: data on the hardest-to-reach web\n02:13 Ramp: fetching receipts at scale\n03:34 Why browsers get blocked in the data center\n06:03 Forking Chromium for the cloud\n07:49 Demo: 100 browsers at once\n10:11 Bill: one agent, thousands of portals\n11:08 Stagehand vs Playwright\n14:52 Stripe: automating KYC\n15:52 Act, extract and observe\n16:35 Demo: researching 20 companies in parallel\n\nJay Sahnan, Browserbase\nArik Bird, Browserbase\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=DZ24Xbm9Joc",
+      "published": "2026-10-25T09:00:10+00:00",
+      "duration": 1177,
+      "image": "https://i.ytimg.com/vi_webp/DZ24Xbm9Joc/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/DZ24Xbm9Joc.mp3",
+      "audio_bytes": 9416876
+    },
+    {
+      "id": "dZgA6btnb_s",
+      "title": "Do Not Let Models Invent Numbers - Vinoo Ganesh, Kepler",
+      "description": "In finance, you never show a figure you can't trace. Vinoo Ganesh, CEO of Kepler (previously Palantir and Citadel), explains Kepler's architecture where models cite numbers but never write them: retrieval finds the source, deterministic code does the math, and a post-processing filter strips any figure that can't be verified. He covers the citation registry built from more than 30 million SEC documents, hybrid search and re-ranking on turbopuffer, tenant isolation, and why plain RAG produced thousands of wrong numbers in their evals.\n\nChapters\n00:00 Intro\n01:47 Why LLMs and financial numbers don't mix\n04:02 Models cite numbers, code does the math\n04:30 Building a citation registry from SEC filings\n06:03 How Kepler answers a question end to end\n08:27 Structuring facts: value, unit, scale, period\n09:48 Hybrid search and re-ranking on turbopuffer\n11:30 Tenant isolation and security\n12:37 Making every number traceable\n14:42 Stripping what can't be verified\n16:41 What plain RAG gets wrong\n18:32 Kepler in action\n19:46 Where the guarantees end\n\nVinoo Ganesh, Kepler\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=dZgA6btnb_s",
+      "published": "2026-10-25T08:00:12+00:00",
+      "duration": 1258,
+      "image": "https://i.ytimg.com/vi_webp/dZgA6btnb_s/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/dZgA6btnb_s.mp3",
+      "audio_bytes": 10061996
+    },
+    {
+      "id": "aVbRSIQO2dE",
+      "title": "Why Frontier Models Fail as Buy-Side Analysts - Janie Gu, Google DeepMind & Suyeol Yun, LinqAlpha",
+      "description": "Janie Gu, product manager at Google DeepMind leading Kaggle Benchmarks, explains why most AI benchmarks are broken: they don't reflect real work, they're expensive to keep current, and their scores can't be verified. After reproducing 65 industry benchmarks, Kaggle found models reading other models' API keys, rewriting grading scripts, and scores swinging up to 20% between identical runs. Suyeol Yun, head of AI at LinqAlpha, then presents MandateBench, built with Google DeepMind and Kaggle, which grades whether a model can work like a buy-side analyst, from a fund's mandate to a full investment memo.\n\nChapters\n00:00 Intro\n01:10 Kaggle: from grading humans to grading models\n02:52 Why benchmarks are broken\n05:25 What reproducing 65 benchmarks revealed\n08:20 How Google DeepMind and Kaggle are fixing it\n10:20 Why your company should build a benchmark\n11:44 LinqAlpha and MandateBench\n12:32 Where existing finance benchmarks fall short\n13:31 A real analyst task, start to finish\n15:33 Grading the reasoning, not just the answer\n16:41 Early results\n17:18 What's next and how to get involved\n\nJanie Gu, Google DeepMind\nSuyeol Yun, LinqAlpha\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=aVbRSIQO2dE",
+      "published": "2026-10-25T07:00:32+00:00",
+      "duration": 1111,
+      "image": "https://i.ytimg.com/vi_webp/aVbRSIQO2dE/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/aVbRSIQO2dE.mp3",
+      "audio_bytes": 8889452
+    },
+    {
       "id": "kspZP5BgkEU",
       "title": "AI Writes the Code. So What's Left for Engineers? - Laurie Voss, Arize AI",
       "description": "Laurie Voss, head of developer relations at Arize AI and co-founder of npm, argues that coding agents made writing code nearly free, so the bottleneck keeps moving: first to code review, then to operations and security. What agents can't take over is finding out what people actually need and defining what \"good\" means. He calls the job that remains the product engineer, looks at the data on collapsing junior hiring, and lays out what engineering leaders should do now.\n\nChapters\n00:00 Intro: beyond the AI engineer\n01:19 Code got free, so the bottleneck moved\n03:04 8x more code, only 30% faster shipping\n04:39 Can machines do code review?\n08:02 The theory of constraints\n09:00 The next bottlenecks: ops and security\n11:21 What agents won't eat: deciding what good means\n13:45 Essential complexity and the spec\n16:34 The product engineer\n19:45 The junior developer problem\n22:57 For people who love the craft\n25:11 What to do now\n\nLaurie Voss, Arize AI\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
@@ -82,39 +115,6 @@
       "image": "https://i.ytimg.com/vi_webp/5O6jLtoeKrg/maxresdefault.webp",
       "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/5O6jLtoeKrg.mp3",
       "audio_bytes": 7550061
-    },
-    {
-      "id": "GCse4OMzY8U",
-      "title": "Why Compute Still Trades in Group Chats — Affaan Mustafa & Alejandro Soumah Fernandez, Jump Trading",
-      "description": "Affaan Mustafa and Alejandro Soumah Fernandez lead compute trading at Jump Trading. They explain why most GPU capacity still trades out of public view: private quotes, bilateral contracts and deals struck over Slack, X and Telegram. They look at why GPU prices have held up even as token prices fell, how chips, power, buildings and capital all feed into the price of a GPU hour, and why mid-size companies get squeezed when a 15 to 25% prepayment on a three-year contract can eat a whole funding round. They also cover brokers, exchanges, futures and flexible contracts, export controls, and why the market needs standard contracts and well-capitalized players to bridge buyers and suppliers.\n\nChapters:\n- 00:00 Intro\n- 00:28 What a dark pool of compute is\n- 02:26 Cheaper tokens, more usage\n- 03:31 Why GPU prices held up\n- 05:08 Chips, power, buildings and capital\n- 06:06 Who's in the market\n- 07:32 The middle-market financing gap\n- 10:38 Build, colocate or rent\n- 12:50 Compute procurement and runway\n- 13:27 Who places capacity\n- 15:39 Why every deal is bespoke\n- 17:18 Structures for mismatched risk\n- 18:15 Policy and export controls\n- 19:17 Where the opportunity is\n\nAffaan Mustafa & Alejandro Soumah Fernandez, Jump Trading: https://www.jumptrading.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
-      "youtube_url": "https://www.youtube.com/watch?v=GCse4OMzY8U",
-      "published": "2026-10-23T17:18:49+00:00",
-      "duration": 1237,
-      "image": "https://i.ytimg.com/vi_webp/GCse4OMzY8U/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/GCse4OMzY8U.mp3",
-      "audio_bytes": 9892461
-    },
-    {
-      "id": "opHmX7qClzE",
-      "title": "How OpenAI Built ChatGPT for Bankers and Analysts — Joseph Kim, OpenAI",
-      "description": "Joseph Kim leads ChatGPT for Financial Services, which launched a month before this talk with design partners Morgan Stanley and Evercore. He demos the product and explains the \"capability overhang\": the gap between what models can do and the value people actually get from them at work. He covers why the team licensed and indexed financial data themselves instead of relying on existing MCP connectors, and how firm templates, interactive charts and citation viewers were built on the same ChatGPT plugin platform open to developers. He then looks at where models are headed, the point where a task crosses the \"threshold of usefulness,\" and his three bets for finance in 2027.\n\nChapters:\n- 00:00 Intro\n- 01:07 What ChatGPT for Financial Services does\n- 02:37 Demo\n- 04:12 The capability overhang\n- 05:07 What Codex usage taught us\n- 06:01 Licensing and indexing financial data\n- 06:59 Firm templates, charts and citations\n- 07:55 Built on the ChatGPT plugin platform\n- 09:26 Where models are headed\n- 12:55 The threshold of usefulness\n- 14:50 Finance-specific training\n- 16:49 Proactive, persistent agents\n- 17:51 Three bets for finance in 2027\n\nJoseph Kim, OpenAI: https://openai.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
-      "youtube_url": "https://www.youtube.com/watch?v=opHmX7qClzE",
-      "published": "2026-10-23T17:00:10+00:00",
-      "duration": 1139,
-      "image": "https://i.ytimg.com/vi_webp/opHmX7qClzE/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/opHmX7qClzE.mp3",
-      "audio_bytes": 9111213
-    },
-    {
-      "id": "laQ8wMysnkk",
-      "title": "Buying GPUs Should Work Like Buying Stocks — Carmen Li, Compute Exchange",
-      "description": "Carmen Li, CEO of Compute Exchange and Silicon Data and a former energy options market maker, explains why buying compute should work more like trading on an exchange than calling hundreds of salespeople. Compute Exchange is a neutral marketplace that owns no GPUs, verifies both providers and buyers, and handles reserved and forward contracts for GPUs and tokens, plus a busy market for used servers. After a platform demo, she turns to Silicon Data's numbers: forward curves for H100 and B200 have shifted up, the market expects prices to keep rising, and used H100s and B200s are holding their value well above standard depreciation.\n\nChapters:\n- 00:00 Intro\n- 00:40 Why compute needs an exchange\n- 02:19 Why a neutral exchange owns no GPUs\n- 03:25 Verifying providers and buyers\n- 04:24 Lessons from energy markets\n- 05:23 Reserved, forward and token contracts\n- 06:24 The secondary server market\n- 07:52 Requests for quote\n- 11:19 Platform demo\n- 12:29 Silicon Data and GPU futures\n- 13:00 The GPU forward curve\n- 15:54 What a GPU is worth over time\n\nCarmen Li, Compute Exchange & Silicon Data\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
-      "youtube_url": "https://www.youtube.com/watch?v=laQ8wMysnkk",
-      "published": "2026-10-23T15:00:36+00:00",
-      "duration": 1085,
-      "image": "https://i.ytimg.com/vi_webp/laQ8wMysnkk/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/laQ8wMysnkk.mp3",
-      "audio_bytes": 8677101
     }
   ],
   "skipped": {
