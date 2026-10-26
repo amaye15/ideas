@@ -7,6 +7,17 @@
   },
   "episodes": [
     {
+      "id": "gv4w23xYj-0",
+      "title": "How to Write Your First AI Eval - SallyAnn DeLucia, Arize AI",
+      "description": "A hands-on workshop from SallyAnn DeLucia, head of product at Arize AI, on moving from vibe checks to real evals. She covers what an eval is and how it differs from a unit test, the main types (LLM as a judge, decision models, code evals, annotations, agent as a judge), how to read a trace, how to write concrete pass/fail criteria, and how to build and iterate on an LLM judge in Arize's prompt playground.\n\nChapters\n00:00 Intro and agenda\n02:06 Why vibe checks don't scale\n03:08 Is an eval just a unit test?\n04:13 Why agents make evals harder\n05:15 Types of evals\n07:29 Workshop setup\n10:16 Exploring the travel agent's traces\n14:20 How to read a trace\n19:03 Defining what good means\n22:02 Writing pass/fail criteria\n25:19 Building a dataset from traces\n26:53 Building and testing an LLM judge\n32:08 Next steps: alignment, online evals, Signal\n\nSallyAnn DeLucia, Arize AI\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=gv4w23xYj-0",
+      "published": "2026-10-25T23:00:27+00:00",
+      "duration": 2119,
+      "image": "https://i.ytimg.com/vi_webp/gv4w23xYj-0/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/gv4w23xYj-0.mp3",
+      "audio_bytes": 16953644
+    },
+    {
       "id": "ImnZ7s68jw8",
       "title": "What Does an AI Engineer Do Now? - Aparna Dhinakaran, Arize AI",
       "description": "Aparna Dhinakaran of Arize AI revisits what an AI engineer actually does as the field moves from writing features to running factories of agents. The job now is building the loop: evals that review non-deterministic work, telemetry that agents consume, and agents that act on it. She walks through how Arize built Signal, an always-on agent that reads traces, remembers past issues and opens PRs, covering triggers, sandboxes, durable state, and evaluating the evaluators.\n\nChapters\n00:00 Intro: what does an AI engineer do?\n00:38 Karpathy's funnel: who's running thousands of agents\n01:45 Rising abstraction, from code to agent factories\n02:23 Then vs now: build the loop, not the feature\n03:31 Signal: an always-on agent for your traces\n04:45 Agents are now the main consumers of telemetry\n05:19 What triggers an always-on agent\n06:01 Inside a run: context, sandbox, proxy\n07:11 What persists and what gets torn down\n08:13 Designing durable agents\n09:14 Model and harness agnostic\n10:21 Writing evals, and evaluating the evaluators\n12:48 Trace everything, including your coding agents\n14:17 Closing the gap between labs and businesses\n\nAparna Dhinakaran, Arize AI\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
@@ -104,17 +115,6 @@
       "image": "https://i.ytimg.com/vi_webp/WOszaC1WWbQ/maxresdefault.webp",
       "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/WOszaC1WWbQ.mp3",
       "audio_bytes": 6833708
-    },
-    {
-      "id": "ZMZlAn6Pyfg",
-      "title": "Proving Alpha: How a Hedge Fund Measures AI's ROI - Hari Kumar, Contour Asset Management",
-      "description": "Hari Kumar, head of AI at Contour Asset Management, a $6B fundamental long/short fund focused on tech, media and telecom, tackles the hardest question in AI adoption: what are we actually getting for the spend? He shares how Contour runs live A/B tests of analysts' research with and without AI tools, tracks \"cost per useful insight,\" uses agents to resurface old ideas when the market makes them interesting again, and extends the same thinking to trading, ops and compliance.\n\nChapters\n00:00 Intro: AI at a $6B fundamental fund\n01:45 Why AI ROI is so hard to capture\n02:25 Live A/B tests of research with and without AI\n05:42 Measuring the process, not just P&L\n06:24 Idea generation and timing agents\n08:57 Bringing alternative data together\n10:04 Time spent and cost per useful insight\n11:44 AI across trading, ops and compliance\n14:35 Getting more from existing data spend\n16:40 The hidden cost of fixing AI tools\n\nHari Kumar, Contour Asset Management\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
-      "youtube_url": "https://www.youtube.com/watch?v=ZMZlAn6Pyfg",
-      "published": "2026-10-24T08:00:28+00:00",
-      "duration": 1104,
-      "image": "https://i.ytimg.com/vi_webp/ZMZlAn6Pyfg/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/ZMZlAn6Pyfg.mp3",
-      "audio_bytes": 8829164
     }
   ],
   "skipped": {
