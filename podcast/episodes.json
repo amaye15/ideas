@@ -7,6 +7,39 @@
   },
   "episodes": [
     {
+      "id": "4UtrRVtUN_g",
+      "title": "How to Build an AI Code Review Agent - Daksh Gupta, Greptile",
+      "description": "Daksh Gupta, co-founder of Greptile, which reviews about 1% of all pull requests on GitHub, shares what Greptile tells companies that want to build their own review agent. Starting from a simple sandbox-plus-webhook setup, he explains why it misses bugs, costs $3-25 per PR and floods you with nitpicks, then walks through the fixes: targeted prompts, a dataset of past incident PRs, model inversion (reviewing Claude-written code with GPT and vice versa catches about 10% more bugs), codebase context and a living wiki, autonomous testing in sandboxes with computer use, and routing cheaper models to most subtasks.\n\nChapters\n00:00 Intro: Greptile and why companies build their own\n01:22 What makes a great review agent\n02:38 The simple version: sandbox, agent, webhook\n03:55 What goes wrong\n06:02 Fix 1: Better prompts and fewer nitpicks\n07:44 Fix 2: A dataset of historical PRs\n09:02 Fix 3: Model inversion\n11:04 Fix 4: Codebase context\n12:36 Docs, tickets and a living wiki\n14:26 Fix 5: Autonomous testing with computer use\n16:05 Fix 6: Cheaper models for most subtasks\n\nDaksh Gupta, Greptile\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=4UtrRVtUN_g",
+      "published": "2026-10-26T09:00:23+00:00",
+      "duration": 1107,
+      "image": "https://i.ytimg.com/vi_webp/4UtrRVtUN_g/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/4UtrRVtUN_g.mp3",
+      "audio_bytes": 8854124
+    },
+    {
+      "id": "Y_p3y6zP5QE",
+      "title": "Build Your Own Team of Managed Agents - Jack Wotherspoon, Google DeepMind",
+      "description": "Jack Wotherspoon, developer experience engineer at Google DeepMind, introduces Gemini Managed Agents: coding agents that run in cloud sandboxes from a single API call instead of on your laptop. He covers the Interactions API, the Antigravity harness, environments that several agents can share, uploaded skills and AGENTS.md files, a proxy that keeps secrets out of the sandbox, scheduled triggers and multi-agent workflows. Demos include an SEC filing researcher handing its work to a quant agent, and a stock research app built in AI Studio.\n\nChapters\n00:00 Intro: what are managed agents?\n00:54 Why run agents in the cloud\n02:13 Doing it yourself vs one API call\n03:26 The Interactions API\n04:32 How it works under the hood\n05:22 Building blocks: harness, environment, skills, credentials, triggers\n07:02 Choosing models, including Gemini 4 Argon\n08:51 Interactions and environments\n10:46 Tools, MCP servers and file mounts\n12:21 Keeping secrets out of the sandbox\n13:12 Triggers and scheduled agents\n13:37 Multi-agent workflows\n14:32 Demo: SEC research to quant analysis to report\n16:34 Demo: managed agents inside an app\n17:44 Getting started in AI Studio\n\nJack Wotherspoon, Google DeepMind\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=Y_p3y6zP5QE",
+      "published": "2026-10-26T08:00:11+00:00",
+      "duration": 1183,
+      "image": "https://i.ytimg.com/vi_webp/Y_p3y6zP5QE/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/Y_p3y6zP5QE.mp3",
+      "audio_bytes": 9467180
+    },
+    {
+      "id": "OmyqelTwpOo",
+      "title": "How to Build Voice Agents That Don't Fall Apart When You Interrupt - Jesse Hall, LiveKit",
+      "description": "Jesse Hall of LiveKit shows how to build voice agents for financial services that feel human, not robotic. He explains why model leaderboards mislead (they score components, but you ship a conversation), why you should measure time to first audio and time to first sentence instead of first byte or first token, and how async tool calls keep a conversation flowing while slow back-end work runs. He also covers audio-aware turn detection, the roughly 1.5-second latency budget (500-600ms feels truly human), and benchmarking your own stack with simulated callers.\n\nChapters\n00:00 Intro: real-time agents vs background agents\n01:47 Humanlike voice agents for financial services\n03:46 LiveKit and the voice pipeline\n04:21 Cascaded pipelines vs speech-to-speech\n05:05 Why leaderboards don't pick your stack\n06:46 Time to first audio, not first byte\n07:52 Time to first sentence, not first token\n08:38 Hiding slow tool calls like a human would\n10:14 Demo: hotel booking agent\n12:33 Turn detection: knowing when to listen\n14:02 The latency budget\n15:44 Benchmarking your stack with simulated callers\n18:35 Results and a pre-launch checklist\n\nJesse Hall, LiveKit\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=OmyqelTwpOo",
+      "published": "2026-10-26T07:00:26+00:00",
+      "duration": 1255,
+      "image": "https://i.ytimg.com/vi_webp/OmyqelTwpOo/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/OmyqelTwpOo.mp3",
+      "audio_bytes": 10038380
+    },
+    {
       "id": "gv4w23xYj-0",
       "title": "How to Write Your First AI Eval - SallyAnn DeLucia, Arize AI",
       "description": "A hands-on workshop from SallyAnn DeLucia, head of product at Arize AI, on moving from vibe checks to real evals. She covers what an eval is and how it differs from a unit test, the main types (LLM as a judge, decision models, code evals, annotations, agent as a judge), how to read a trace, how to write concrete pass/fail criteria, and how to build and iterate on an LLM judge in Arize's prompt playground.\n\nChapters\n00:00 Intro and agenda\n02:06 Why vibe checks don't scale\n03:08 Is an eval just a unit test?\n04:13 Why agents make evals harder\n05:15 Types of evals\n07:29 Workshop setup\n10:16 Exploring the travel agent's traces\n14:20 How to read a trace\n19:03 Defining what good means\n22:02 Writing pass/fail criteria\n25:19 Building a dataset from traces\n26:53 Building and testing an LLM judge\n32:08 Next steps: alignment, online evals, Signal\n\nSallyAnn DeLucia, Arize AI\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
@@ -82,39 +115,6 @@
       "image": "https://i.ytimg.com/vi_webp/kspZP5BgkEU/maxresdefault.webp",
       "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/kspZP5BgkEU.mp3",
       "audio_bytes": 13031852
-    },
-    {
-      "id": "v5tm5EAzsAs",
-      "title": "Your Agent Fix Just Broke Something Else - Sofia Jakovcevic, Arize AI",
-      "description": "A one-line prompt change made a support agent 17 points safer and 17 points worse at finishing tasks. Sofia Jakovcevic, forward deployed engineer at Arize AI, explains why agents fail at runtime rather than in code, and walks through a five-step regression loop built from production traces: curate datasets, score with evaluators, run baseline experiments, compare changes, and gate merges in CI. Then she shows how to close the loop at agent speed, with coding agents that read traces and fix themselves.\n\nChapters\n00:00 Intro: observability for agents\n01:08 The real problem: fixes that break other things\n02:26 A one-line prompt change: +17 and -17\n04:48 Agents fail at runtime, not in code\n06:25 The five-step regression loop\n06:48 Step 1: Build datasets from production traces\n07:50 Step 2: Score with evaluators\n09:48 Steps 3-4: Baseline experiments and comparisons\n11:14 Step 5: Gate merges in CI\n11:48 Demo: experiments in Arise\n15:38 Using coding agents and skills\n16:12 Closing the loop at agent speed\n\nSofia Jakovcevic, Arize AI\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
-      "youtube_url": "https://www.youtube.com/watch?v=v5tm5EAzsAs",
-      "published": "2026-10-24T19:00:09+00:00",
-      "duration": 1164,
-      "image": "https://i.ytimg.com/vi_webp/v5tm5EAzsAs/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/v5tm5EAzsAs.mp3",
-      "audio_bytes": 9313964
-    },
-    {
-      "id": "CLve4Nx_RwI",
-      "title": "How Bridgewater Turned 100 Million Documents Into an Edge - Sam Green & Aaron Linsky, Bridgewater",
-      "description": "Bridgewater Associates built the Vault: more than 100 million documents from 135 external sources plus the firm's own memos and meetings, cleaned, permissioned and tagged to its internal ontology. Sam Green (team lead, Applied AI) and Aaron Linsky (head of product engineering) share three lessons: humans and agents need different things from search, the biggest wins come from one tool that serves both, and the real prize is agents that proactively bring investors what deserves their attention. Includes how a hand-built benchmark took precision at 10 from about 60% to over 90%.\n\nChapters\n00:00 Intro: three lessons from building the Vault\n01:11 Bridgewater's 50-year research process\n02:35 Why unstructured data needed the same rigor\n03:25 What's in the Vault\n04:14 Open web vs the Vault: a side-by-side\n06:53 Search for humans vs search for agents\n08:19 Benchmarking precision: \"Vault search is bad\"\n09:32 Fast filtering at scale\n11:35 Getting investors to change their habits\n13:02 What the Vault enables: analysts, forecasts, signals\n14:05 Proactive agents: the investor workbench\n15:44 How the Vault compounds what the firm learns\n\nSam Green, Bridgewater Associates\nAaron Linsky, Bridgewater Associates\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
-      "youtube_url": "https://www.youtube.com/watch?v=CLve4Nx_RwI",
-      "published": "2026-10-24T15:00:38+00:00",
-      "duration": 1004,
-      "image": "https://i.ytimg.com/vi_webp/CLve4Nx_RwI/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/CLve4Nx_RwI.mp3",
-      "audio_bytes": 8035244
-    },
-    {
-      "id": "WOszaC1WWbQ",
-      "title": "Can AI Understand a Distressed Credit? - Harneet Kaur, Axim Intelligence",
-      "description": "Harneet Kaur, founder and CEO of Axim Intelligence and a former distressed credit investor, tests whether frontier models can reason about a live distressed situation: iHeartMedia. Given the same context, two top models disagreed sharply on the odds of bankruptcy versus a negotiated restructuring. Breaking the analysis into checked layers (extraction, derivation, judgment, prediction) brought them to the same answer, which raises a new question: is agreement the same as being right?\n\nChapters\n00:00 Intro\n00:42 What distressed credit actually means\n02:34 Why old scoring models fall short\n04:30 What it means to understand a credit\n05:46 Can AI predict what happens next?\n06:13 Case study: iHeartMedia, and two models disagree\n08:01 Benchmarking each layer of reasoning\n11:07 Structured reasoning makes the models converge\n12:03 Takeaways: convergence vs correctness\n\nHarneet Kaur, Axim Intelligence\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
-      "youtube_url": "https://www.youtube.com/watch?v=WOszaC1WWbQ",
-      "published": "2026-10-24T09:00:16+00:00",
-      "duration": 854,
-      "image": "https://i.ytimg.com/vi_webp/WOszaC1WWbQ/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/WOszaC1WWbQ.mp3",
-      "audio_bytes": 6833708
     }
   ],
   "skipped": {
