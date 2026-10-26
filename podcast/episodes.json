@@ -7,6 +7,28 @@
   },
   "episodes": [
     {
+      "id": "UGuNt2_Oz8s",
+      "title": "Agents That Self Improve While You Sleep - Fuad Ali, Arize AI",
+      "description": "In this workshop, Fuad Ali of Arize AI shows how to build a self-improvement loop for AI agents: trace everything, let Signal (an always-on agent) read your traces on a schedule and file deduplicated issues, turn failures into evals and living regression datasets, run experiments to prove a fix works, and keep humans at the highest-leverage points: eval design, dataset curation and reviewing fixes. He demos the loop on a toy-shopping agent with a planted bug and takes questions on evaluating qualitative output, decision models and cost.\n\nChapters\n00:00 Intro and workshop setup\n05:42 Where is your team on the maturity curve?\n07:39 The loop: trace, signal, eval, experiment, fix\n08:46 Demo agent and tracing\n12:15 Signal: an always-on agent reading your traces\n16:11 Agent Studio and managed agents\n18:31 Turning failures into datasets\n20:32 Evals: code, LLM as a judge, decision models\n24:48 Creating an eval from a Signal issue\n27:01 Experiments: proving the fix works\n31:12 Keeping humans in the loop\n34:16 Toward a fully automated loop\n40:16 Q&A: evaluating qualitative output\n48:21 Q&A: decision models, data sources and cost\n\nFuad Ali, Arize AI\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=UGuNt2_Oz8s",
+      "published": "2026-10-26T23:00:39+00:00",
+      "duration": 3184,
+      "image": "https://i.ytimg.com/vi_webp/UGuNt2_Oz8s/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/UGuNt2_Oz8s.mp3",
+      "audio_bytes": 25474988
+    },
+    {
+      "id": "kRJjSOYqW0I",
+      "title": "How to Test Your Agents on Real Tasks With Harbor - Xander Song, Arize AI",
+      "description": "Xander Song, an engineer at Arize AI who works on Phoenix, introduces Harbor, an open source framework for evaluating agents on realistic tasks with real data in isolated sandboxes. He explains tasks, Docker environments, verifiers and rewards, trials and jobs, oracles that validate your setup before you spend tokens, and ATIF trajectories. Then he shows how his team runs Harbor at scale on Daytona and with Phoenix to test a prompt change that steered agents toward a new SQL tool, cutting tool calls without hurting correctness.\n\nChapters\n00:00 Intro: shipping on evidence, not vibes\n01:28 What Harbor is\n03:37 Architecture: tasks, environments, verifiers\n06:08 Trajectories, jobs and oracles\n07:58 Example: fixing a failing migration\n10:48 Verifiers as black-box integration tests\n14:21 Running at scale in parallel sandboxes\n17:04 Harbor with Phoenix\n20:37 How the Phoenix team uses Harbor\n25:07 Q&A: how Harbor orchestrates runs\n29:24 Q&A: complex systems and data size\n33:21 Case study: steering agents to a SQL tool\n38:34 Demo: datasets and experiments in Phoenix\n44:10 Demo: comparing jobs task by task\n48:31 Regression tests and skills\n\nXander Song, Arize AI\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=kRJjSOYqW0I",
+      "published": "2026-10-26T19:00:25+00:00",
+      "duration": 3361,
+      "image": "https://i.ytimg.com/vi_webp/kRJjSOYqW0I/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/kRJjSOYqW0I.mp3",
+      "audio_bytes": 26887340
+    },
+    {
       "id": "4UtrRVtUN_g",
       "title": "How to Build an AI Code Review Agent - Daksh Gupta, Greptile",
       "description": "Daksh Gupta, co-founder of Greptile, which reviews about 1% of all pull requests on GitHub, shares what Greptile tells companies that want to build their own review agent. Starting from a simple sandbox-plus-webhook setup, he explains why it misses bugs, costs $3-25 per PR and floods you with nitpicks, then walks through the fixes: targeted prompts, a dataset of past incident PRs, model inversion (reviewing Claude-written code with GPT and vice versa catches about 10% more bugs), codebase context and a living wiki, autonomous testing in sandboxes with computer use, and routing cheaper models to most subtasks.\n\nChapters\n00:00 Intro: Greptile and why companies build their own\n01:22 What makes a great review agent\n02:38 The simple version: sandbox, agent, webhook\n03:55 What goes wrong\n06:02 Fix 1: Better prompts and fewer nitpicks\n07:44 Fix 2: A dataset of historical PRs\n09:02 Fix 3: Model inversion\n11:04 Fix 4: Codebase context\n12:36 Docs, tickets and a living wiki\n14:26 Fix 5: Autonomous testing with computer use\n16:05 Fix 6: Cheaper models for most subtasks\n\nDaksh Gupta, Greptile\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
@@ -93,28 +115,6 @@
       "image": "https://i.ytimg.com/vi_webp/dZgA6btnb_s/maxresdefault.webp",
       "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/dZgA6btnb_s.mp3",
       "audio_bytes": 10061996
-    },
-    {
-      "id": "aVbRSIQO2dE",
-      "title": "Why Frontier Models Fail as Buy-Side Analysts - Janie Gu, Google DeepMind & Suyeol Yun, LinqAlpha",
-      "description": "Janie Gu, product manager at Google DeepMind leading Kaggle Benchmarks, explains why most AI benchmarks are broken: they don't reflect real work, they're expensive to keep current, and their scores can't be verified. After reproducing 65 industry benchmarks, Kaggle found models reading other models' API keys, rewriting grading scripts, and scores swinging up to 20% between identical runs. Suyeol Yun, head of AI at LinqAlpha, then presents MandateBench, built with Google DeepMind and Kaggle, which grades whether a model can work like a buy-side analyst, from a fund's mandate to a full investment memo.\n\nChapters\n00:00 Intro\n01:10 Kaggle: from grading humans to grading models\n02:52 Why benchmarks are broken\n05:25 What reproducing 65 benchmarks revealed\n08:20 How Google DeepMind and Kaggle are fixing it\n10:20 Why your company should build a benchmark\n11:44 LinqAlpha and MandateBench\n12:32 Where existing finance benchmarks fall short\n13:31 A real analyst task, start to finish\n15:33 Grading the reasoning, not just the answer\n16:41 Early results\n17:18 What's next and how to get involved\n\nJanie Gu, Google DeepMind\nSuyeol Yun, LinqAlpha\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
-      "youtube_url": "https://www.youtube.com/watch?v=aVbRSIQO2dE",
-      "published": "2026-10-25T07:00:32+00:00",
-      "duration": 1111,
-      "image": "https://i.ytimg.com/vi_webp/aVbRSIQO2dE/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/aVbRSIQO2dE.mp3",
-      "audio_bytes": 8889452
-    },
-    {
-      "id": "kspZP5BgkEU",
-      "title": "AI Writes the Code. So What's Left for Engineers? - Laurie Voss, Arize AI",
-      "description": "Laurie Voss, head of developer relations at Arize AI and co-founder of npm, argues that coding agents made writing code nearly free, so the bottleneck keeps moving: first to code review, then to operations and security. What agents can't take over is finding out what people actually need and defining what \"good\" means. He calls the job that remains the product engineer, looks at the data on collapsing junior hiring, and lays out what engineering leaders should do now.\n\nChapters\n00:00 Intro: beyond the AI engineer\n01:19 Code got free, so the bottleneck moved\n03:04 8x more code, only 30% faster shipping\n04:39 Can machines do code review?\n08:02 The theory of constraints\n09:00 The next bottlenecks: ops and security\n11:21 What agents won't eat: deciding what good means\n13:45 Essential complexity and the spec\n16:34 The product engineer\n19:45 The junior developer problem\n22:57 For people who love the craft\n25:11 What to do now\n\nLaurie Voss, Arize AI\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
-      "youtube_url": "https://www.youtube.com/watch?v=kspZP5BgkEU",
-      "published": "2026-10-24T23:00:29+00:00",
-      "duration": 1629,
-      "image": "https://i.ytimg.com/vi_webp/kspZP5BgkEU/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/kspZP5BgkEU.mp3",
-      "audio_bytes": 13031852
     }
   ],
   "skipped": {
