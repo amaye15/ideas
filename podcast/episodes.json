@@ -7,6 +7,39 @@
   },
   "episodes": [
     {
+      "id": "h8jgniNJcbQ",
+      "title": "Why Are We Still Governing AI Agents Like Software? - Tim Tyler, Gravitee",
+      "description": "Nobody would hire a worker with no ID, no manager and shared passwords, yet that's how most companies deploy AI agents. Tim Tyler of Gravitee presents the Agent Accountability framework, which governs agents like a digital workforce in three stages: Assignment (identity, team, a named human sponsor), Alignment (role, mission and least-privilege authority) and Administration (oversight scorecards, guardian agents and step-by-step recourse when agents go off course).\n\nChapters:\n0:00 The job posting nobody would accept\n1:15 Agents as a digital workforce\n2:27 Assignment: identity, team and sponsor\n6:00 Alignment: role and mission\n7:37 Authority and lowest scope\n9:34 Never assume alignment\n11:17 Administration: oversight scorecards\n13:35 Agents need micromanagers\n14:21 Recourse when agents go wrong\n17:05 Recap\n\nTim Tyler\nhttps://www.gravitee.io\nAgent Accountability Framework: https://agentaccountabilityframework.org\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=h8jgniNJcbQ",
+      "published": "2026-10-27T09:00:16+00:00",
+      "duration": 1092,
+      "image": "https://i.ytimg.com/vi_webp/h8jgniNJcbQ/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/h8jgniNJcbQ.mp3",
+      "audio_bytes": 8737580
+    },
+    {
+      "id": "BgLdvF7Qkh8",
+      "title": "300 Agents, 60 People: How We Secured Our Own AI Agents - Aiden Sochowski, Runlayer",
+      "description": "Runlayer is a company of about 60 people running 300+ agents every day. Founding engineer Aiden Sochowski shares what they found once they put a gateway in front of everything and logged every session and tool call: prompt injection through email, PR-review agents getting talked into approvals, over-permissioned bots, one poisoned agent contaminating others, buggy vibe-coded MCP servers burning tokens, and a model switch that raised costs over 100x in a week.\n\nChapters:\n0:00 Intro\n0:25 Zero visibility into company agents\n1:22 300 agents for 60 people\n3:38 Example: data exfiltration through email\n6:16 Attacks that unfold over a whole session\n8:50 Using session data to scope agents down\n10:56 One poisoned agent affects them all\n12:47 Beyond security: broken MCP servers\n14:08 Cost blowups from model switches\n15:36 Wrap-up\n\nAiden Sochowski\nhttps://runlayer.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=BgLdvF7Qkh8",
+      "published": "2026-10-27T08:00:00+00:00",
+      "duration": 998,
+      "image": "https://i.ytimg.com/vi_webp/BgLdvF7Qkh8/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/BgLdvF7Qkh8.mp3",
+      "audio_bytes": 7984172
+    },
+    {
+      "id": "aGIUg8zKI8A",
+      "title": "How a Trading Firm Ships New AI Models the Same Day - Noyan Tokgozoglu, Optiver",
+      "description": "At Optiver, a change rolled out to traders shows up in P&L within hours, so AI has to move fast and still be measurable. Noyan Tokgozoglu, head of AI Engineering, walks through Optiver's on-prem AI platform: an inference gateway for routing and budgets, same-day adoption of new frontier models benchmarked on internal golden sets, a model- and harness-agnostic \"meta harness\", and how they got AI spend back under control after the summer's big model releases.\n\nChapters:\n0:00 Intro\n0:22 What a market maker does\n1:00 Feedback in hours, not quarters\n2:53 Platform principles\n5:11 The AI platform stack\n7:06 Shipping frontier models the same day\n8:31 Staying model and harness agnostic\n9:53 Getting AI spend under control\n13:54 Meeting users where they are\n16:11 Q&A\n\nNoyan Tokgozoglu\nhttps://optiver.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=aGIUg8zKI8A",
+      "published": "2026-10-27T07:00:26+00:00",
+      "duration": 1402,
+      "image": "https://i.ytimg.com/vi_webp/aGIUg8zKI8A/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/aGIUg8zKI8A.mp3",
+      "audio_bytes": 11219564
+    },
+    {
       "id": "UGuNt2_Oz8s",
       "title": "Agents That Self Improve While You Sleep - Fuad Ali, Arize AI",
       "description": "In this workshop, Fuad Ali of Arize AI shows how to build a self-improvement loop for AI agents: trace everything, let Signal (an always-on agent) read your traces on a schedule and file deduplicated issues, turn failures into evals and living regression datasets, run experiments to prove a fix works, and keep humans at the highest-leverage points: eval design, dataset curation and reviewing fixes. He demos the loop on a toy-shopping agent with a planted bug and takes questions on evaluating qualitative output, decision models and cost.\n\nChapters\n00:00 Intro and workshop setup\n05:42 Where is your team on the maturity curve?\n07:39 The loop: trace, signal, eval, experiment, fix\n08:46 Demo agent and tracing\n12:15 Signal: an always-on agent reading your traces\n16:11 Agent Studio and managed agents\n18:31 Turning failures into datasets\n20:32 Evals: code, LLM as a judge, decision models\n24:48 Creating an eval from a Signal issue\n27:01 Experiments: proving the fix works\n31:12 Keeping humans in the loop\n34:16 Toward a fully automated loop\n40:16 Q&A: evaluating qualitative output\n48:21 Q&A: decision models, data sources and cost\n\nFuad Ali, Arize AI\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
@@ -82,39 +115,6 @@
       "image": "https://i.ytimg.com/vi_webp/ImnZ7s68jw8/maxresdefault.webp",
       "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/ImnZ7s68jw8.mp3",
       "audio_bytes": 7416620
-    },
-    {
-      "id": "u_jvuCjuvEk",
-      "title": "Can Your AI Analyst Keep a Secret? - Aaron Linsky, Bridgewater & Nikhil Benesch, turbopuffer",
-      "description": "An AI analyst at a firm like Bridgewater needs private documents, but every email, memo and research note carries its own permissions. Aaron Linsky (head of product engineering, Bridgewater Associates) explains why the Vault's 100 million permissioned documents broke their first search setup, and Nikhil Benesch (CTO, turbopuffer) breaks down the fix: post-filtering loses recall, pre-filtering is too slow, and \"native filtering\" over a clustered vector index gets both, delivering about 120ms P90 searches across 400 million vectors.\n\nChapters\n00:00 Intro: why permissions matter for AI analysts\n02:07 Bridgewater's research process\n03:43 The Vault: 100M documents, many permissions\n05:14 Modeling permissions, and where it broke\n06:25 What turbopuffer is\n08:01 Napkin math: why brute force fails at scale\n09:43 How vector indexes work\n11:50 Permissions break the index\n12:19 Post-filtering vs pre-filtering\n14:09 Native filtering: the best of both\n15:23 Results: 120ms across 100M documents\n15:47 Writing permission filters in practice\n17:00 Beyond permissions: isolation-native search\n\nAaron Linsky, Bridgewater Associates\nNikhil Benesch, turbopuffer\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
-      "youtube_url": "https://www.youtube.com/watch?v=u_jvuCjuvEk",
-      "published": "2026-10-25T15:00:33+00:00",
-      "duration": 1076,
-      "image": "https://i.ytimg.com/vi_webp/u_jvuCjuvEk/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/u_jvuCjuvEk.mp3",
-      "audio_bytes": 8610284
-    },
-    {
-      "id": "DZ24Xbm9Joc",
-      "title": "How to Build Financial Agents That Work Across the Web - Jay Sahnan & Arik Bird, Browserbase",
-      "description": "Some of the most important financial data sits behind logins and anti-bot walls, with no API. Jay Sahnan and Arik Bird of Browserbase show how browser agents solve this through three case studies: Ramp fetching receipts at scale (over 30,000 manual hours saved), Bill paying across thousands of different vendor portals with one agent, and Stripe automating KYC checks. They also cover how Browserbase forked Chromium to run reliably in the cloud, and how Stagehand's act, extract and observe primitives keep automations from breaking when sites change.\n\nChapters\n00:00 Intro\n00:27 What is a browser agent?\n01:37 Ramp, Bill and Stripe: data on the hardest-to-reach web\n02:13 Ramp: fetching receipts at scale\n03:34 Why browsers get blocked in the data center\n06:03 Forking Chromium for the cloud\n07:49 Demo: 100 browsers at once\n10:11 Bill: one agent, thousands of portals\n11:08 Stagehand vs Playwright\n14:52 Stripe: automating KYC\n15:52 Act, extract and observe\n16:35 Demo: researching 20 companies in parallel\n\nJay Sahnan, Browserbase\nArik Bird, Browserbase\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
-      "youtube_url": "https://www.youtube.com/watch?v=DZ24Xbm9Joc",
-      "published": "2026-10-25T09:00:10+00:00",
-      "duration": 1177,
-      "image": "https://i.ytimg.com/vi_webp/DZ24Xbm9Joc/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/DZ24Xbm9Joc.mp3",
-      "audio_bytes": 9416876
-    },
-    {
-      "id": "dZgA6btnb_s",
-      "title": "Do Not Let Models Invent Numbers - Vinoo Ganesh, Kepler",
-      "description": "In finance, you never show a figure you can't trace. Vinoo Ganesh, CEO of Kepler (previously Palantir and Citadel), explains Kepler's architecture where models cite numbers but never write them: retrieval finds the source, deterministic code does the math, and a post-processing filter strips any figure that can't be verified. He covers the citation registry built from more than 30 million SEC documents, hybrid search and re-ranking on turbopuffer, tenant isolation, and why plain RAG produced thousands of wrong numbers in their evals.\n\nChapters\n00:00 Intro\n01:47 Why LLMs and financial numbers don't mix\n04:02 Models cite numbers, code does the math\n04:30 Building a citation registry from SEC filings\n06:03 How Kepler answers a question end to end\n08:27 Structuring facts: value, unit, scale, period\n09:48 Hybrid search and re-ranking on turbopuffer\n11:30 Tenant isolation and security\n12:37 Making every number traceable\n14:42 Stripping what can't be verified\n16:41 What plain RAG gets wrong\n18:32 Kepler in action\n19:46 Where the guarantees end\n\nVinoo Ganesh, Kepler\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
-      "youtube_url": "https://www.youtube.com/watch?v=dZgA6btnb_s",
-      "published": "2026-10-25T08:00:12+00:00",
-      "duration": 1258,
-      "image": "https://i.ytimg.com/vi_webp/dZgA6btnb_s/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/dZgA6btnb_s.mp3",
-      "audio_bytes": 10061996
     }
   ],
   "skipped": {
