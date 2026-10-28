@@ -7,6 +7,72 @@
   },
   "episodes": [
     {
+      "id": "P_0_Th_ZzIg",
+      "title": "Stop Guessing Your vLLM Config: Benchmarking LLMs on Runpod - Chris Vela, Runpod",
+      "description": "Most teams spin up a new open model with the default vLLM recipe and hope for the best. Runpod forward-deployed engineer Chris Vela shows how to choose configs from data instead, starting with the use case and concurrency, and demos BenchPod, a benchmarking dashboard built on vLLM that tests configs live without restarts. He runs Kimi K3 on a B300, shows how tuning max batch tokens cuts inter-token latency, and asks whether you need a frontier model at all.\n\nChapters:\n0:00 Intro\n0:29 What Runpod does\n1:32 Everyone's guessing at vLLM configs\n2:53 Version and CUDA gotchas\n3:48 BenchPod: benchmarking on top of vLLM\n6:07 Running Kimi K3 on a B300\n7:40 Demo\n10:01 Tuning max batch tokens\n13:34 From R&D to production\n14:21 Do you need the frontier model?\n\nChris Vela\nhttps://www.runpod.io\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=P_0_Th_ZzIg",
+      "published": "2026-10-28T09:00:20+00:00",
+      "duration": 989,
+      "image": "https://i.ytimg.com/vi_webp/P_0_Th_ZzIg/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/P_0_Th_ZzIg.mp3",
+      "audio_bytes": 7911020
+    },
+    {
+      "id": "58ulJViGFgU",
+      "title": "Who Is Making This Request? Agent Auth 101 - Kamil Potrec, Keycard",
+      "description": "When an agent sends an invoice using your token, who actually made the request? Kamil Potrec of Keycard breaks down how agents get credentials today (personal tokens, static keys, over-privileged service accounts) and what proper agent auth requires: per-agent identity, delegation, short-lived scoped credentials, federation with legacy systems, policy and audit. He compares SDKs and gateways for keeping credentials out of an agent's reach, including the gateway tradeoffs.\n\nChapters:\n0:00 Intro\n0:43 How agents get credentials today\n3:46 What's wrong with this picture\n5:15 Using OAuth for agents\n7:10 Why it gets hard at scale\n8:21 What proper agent auth needs\n9:52 One request, many steps\n11:16 Why SDKs aren't enough\n12:37 Gateways: keep credentials away from agents\n14:55 Gateway tradeoffs\n16:24 How Keycard approaches it\n17:26 Takeaways\n\nKamil Potrec\nhttps://keycard.ai\nAgent Baseline: https://agentbaseline.org\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=58ulJViGFgU",
+      "published": "2026-10-28T08:00:37+00:00",
+      "duration": 1115,
+      "image": "https://i.ytimg.com/vi_webp/58ulJViGFgU/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/58ulJViGFgU.mp3",
+      "audio_bytes": 8917676
+    },
+    {
+      "id": "xZX3pmaB8Hk",
+      "title": "Exploits Now Beat Patches: Open Source Security in the AI Era - Patrick Smyth, Chainguard",
+      "description": "Frontier AI has made every attacker a level more dangerous, and on average, exploits now land before the patch. Patrick Smyth of Chainguard covers this year's AI-assisted attacks and supply chain malware waves, why 30-day remediation windows no longer hold up, the four attack surfaces to cover (malware, known CVEs, zero days and \"side doors\" like CI/CD, developer laptops and agent skills), and what to do now: cooldown periods, faster CVE fixes, and signing everything with SLSA and Sigstore.\n\nChapters:\n0:00 Intro\n0:58 AI-powered attacks this year\n2:33 Exploits now arrive before patches\n3:45 Why 30-day remediation fails\n4:59 A wave of supply chain malware\n6:44 The eternal September\n8:11 The core supply chain problem\n9:12 What to do this year\n11:19 Four attack surfaces\n13:56 How Chainguard tackles each one\n17:01 Sign everything: SLSA and Sigstore\n19:16 Hardening agent skills\n20:22 Wrap-up\n\nPatrick Smyth\nhttps://www.chainguard.dev\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=xZX3pmaB8Hk",
+      "published": "2026-10-28T07:00:33+00:00",
+      "duration": 1307,
+      "image": "https://i.ytimg.com/vi_webp/xZX3pmaB8Hk/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/xZX3pmaB8Hk.mp3",
+      "audio_bytes": 10452716
+    },
+    {
+      "id": "YIhvrvHtonk",
+      "title": "We Kept Rebuilding Our AI Agent. Here's What Survived - Fuad Ali, Arize AI",
+      "description": "Arize's in-product agent Alex went from a 2023 prototype that was \"50% hallucination\" to a single agent with planning, memory and on-demand skills, all built with custom harness code instead of a framework. AI PM Fuad Ali covers each decision: moving the plan into the harness, making \"finish\" an explicit gate, treating large tool results like files, why one 8,000-character memory file per user beat vector stores and knowledge graphs, merging 10 specialists into one agent, and using production sessions as tests.\n\nChapters:\n0:00 Intro\n0:53 Agents all the way down\n2:56 What Alex does\n4:15 Timeline: 2023 to 2026\n6:19 Who owns the plan?\n8:33 What ends a turn?\n9:44 Memory: treat big results like files\n12:10 One small file beat a knowledge graph\n13:33 Specialists vs. one agent\n14:13 The newest model isn't always best\n15:28 Production sessions as tests\n17:46 What still needs a human\n18:31 What survived every rebuild\n\nFuad Ali\nhttps://arize.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=YIhvrvHtonk",
+      "published": "2026-10-27T23:00:06+00:00",
+      "duration": 1206,
+      "image": "https://i.ytimg.com/vi_webp/YIhvrvHtonk/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/YIhvrvHtonk.mp3",
+      "audio_bytes": 9645164
+    },
+    {
+      "id": "dAoOYFx7ZYw",
+      "title": "Stop Giving Your Agent Tools. Give It a Sandbox - Mikyo King, Arize AI",
+      "description": "Classic tool-calling agents fill their context with tool catalogs and raw outputs. Code mode gives the agent a sandbox and lets it search for and compose tools in code, returning only what it needs. Mikyo King, head of open source at Arize AI, explains why code mode works, how Arize built it into Phoenix (Bash, a Python sandbox, SQL and even UI control), its hidden costs (secrets, permissions, durability, double sandboxing), and how Harbor evals showed 43% fewer tokens and 31% lower cost.\n\nChapters:\n0:00 Intro\n0:36 The line between engineers and everyone else is dissolving\n1:52 The classic tool-calling agent\n3:03 What is code mode?\n4:37 Why code mode works\n6:11 How Phoenix uses code mode\n8:19 The hidden costs of code mode\n10:42 Open problems\n11:44 Evaluating code mode with Harbor\n12:55 Results: 43% fewer tokens, 31% lower cost\n13:59 Takeaways\n\nMikyo King\nhttps://arize.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=dAoOYFx7ZYw",
+      "published": "2026-10-27T19:00:27+00:00",
+      "duration": 878,
+      "image": "https://i.ytimg.com/vi_webp/dAoOYFx7ZYw/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/dAoOYFx7ZYw.mp3",
+      "audio_bytes": 7024556
+    },
+    {
+      "id": "iniryju23Sk",
+      "title": "What a $900M Bank Error Teaches Us About AI Agents - John Feminella, Two Sigma",
+      "description": "In 2020, Citibank accidentally sent about $900 million to Revlon’s lenders instead of an $8 million interest payment, even though the procedure, the warning pop-up and three approvers all did what they were supposed to. John Feminella, who works on AI architecture and engineering at Two Sigma, uses that story to show how to give AI agents real autonomy without locking everything down. He walks through five composable controls: an agent registry, risk-based review, tool access that follows an agent’s declared purpose, shared firm-wide evals, and classifiers that send humans only the approvals that matter. Views are his own, not Two Sigma’s.\n\nChapters:\n0:00 Intro\n0:43 When controls fail\n1:03 The $900M Revlon payment mistake\n4:58 What this has to do with AI agents\n5:22 Humans aren’t deterministic either\n6:07 Approaches that don’t work\n7:32 Control 1: An agent registry\n9:47 Control 2: Risk-based review\n11:47 Control 3: Tools follow purpose\n14:42 Control 4: Shared evals\n16:17 Control 5: Ending approval fatigue\n18:07 Putting it all together\n18:32 Why cars have brakes\n\nJohn Feminella\nhttps://www.twosigma.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=iniryju23Sk",
+      "published": "2026-10-27T15:00:06+00:00",
+      "duration": 1136,
+      "image": "https://i.ytimg.com/vi_webp/iniryju23Sk/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/iniryju23Sk.mp3",
+      "audio_bytes": 9087980
+    },
+    {
       "id": "h8jgniNJcbQ",
       "title": "Why Are We Still Governing AI Agents Like Software? - Tim Tyler, Gravitee",
       "description": "Nobody would hire a worker with no ID, no manager and shared passwords, yet that's how most companies deploy AI agents. Tim Tyler of Gravitee presents the Agent Accountability framework, which governs agents like a digital workforce in three stages: Assignment (identity, team, a named human sponsor), Alignment (role, mission and least-privilege authority) and Administration (oversight scorecards, guardian agents and step-by-step recourse when agents go off course).\n\nChapters:\n0:00 The job posting nobody would accept\n1:15 Agents as a digital workforce\n2:27 Assignment: identity, team and sponsor\n6:00 Alignment: role and mission\n7:37 Authority and lowest scope\n9:34 Never assume alignment\n11:17 Administration: oversight scorecards\n13:35 Agents need micromanagers\n14:21 Recourse when agents go wrong\n17:05 Recap\n\nTim Tyler\nhttps://www.gravitee.io\nAgent Accountability Framework: https://agentaccountabilityframework.org\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
@@ -49,72 +115,6 @@
       "image": "https://i.ytimg.com/vi_webp/UGuNt2_Oz8s/maxresdefault.webp",
       "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/UGuNt2_Oz8s.mp3",
       "audio_bytes": 25474988
-    },
-    {
-      "id": "kRJjSOYqW0I",
-      "title": "How to Test Your Agents on Real Tasks With Harbor - Xander Song, Arize AI",
-      "description": "Xander Song, an engineer at Arize AI who works on Phoenix, introduces Harbor, an open source framework for evaluating agents on realistic tasks with real data in isolated sandboxes. He explains tasks, Docker environments, verifiers and rewards, trials and jobs, oracles that validate your setup before you spend tokens, and ATIF trajectories. Then he shows how his team runs Harbor at scale on Daytona and with Phoenix to test a prompt change that steered agents toward a new SQL tool, cutting tool calls without hurting correctness.\n\nChapters\n00:00 Intro: shipping on evidence, not vibes\n01:28 What Harbor is\n03:37 Architecture: tasks, environments, verifiers\n06:08 Trajectories, jobs and oracles\n07:58 Example: fixing a failing migration\n10:48 Verifiers as black-box integration tests\n14:21 Running at scale in parallel sandboxes\n17:04 Harbor with Phoenix\n20:37 How the Phoenix team uses Harbor\n25:07 Q&A: how Harbor orchestrates runs\n29:24 Q&A: complex systems and data size\n33:21 Case study: steering agents to a SQL tool\n38:34 Demo: datasets and experiments in Phoenix\n44:10 Demo: comparing jobs task by task\n48:31 Regression tests and skills\n\nXander Song, Arize AI\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
-      "youtube_url": "https://www.youtube.com/watch?v=kRJjSOYqW0I",
-      "published": "2026-10-26T19:00:25+00:00",
-      "duration": 3361,
-      "image": "https://i.ytimg.com/vi_webp/kRJjSOYqW0I/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/kRJjSOYqW0I.mp3",
-      "audio_bytes": 26887340
-    },
-    {
-      "id": "4UtrRVtUN_g",
-      "title": "How to Build an AI Code Review Agent - Daksh Gupta, Greptile",
-      "description": "Daksh Gupta, co-founder of Greptile, which reviews about 1% of all pull requests on GitHub, shares what Greptile tells companies that want to build their own review agent. Starting from a simple sandbox-plus-webhook setup, he explains why it misses bugs, costs $3-25 per PR and floods you with nitpicks, then walks through the fixes: targeted prompts, a dataset of past incident PRs, model inversion (reviewing Claude-written code with GPT and vice versa catches about 10% more bugs), codebase context and a living wiki, autonomous testing in sandboxes with computer use, and routing cheaper models to most subtasks.\n\nChapters\n00:00 Intro: Greptile and why companies build their own\n01:22 What makes a great review agent\n02:38 The simple version: sandbox, agent, webhook\n03:55 What goes wrong\n06:02 Fix 1: Better prompts and fewer nitpicks\n07:44 Fix 2: A dataset of historical PRs\n09:02 Fix 3: Model inversion\n11:04 Fix 4: Codebase context\n12:36 Docs, tickets and a living wiki\n14:26 Fix 5: Autonomous testing with computer use\n16:05 Fix 6: Cheaper models for most subtasks\n\nDaksh Gupta, Greptile\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
-      "youtube_url": "https://www.youtube.com/watch?v=4UtrRVtUN_g",
-      "published": "2026-10-26T09:00:23+00:00",
-      "duration": 1107,
-      "image": "https://i.ytimg.com/vi_webp/4UtrRVtUN_g/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/4UtrRVtUN_g.mp3",
-      "audio_bytes": 8854124
-    },
-    {
-      "id": "Y_p3y6zP5QE",
-      "title": "Build Your Own Team of Managed Agents - Jack Wotherspoon, Google DeepMind",
-      "description": "Jack Wotherspoon, developer experience engineer at Google DeepMind, introduces Gemini Managed Agents: coding agents that run in cloud sandboxes from a single API call instead of on your laptop. He covers the Interactions API, the Antigravity harness, environments that several agents can share, uploaded skills and AGENTS.md files, a proxy that keeps secrets out of the sandbox, scheduled triggers and multi-agent workflows. Demos include an SEC filing researcher handing its work to a quant agent, and a stock research app built in AI Studio.\n\nChapters\n00:00 Intro: what are managed agents?\n00:54 Why run agents in the cloud\n02:13 Doing it yourself vs one API call\n03:26 The Interactions API\n04:32 How it works under the hood\n05:22 Building blocks: harness, environment, skills, credentials, triggers\n07:02 Choosing models, including Gemini 4 Argon\n08:51 Interactions and environments\n10:46 Tools, MCP servers and file mounts\n12:21 Keeping secrets out of the sandbox\n13:12 Triggers and scheduled agents\n13:37 Multi-agent workflows\n14:32 Demo: SEC research to quant analysis to report\n16:34 Demo: managed agents inside an app\n17:44 Getting started in AI Studio\n\nJack Wotherspoon, Google DeepMind\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
-      "youtube_url": "https://www.youtube.com/watch?v=Y_p3y6zP5QE",
-      "published": "2026-10-26T08:00:11+00:00",
-      "duration": 1183,
-      "image": "https://i.ytimg.com/vi_webp/Y_p3y6zP5QE/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/Y_p3y6zP5QE.mp3",
-      "audio_bytes": 9467180
-    },
-    {
-      "id": "OmyqelTwpOo",
-      "title": "How to Build Voice Agents That Don't Fall Apart When You Interrupt - Jesse Hall, LiveKit",
-      "description": "Jesse Hall of LiveKit shows how to build voice agents for financial services that feel human, not robotic. He explains why model leaderboards mislead (they score components, but you ship a conversation), why you should measure time to first audio and time to first sentence instead of first byte or first token, and how async tool calls keep a conversation flowing while slow back-end work runs. He also covers audio-aware turn detection, the roughly 1.5-second latency budget (500-600ms feels truly human), and benchmarking your own stack with simulated callers.\n\nChapters\n00:00 Intro: real-time agents vs background agents\n01:47 Humanlike voice agents for financial services\n03:46 LiveKit and the voice pipeline\n04:21 Cascaded pipelines vs speech-to-speech\n05:05 Why leaderboards don't pick your stack\n06:46 Time to first audio, not first byte\n07:52 Time to first sentence, not first token\n08:38 Hiding slow tool calls like a human would\n10:14 Demo: hotel booking agent\n12:33 Turn detection: knowing when to listen\n14:02 The latency budget\n15:44 Benchmarking your stack with simulated callers\n18:35 Results and a pre-launch checklist\n\nJesse Hall, LiveKit\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
-      "youtube_url": "https://www.youtube.com/watch?v=OmyqelTwpOo",
-      "published": "2026-10-26T07:00:26+00:00",
-      "duration": 1255,
-      "image": "https://i.ytimg.com/vi_webp/OmyqelTwpOo/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/OmyqelTwpOo.mp3",
-      "audio_bytes": 10038380
-    },
-    {
-      "id": "gv4w23xYj-0",
-      "title": "How to Write Your First AI Eval - SallyAnn DeLucia, Arize AI",
-      "description": "A hands-on workshop from SallyAnn DeLucia, head of product at Arize AI, on moving from vibe checks to real evals. She covers what an eval is and how it differs from a unit test, the main types (LLM as a judge, decision models, code evals, annotations, agent as a judge), how to read a trace, how to write concrete pass/fail criteria, and how to build and iterate on an LLM judge in Arize's prompt playground.\n\nChapters\n00:00 Intro and agenda\n02:06 Why vibe checks don't scale\n03:08 Is an eval just a unit test?\n04:13 Why agents make evals harder\n05:15 Types of evals\n07:29 Workshop setup\n10:16 Exploring the travel agent's traces\n14:20 How to read a trace\n19:03 Defining what good means\n22:02 Writing pass/fail criteria\n25:19 Building a dataset from traces\n26:53 Building and testing an LLM judge\n32:08 Next steps: alignment, online evals, Signal\n\nSallyAnn DeLucia, Arize AI\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
-      "youtube_url": "https://www.youtube.com/watch?v=gv4w23xYj-0",
-      "published": "2026-10-25T23:00:27+00:00",
-      "duration": 2119,
-      "image": "https://i.ytimg.com/vi_webp/gv4w23xYj-0/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/gv4w23xYj-0.mp3",
-      "audio_bytes": 16953644
-    },
-    {
-      "id": "ImnZ7s68jw8",
-      "title": "What Does an AI Engineer Do Now? - Aparna Dhinakaran, Arize AI",
-      "description": "Aparna Dhinakaran of Arize AI revisits what an AI engineer actually does as the field moves from writing features to running factories of agents. The job now is building the loop: evals that review non-deterministic work, telemetry that agents consume, and agents that act on it. She walks through how Arize built Signal, an always-on agent that reads traces, remembers past issues and opens PRs, covering triggers, sandboxes, durable state, and evaluating the evaluators.\n\nChapters\n00:00 Intro: what does an AI engineer do?\n00:38 Karpathy's funnel: who's running thousands of agents\n01:45 Rising abstraction, from code to agent factories\n02:23 Then vs now: build the loop, not the feature\n03:31 Signal: an always-on agent for your traces\n04:45 Agents are now the main consumers of telemetry\n05:19 What triggers an always-on agent\n06:01 Inside a run: context, sandbox, proxy\n07:11 What persists and what gets torn down\n08:13 Designing durable agents\n09:14 Model and harness agnostic\n10:21 Writing evals, and evaluating the evaluators\n12:48 Trace everything, including your coding agents\n14:17 Closing the gap between labs and businesses\n\nAparna Dhinakaran, Arize AI\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
-      "youtube_url": "https://www.youtube.com/watch?v=ImnZ7s68jw8",
-      "published": "2026-10-25T19:00:32+00:00",
-      "duration": 927,
-      "image": "https://i.ytimg.com/vi_webp/ImnZ7s68jw8/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/ImnZ7s68jw8.mp3",
-      "audio_bytes": 7416620
     }
   ],
   "skipped": {
@@ -133,9 +133,6 @@
     "j4AmIK6OvHc": 1,
     "7BcQdtRA3Tc": 1,
     "XczFLWEntiE": 1,
-    "PwCSYy-oGsM": 1,
-    "YIhvrvHtonk": 1,
-    "dAoOYFx7ZYw": 1,
-    "iniryju23Sk": 1
+    "PwCSYy-oGsM": 1
   }
 }
