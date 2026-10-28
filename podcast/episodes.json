@@ -7,6 +7,17 @@
   },
   "episodes": [
     {
+      "id": "UW8Qkk7MG8A",
+      "title": "AI That Hunts Logic Bugs Before Attackers Do - Taylor Luttrell-Williams, Sonar",
+      "description": "Pattern-based SAST catches bad code, but not valid code with flawed intent: broken access control, business logic gaps and authentication holes. Taylor Luttrell-Williams of Sonar introduces the SonarQube Hunter Agent, which maps a repo, runs three specialist agents and adversarially validates every finding, and announces Sonar joining the OpenAI Daybreak cyber partner program. The live demo turns up 46 issues in a Python app, including a user who can make themselves admin and an MFA bypass.\n\nChapters:\n0:00 Intro\n0:46 Why SAST misses intent bugs\n2:37 How Hunter Agent works\n4:12 Sonar joins OpenAI Daybreak\n5:44 Layering SAST and Hunter Agent\n6:27 Demo: running a scan\n8:29 46 findings across three classes\n10:01 Inside a broken access control bug\n12:26 Scheduled scans\n13:12 Automatic remediation\n\nTaylor Luttrell-Williams\nhttps://www.sonarsource.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=UW8Qkk7MG8A",
+      "published": "2026-10-28T19:00:15+00:00",
+      "duration": 849,
+      "image": "https://i.ytimg.com/vi_webp/UW8Qkk7MG8A/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/UW8Qkk7MG8A.mp3",
+      "audio_bytes": 6795500
+    },
+    {
       "id": "P_0_Th_ZzIg",
       "title": "Stop Guessing Your vLLM Config: Benchmarking LLMs on Runpod - Chris Vela, Runpod",
       "description": "Most teams spin up a new open model with the default vLLM recipe and hope for the best. Runpod forward-deployed engineer Chris Vela shows how to choose configs from data instead, starting with the use case and concurrency, and demos BenchPod, a benchmarking dashboard built on vLLM that tests configs live without restarts. He runs Kimi K3 on a B300, shows how tuning max batch tokens cuts inter-token latency, and asks whether you need a frontier model at all.\n\nChapters:\n0:00 Intro\n0:29 What Runpod does\n1:32 Everyone's guessing at vLLM configs\n2:53 Version and CUDA gotchas\n3:48 BenchPod: benchmarking on top of vLLM\n6:07 Running Kimi K3 on a B300\n7:40 Demo\n10:01 Tuning max batch tokens\n13:34 From R&D to production\n14:21 Do you need the frontier model?\n\nChris Vela\nhttps://www.runpod.io\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
@@ -104,17 +115,6 @@
       "image": "https://i.ytimg.com/vi_webp/aGIUg8zKI8A/maxresdefault.webp",
       "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/aGIUg8zKI8A.mp3",
       "audio_bytes": 11219564
-    },
-    {
-      "id": "UGuNt2_Oz8s",
-      "title": "Agents That Self Improve While You Sleep - Fuad Ali, Arize AI",
-      "description": "In this workshop, Fuad Ali of Arize AI shows how to build a self-improvement loop for AI agents: trace everything, let Signal (an always-on agent) read your traces on a schedule and file deduplicated issues, turn failures into evals and living regression datasets, run experiments to prove a fix works, and keep humans at the highest-leverage points: eval design, dataset curation and reviewing fixes. He demos the loop on a toy-shopping agent with a planted bug and takes questions on evaluating qualitative output, decision models and cost.\n\nChapters\n00:00 Intro and workshop setup\n05:42 Where is your team on the maturity curve?\n07:39 The loop: trace, signal, eval, experiment, fix\n08:46 Demo agent and tracing\n12:15 Signal: an always-on agent reading your traces\n16:11 Agent Studio and managed agents\n18:31 Turning failures into datasets\n20:32 Evals: code, LLM as a judge, decision models\n24:48 Creating an eval from a Signal issue\n27:01 Experiments: proving the fix works\n31:12 Keeping humans in the loop\n34:16 Toward a fully automated loop\n40:16 Q&A: evaluating qualitative output\n48:21 Q&A: decision models, data sources and cost\n\nFuad Ali, Arize AI\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
-      "youtube_url": "https://www.youtube.com/watch?v=UGuNt2_Oz8s",
-      "published": "2026-10-26T23:00:39+00:00",
-      "duration": 3184,
-      "image": "https://i.ytimg.com/vi_webp/UGuNt2_Oz8s/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/UGuNt2_Oz8s.mp3",
-      "audio_bytes": 25474988
     }
   ],
   "skipped": {
