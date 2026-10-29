@@ -7,6 +7,39 @@
   },
   "episodes": [
     {
+      "id": "Ok6QdZHCcI8",
+      "title": "How Revolut Cut AI Coding Costs 90% With Self-Hosted Open Models - David Abitbol, Revolut",
+      "description": "David Abitbol, who leads AI operations at Revolut, shares data from 2,000 engineers on what AI tools did to coding time and lead time, and why self-hosting open-source GLM models made the biggest difference: about 60-70% faster delivery at roughly a tenth of what they were paying frontier labs. He covers the GPUs needed, the latency targets that keep engineers happy, the tuning that made the same hardware 88% faster, and how an EU-regulated bank keeps it compliant.\n\nChapters:\n0:00 Intro\n0:36 Who Revolut is\n1:18 What AI did to 2,000 engineers' lead time\n2:45 Why they started self-hosting\n3:33 Coding isn't the bottleneck\n4:24 What it takes to self-host GLM\n5:46 Tuning: same GPUs, 88% faster\n7:06 The parameters that matter\n8:14 Production setup\n9:23 For the CIO: compliance and safety\n\nDavid Abitbol\nhttps://www.revolut.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=Ok6QdZHCcI8",
+      "published": "2026-10-29T09:00:21+00:00",
+      "duration": 707,
+      "image": "https://i.ytimg.com/vi_webp/Ok6QdZHCcI8/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/Ok6QdZHCcI8.mp3",
+      "audio_bytes": 5655980
+    },
+    {
+      "id": "mJ7q8CuVmbw",
+      "title": "We Trust AI Agents That Break Every Day - Shy Ruparel, Temporal",
+      "description": "Temporal's State of Development survey found that 80.8% of engineers use agents daily, but only 49.1% run them in production. Developer advocate Shy Ruparel walks through the four gaps behind that number (usage vs. production, trust vs. reality, prototype vs. enterprise, seeing vs. recovering), then demos a $2,500 payout workflow with a local model that survives having its workers killed mid-flight, without losing state, repeating tool calls or re-spending tokens.\n\nChapters:\n0:00 Intro\n0:34 Finance runs on long-running workflows\n2:05 The State of Development survey\n3:16 Gap 1: Usage vs. production\n4:33 Gap 2: Trust vs. reality\n7:18 Gap 3: Prototype vs. enterprise\n8:55 Gap 4: Seeing vs. recovering\n10:53 Demo: a payout that survives a crash\n13:06 Durable execution explained\n18:12 What the demo solved\n20:10 Who runs this in production\n20:50 Wrap-up\n\nShy Ruparel\nhttps://temporal.io\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=mJ7q8CuVmbw",
+      "published": "2026-10-29T08:00:26+00:00",
+      "duration": 1292,
+      "image": "https://i.ytimg.com/vi_webp/mJ7q8CuVmbw/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/mJ7q8CuVmbw.mp3",
+      "audio_bytes": 10332908
+    },
+    {
+      "id": "YqxpPI7YUjE",
+      "title": "Why a One-Line Change Can Break Your Whole Stack - Cole Gannaway, Qodo",
+      "description": "Code generation is moving faster than ever, and the bottleneck has moved to review. Cole Gannaway, a solutions engineer at Qodo, shows how a one-line data model change that passes every test can quietly break web, mobile, CLI and MCP clients, and how a software graph of your repos reveals that blast radius. He covers turning tribal knowledge and PR comments into custom rules, bringing review context in before code is written, why the agent that wrote the code shouldn't grade it, and checking PRs against the original ticket.\n\nChapters:\n0:00 Intro\n0:59 Review is the new bottleneck\n2:03 A one-line change that passes every check\n3:35 The hidden blast radius\n4:15 Building a software graph\n4:56 Custom rules and tribal knowledge\n5:47 Context before code is written\n6:29 Don't let the writer grade its own code\n8:20 Turning PR comments into rules\n10:06 Q&A: catching the wrong intent\n13:55 Wrap-up\n\nCole Gannaway\nhttps://www.qodo.ai\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=YqxpPI7YUjE",
+      "published": "2026-10-29T07:00:25+00:00",
+      "duration": 890,
+      "image": "https://i.ytimg.com/vi_webp/YqxpPI7YUjE/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/YqxpPI7YUjE.mp3",
+      "audio_bytes": 7123436
+    },
+    {
       "id": "AnsXWH2_EBU",
       "title": "How Anthropic Merges 30,000 Code Changes a Day - Manish Kapur, Sonar & Addy Osmani, Anthropic",
       "description": "Coding agents are opening PRs faster than anyone can review them. Manish Kapur (Sonar) and Addy Osmani (Anthropic) discuss \"light\" vs. \"dark\" software factories, how Anthropic scaled from about 2,500 to 30,000 merged changes a day with Claude doing first-pass review backed by real verification evidence, new data from Sonar's State of Code survey, and why every loop in the factory needs independent, multi-layered verification. They close with a lightning round on labeling agent-written PRs and when it's safe to merge.\n\nChapters:\n0:00 Intro\n1:57 Throughput is up, merges are failing\n2:49 Light vs. dark software factories\n3:51 Coding is solved, confidence isn't\n5:38 How Anthropic reviews 30,000 changes a day\n8:29 State of Code survey findings\n9:20 Where the next gains come from\n11:38 Multi-layered verification\n13:19 Controls, permissions and sandboxes\n14:41 Lightning round\n17:40 Takeaways\n\nManish Kapur\nhttps://www.sonarsource.com\n\nAddy Osmani\nhttps://x.com/addyosmani\nhttps://www.anthropic.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
@@ -82,39 +115,6 @@
       "image": "https://i.ytimg.com/vi_webp/dAoOYFx7ZYw/maxresdefault.webp",
       "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/dAoOYFx7ZYw.mp3",
       "audio_bytes": 7024556
-    },
-    {
-      "id": "iniryju23Sk",
-      "title": "What a $900M Bank Error Teaches Us About AI Agents - John Feminella, Two Sigma",
-      "description": "In 2020, Citibank accidentally sent about $900 million to Revlon’s lenders instead of an $8 million interest payment, even though the procedure, the warning pop-up and three approvers all did what they were supposed to. John Feminella, who works on AI architecture and engineering at Two Sigma, uses that story to show how to give AI agents real autonomy without locking everything down. He walks through five composable controls: an agent registry, risk-based review, tool access that follows an agent’s declared purpose, shared firm-wide evals, and classifiers that send humans only the approvals that matter. Views are his own, not Two Sigma’s.\n\nChapters:\n0:00 Intro\n0:43 When controls fail\n1:03 The $900M Revlon payment mistake\n4:58 What this has to do with AI agents\n5:22 Humans aren’t deterministic either\n6:07 Approaches that don’t work\n7:32 Control 1: An agent registry\n9:47 Control 2: Risk-based review\n11:47 Control 3: Tools follow purpose\n14:42 Control 4: Shared evals\n16:17 Control 5: Ending approval fatigue\n18:07 Putting it all together\n18:32 Why cars have brakes\n\nJohn Feminella\nhttps://www.twosigma.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
-      "youtube_url": "https://www.youtube.com/watch?v=iniryju23Sk",
-      "published": "2026-10-27T15:00:06+00:00",
-      "duration": 1136,
-      "image": "https://i.ytimg.com/vi_webp/iniryju23Sk/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/iniryju23Sk.mp3",
-      "audio_bytes": 9087980
-    },
-    {
-      "id": "h8jgniNJcbQ",
-      "title": "Why Are We Still Governing AI Agents Like Software? - Tim Tyler, Gravitee",
-      "description": "Nobody would hire a worker with no ID, no manager and shared passwords, yet that's how most companies deploy AI agents. Tim Tyler of Gravitee presents the Agent Accountability framework, which governs agents like a digital workforce in three stages: Assignment (identity, team, a named human sponsor), Alignment (role, mission and least-privilege authority) and Administration (oversight scorecards, guardian agents and step-by-step recourse when agents go off course).\n\nChapters:\n0:00 The job posting nobody would accept\n1:15 Agents as a digital workforce\n2:27 Assignment: identity, team and sponsor\n6:00 Alignment: role and mission\n7:37 Authority and lowest scope\n9:34 Never assume alignment\n11:17 Administration: oversight scorecards\n13:35 Agents need micromanagers\n14:21 Recourse when agents go wrong\n17:05 Recap\n\nTim Tyler\nhttps://www.gravitee.io\nAgent Accountability Framework: https://agentaccountabilityframework.org\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
-      "youtube_url": "https://www.youtube.com/watch?v=h8jgniNJcbQ",
-      "published": "2026-10-27T09:00:16+00:00",
-      "duration": 1092,
-      "image": "https://i.ytimg.com/vi_webp/h8jgniNJcbQ/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/h8jgniNJcbQ.mp3",
-      "audio_bytes": 8737580
-    },
-    {
-      "id": "BgLdvF7Qkh8",
-      "title": "300 Agents, 60 People: How We Secured Our Own AI Agents - Aiden Sochowski, Runlayer",
-      "description": "Runlayer is a company of about 60 people running 300+ agents every day. Founding engineer Aiden Sochowski shares what they found once they put a gateway in front of everything and logged every session and tool call: prompt injection through email, PR-review agents getting talked into approvals, over-permissioned bots, one poisoned agent contaminating others, buggy vibe-coded MCP servers burning tokens, and a model switch that raised costs over 100x in a week.\n\nChapters:\n0:00 Intro\n0:25 Zero visibility into company agents\n1:22 300 agents for 60 people\n3:38 Example: data exfiltration through email\n6:16 Attacks that unfold over a whole session\n8:50 Using session data to scope agents down\n10:56 One poisoned agent affects them all\n12:47 Beyond security: broken MCP servers\n14:08 Cost blowups from model switches\n15:36 Wrap-up\n\nAiden Sochowski\nhttps://runlayer.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
-      "youtube_url": "https://www.youtube.com/watch?v=BgLdvF7Qkh8",
-      "published": "2026-10-27T08:00:00+00:00",
-      "duration": 998,
-      "image": "https://i.ytimg.com/vi_webp/BgLdvF7Qkh8/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/BgLdvF7Qkh8.mp3",
-      "audio_bytes": 7984172
     }
   ],
   "skipped": {
