@@ -7,6 +7,17 @@
   },
   "episodes": [
     {
+      "id": "LQW_Wvqhp04",
+      "title": "Why Humans Can't Keep Up With AI-Written Code - Tariq Shaukat, Sonar",
+      "description": "Agents have made code cheap: one study saw lines of code up 2,450% but releases up only 30%. Sonar CEO Tariq Shaukat draws on the factory revolution that Toyota and Lexus started to explain how to build agentic software factories you can trust. He breaks down five hard problems: human review that doesn't scale (people agree with AI that's wrong 4 out of 5 times), agents struggling with large codebases, errors compounding over long tasks, unreliable LLM judges, and near-zero time to exploit. Then he lays out Sonar's code confidence formula: intent, guide rails, verification and evidence.\n\nChapters:\n0:00 Intro\n0:26 The ball bearing that changed car factories\n2:23 Software already borrowed these ideas\n2:55 Agents break the factory\n5:19 Problem 1: Human in the loop doesn't scale\n6:45 Problem 2: Agents struggle with big codebases\n8:04 Problem 3: Errors compound\n9:06 Problem 4: LLM judges are unreliable\n10:03 Problem 5: Time to exploit is near zero\n10:25 The code confidence formula\n12:36 Results from customers\n15:49 Code is abundant, confidence is scarce\n\nTariq Shaukat\nhttps://www.sonarsource.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=LQW_Wvqhp04",
+      "published": "2026-10-29T19:00:16+00:00",
+      "duration": 994,
+      "image": "https://i.ytimg.com/vi_webp/LQW_Wvqhp04/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/LQW_Wvqhp04.mp3",
+      "audio_bytes": 7953452
+    },
+    {
       "id": "Ok6QdZHCcI8",
       "title": "How Revolut Cut AI Coding Costs 90% With Self-Hosted Open Models - David Abitbol, Revolut",
       "description": "David Abitbol, who leads AI operations at Revolut, shares data from 2,000 engineers on what AI tools did to coding time and lead time, and why self-hosting open-source GLM models made the biggest difference: about 60-70% faster delivery at roughly a tenth of what they were paying frontier labs. He covers the GPUs needed, the latency targets that keep engineers happy, the tuning that made the same hardware 88% faster, and how an EU-regulated bank keeps it compliant.\n\nChapters:\n0:00 Intro\n0:36 Who Revolut is\n1:18 What AI did to 2,000 engineers' lead time\n2:45 Why they started self-hosting\n3:33 Coding isn't the bottleneck\n4:24 What it takes to self-host GLM\n5:46 Tuning: same GPUs, 88% faster\n7:06 The parameters that matter\n8:14 Production setup\n9:23 For the CIO: compliance and safety\n\nDavid Abitbol\nhttps://www.revolut.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
@@ -104,17 +115,6 @@
       "image": "https://i.ytimg.com/vi_webp/YIhvrvHtonk/maxresdefault.webp",
       "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/YIhvrvHtonk.mp3",
       "audio_bytes": 9645164
-    },
-    {
-      "id": "dAoOYFx7ZYw",
-      "title": "Stop Giving Your Agent Tools. Give It a Sandbox - Mikyo King, Arize AI",
-      "description": "Classic tool-calling agents fill their context with tool catalogs and raw outputs. Code mode gives the agent a sandbox and lets it search for and compose tools in code, returning only what it needs. Mikyo King, head of open source at Arize AI, explains why code mode works, how Arize built it into Phoenix (Bash, a Python sandbox, SQL and even UI control), its hidden costs (secrets, permissions, durability, double sandboxing), and how Harbor evals showed 43% fewer tokens and 31% lower cost.\n\nChapters:\n0:00 Intro\n0:36 The line between engineers and everyone else is dissolving\n1:52 The classic tool-calling agent\n3:03 What is code mode?\n4:37 Why code mode works\n6:11 How Phoenix uses code mode\n8:19 The hidden costs of code mode\n10:42 Open problems\n11:44 Evaluating code mode with Harbor\n12:55 Results: 43% fewer tokens, 31% lower cost\n13:59 Takeaways\n\nMikyo King\nhttps://arize.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
-      "youtube_url": "https://www.youtube.com/watch?v=dAoOYFx7ZYw",
-      "published": "2026-10-27T19:00:27+00:00",
-      "duration": 878,
-      "image": "https://i.ytimg.com/vi_webp/dAoOYFx7ZYw/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/dAoOYFx7ZYw.mp3",
-      "audio_bytes": 7024556
     }
   ],
   "skipped": {
