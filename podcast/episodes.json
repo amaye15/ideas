@@ -7,6 +7,17 @@
   },
   "episodes": [
     {
+      "id": "AnsXWH2_EBU",
+      "title": "How Anthropic Merges 30,000 Code Changes a Day - Manish Kapur, Sonar & Addy Osmani, Anthropic",
+      "description": "Coding agents are opening PRs faster than anyone can review them. Manish Kapur (Sonar) and Addy Osmani (Anthropic) discuss \"light\" vs. \"dark\" software factories, how Anthropic scaled from about 2,500 to 30,000 merged changes a day with Claude doing first-pass review backed by real verification evidence, new data from Sonar's State of Code survey, and why every loop in the factory needs independent, multi-layered verification. They close with a lightning round on labeling agent-written PRs and when it's safe to merge.\n\nChapters:\n0:00 Intro\n1:57 Throughput is up, merges are failing\n2:49 Light vs. dark software factories\n3:51 Coding is solved, confidence isn't\n5:38 How Anthropic reviews 30,000 changes a day\n8:29 State of Code survey findings\n9:20 Where the next gains come from\n11:38 Multi-layered verification\n13:19 Controls, permissions and sandboxes\n14:41 Lightning round\n17:40 Takeaways\n\nManish Kapur\nhttps://www.sonarsource.com\n\nAddy Osmani\nhttps://x.com/addyosmani\nhttps://www.anthropic.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=AnsXWH2_EBU",
+      "published": "2026-10-28T23:00:26+00:00",
+      "duration": 1132,
+      "image": "https://i.ytimg.com/vi_webp/AnsXWH2_EBU/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/AnsXWH2_EBU.mp3",
+      "audio_bytes": 9056684
+    },
+    {
       "id": "UW8Qkk7MG8A",
       "title": "AI That Hunts Logic Bugs Before Attackers Do - Taylor Luttrell-Williams, Sonar",
       "description": "Pattern-based SAST catches bad code, but not valid code with flawed intent: broken access control, business logic gaps and authentication holes. Taylor Luttrell-Williams of Sonar introduces the SonarQube Hunter Agent, which maps a repo, runs three specialist agents and adversarially validates every finding, and announces Sonar joining the OpenAI Daybreak cyber partner program. The live demo turns up 46 issues in a Python app, including a user who can make themselves admin and an MFA bypass.\n\nChapters:\n0:00 Intro\n0:46 Why SAST misses intent bugs\n2:37 How Hunter Agent works\n4:12 Sonar joins OpenAI Daybreak\n5:44 Layering SAST and Hunter Agent\n6:27 Demo: running a scan\n8:29 46 findings across three classes\n10:01 Inside a broken access control bug\n12:26 Scheduled scans\n13:12 Automatic remediation\n\nTaylor Luttrell-Williams\nhttps://www.sonarsource.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
@@ -104,17 +115,6 @@
       "image": "https://i.ytimg.com/vi_webp/BgLdvF7Qkh8/maxresdefault.webp",
       "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/BgLdvF7Qkh8.mp3",
       "audio_bytes": 7984172
-    },
-    {
-      "id": "aGIUg8zKI8A",
-      "title": "How a Trading Firm Ships New AI Models the Same Day - Noyan Tokgozoglu, Optiver",
-      "description": "At Optiver, a change rolled out to traders shows up in P&L within hours, so AI has to move fast and still be measurable. Noyan Tokgozoglu, head of AI Engineering, walks through Optiver's on-prem AI platform: an inference gateway for routing and budgets, same-day adoption of new frontier models benchmarked on internal golden sets, a model- and harness-agnostic \"meta harness\", and how they got AI spend back under control after the summer's big model releases.\n\nChapters:\n0:00 Intro\n0:22 What a market maker does\n1:00 Feedback in hours, not quarters\n2:53 Platform principles\n5:11 The AI platform stack\n7:06 Shipping frontier models the same day\n8:31 Staying model and harness agnostic\n9:53 Getting AI spend under control\n13:54 Meeting users where they are\n16:11 Q&A\n\nNoyan Tokgozoglu\nhttps://optiver.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
-      "youtube_url": "https://www.youtube.com/watch?v=aGIUg8zKI8A",
-      "published": "2026-10-27T07:00:26+00:00",
-      "duration": 1402,
-      "image": "https://i.ytimg.com/vi_webp/aGIUg8zKI8A/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/aGIUg8zKI8A.mp3",
-      "audio_bytes": 11219564
     }
   ],
   "skipped": {
