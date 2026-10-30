@@ -7,6 +7,17 @@
   },
   "episodes": [
     {
+      "id": "8vDzncmzxyg",
+      "title": "Your AI Agent Starts Every Session Like a New Hire - Killian Carlsen-Phelan, Sonar",
+      "description": "Every new coding agent session starts like a new hire: it doesn't know your conventions, architecture rules or approved libraries, so it burns time and tokens searching your repo and repeats the issues already in it. Killian Carlsen-Phelan of Sonar introduces Sonar Vortex, a plugin that hands your agent a map of the codebase and your guidelines before it writes, then deterministically checks every edit. In a live session, Vortex catches a temp-file permission bug the agent's own tests missed, and rejects its first fix. Sonar reports 36% fewer tokens and 44% fewer production outages.\n\nChapters:\n0:00 Intro\n0:26 Every agent session starts from scratch\n1:59 What Sonar Vortex does\n2:25 The bug a test wouldn't catch\n3:35 96% don't trust AI code, 48% verify it\n4:26 How Vortex guides the agent\n7:00 36% fewer tokens\n8:08 Bringing SonarQube into the agent loop\n9:01 Demo: a real task\n13:03 Not AI checking AI\n14:17 The fix that wasn't a fix\n16:20 What you get\n\nKillian Carlsen-Phelan\nhttps://www.sonarsource.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=8vDzncmzxyg",
+      "published": "2026-10-30T19:00:14+00:00",
+      "duration": 1065,
+      "image": "https://i.ytimg.com/vi_webp/8vDzncmzxyg/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/8vDzncmzxyg.mp3",
+      "audio_bytes": 8516780
+    },
+    {
       "id": "YU1uD_YkpjU",
       "title": "Your Agent Just Paid for Nothing: 6 Attacks on x402 Payments - Ishween Kaur, SoFi",
       "description": "x402 lets AI agents pay for data and APIs with tiny on-chain payments over HTTP. Ishween Kaur explains how the protocol works, then walks through six of the 20 ways she broke it in a safe test environment: price changes in the payment header, paying twice, getting data for free, one payment unlocking many pages, lookalike sellers, and prompt injection that talks an agent into paying again. For each one, she shows the guard that stopped it and how to roll out agent payments safely, trace by trace.\n\nChapters:\n0:00 Intro\n0:31 Paying for things you use once\n1:33 HTTP 402 and the x402 protocol\n2:09 How x402 works\n3:24 What happens when agents can pay\n4:05 Attack 1: Price manipulation\n5:24 Attack 2: Paying twice\n7:03 Attack 3: Free shopping\n9:13 Attack 4: One payment, many pages\n10:04 Attack 5: Lookalike sellers\n11:43 Attack 6: Prompt injection\n14:10 Rolling this out safely\n16:23 Should we let agents pay?\n\nIshween Kaur\nhttps://www.sofi.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
@@ -104,17 +115,6 @@
       "image": "https://i.ytimg.com/vi_webp/AnsXWH2_EBU/maxresdefault.webp",
       "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/AnsXWH2_EBU.mp3",
       "audio_bytes": 9056684
-    },
-    {
-      "id": "UW8Qkk7MG8A",
-      "title": "AI That Hunts Logic Bugs Before Attackers Do - Taylor Luttrell-Williams, Sonar",
-      "description": "Pattern-based SAST catches bad code, but not valid code with flawed intent: broken access control, business logic gaps and authentication holes. Taylor Luttrell-Williams of Sonar introduces the SonarQube Hunter Agent, which maps a repo, runs three specialist agents and adversarially validates every finding, and announces Sonar joining the OpenAI Daybreak cyber partner program. The live demo turns up 46 issues in a Python app, including a user who can make themselves admin and an MFA bypass.\n\nChapters:\n0:00 Intro\n0:46 Why SAST misses intent bugs\n2:37 How Hunter Agent works\n4:12 Sonar joins OpenAI Daybreak\n5:44 Layering SAST and Hunter Agent\n6:27 Demo: running a scan\n8:29 46 findings across three classes\n10:01 Inside a broken access control bug\n12:26 Scheduled scans\n13:12 Automatic remediation\n\nTaylor Luttrell-Williams\nhttps://www.sonarsource.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
-      "youtube_url": "https://www.youtube.com/watch?v=UW8Qkk7MG8A",
-      "published": "2026-10-28T19:00:15+00:00",
-      "duration": 849,
-      "image": "https://i.ytimg.com/vi_webp/UW8Qkk7MG8A/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/UW8Qkk7MG8A.mp3",
-      "audio_bytes": 6795500
     }
   ],
   "skipped": {
