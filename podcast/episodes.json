@@ -7,6 +7,39 @@
   },
   "episodes": [
     {
+      "id": "YU1uD_YkpjU",
+      "title": "Your Agent Just Paid for Nothing: 6 Attacks on x402 Payments - Ishween Kaur, SoFi",
+      "description": "x402 lets AI agents pay for data and APIs with tiny on-chain payments over HTTP. Ishween Kaur explains how the protocol works, then walks through six of the 20 ways she broke it in a safe test environment: price changes in the payment header, paying twice, getting data for free, one payment unlocking many pages, lookalike sellers, and prompt injection that talks an agent into paying again. For each one, she shows the guard that stopped it and how to roll out agent payments safely, trace by trace.\n\nChapters:\n0:00 Intro\n0:31 Paying for things you use once\n1:33 HTTP 402 and the x402 protocol\n2:09 How x402 works\n3:24 What happens when agents can pay\n4:05 Attack 1: Price manipulation\n5:24 Attack 2: Paying twice\n7:03 Attack 3: Free shopping\n9:13 Attack 4: One payment, many pages\n10:04 Attack 5: Lookalike sellers\n11:43 Attack 6: Prompt injection\n14:10 Rolling this out safely\n16:23 Should we let agents pay?\n\nIshween Kaur\nhttps://www.sofi.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=YU1uD_YkpjU",
+      "published": "2026-10-30T09:00:31+00:00",
+      "duration": 1003,
+      "image": "https://i.ytimg.com/vi_webp/YU1uD_YkpjU/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/YU1uD_YkpjU.mp3",
+      "audio_bytes": 8025452
+    },
+    {
+      "id": "y2dyD6slKxE",
+      "title": "Why AI Won't Replace Stock Pickers - Jack Woodruff, Candlestick & Vinoo Ganesh, Kepler",
+      "description": "Jack Woodruff, founder and former CIO of long/short equity fund Candlestick Capital and a former Citadel portfolio manager, sits down with Kepler CEO Vinoo Ganesh to talk about what AI really changes in fundamental investing. They discuss why humans are still the bottleneck, how AI turns hours of prep into minutes and raises the table stakes, why you should never trust a number you can't audit, where edge comes from when every fund has the same models, how fund teams will be structured, and why the \"no-analyst hedge fund\" won't beat the best human-led funds.\n\nChapters:\n0:00 Intro\n0:47 Will stock picking change?\n2:10 Could one analyst cover 400 stocks?\n4:45 What junior analysts will stop doing\n6:07 Smarter or just busier?\n7:21 Never trust a number you can't audit\n9:08 What you'd never let an AI vendor see\n11:30 Where edge comes from when everyone has the same models\n13:26 Build vs. buy for a 2027 fund\n15:14 Small funds vs. giant funds\n17:35 The overhyped idea: the no-analyst hedge fund\n\nJack Woodruff\n\nVinoo Ganesh\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=y2dyD6slKxE",
+      "published": "2026-10-30T08:00:09+00:00",
+      "duration": 1125,
+      "image": "https://i.ytimg.com/vi_webp/y2dyD6slKxE/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/y2dyD6slKxE.mp3",
+      "audio_bytes": 9001772
+    },
+    {
+      "id": "rWtbOgl5FTU",
+      "title": "The Cheaper AI Model That Costs You More - Rayan Krishnan, Vals AI",
+      "description": "Vals AI builds benchmarks that frontier labs cite in their model cards, and Rayan Krishnan explains why those single scores hide a jagged frontier. In finance tasks like tax and Excel LBO modeling, the best model changes by task, and a model that's cheaper on paper can cost more and score lower because it burns extra tokens. He shares lessons from building benchmarks (the right accuracy metric, reward hacking, multi-turn work), a case study of a team that spent $1.5M on tokens in a month before cutting spend about 90% with internal evals, and why a firm's own work history is its best eval.\n\nChapters:\n0:00 Intro\n0:23 What model cards tell you\n1:18 The jagged frontier\n2:20 AI spend is up, ROI is unclear\n3:40 The cheaper model that cost more\n4:43 Finance benchmarks and the Pareto curve\n6:36 Lessons from building benchmarks\n8:41 Agents solve the test, not the problem\n9:55 Evals are hard to run\n10:59 Case study: $1.5M in tokens in a month\n13:22 Where is your firm's history of work?\n14:10 What evals unlock\n\nRayan Krishnan\nhttps://www.vals.ai\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=rWtbOgl5FTU",
+      "published": "2026-10-30T07:00:03+00:00",
+      "duration": 927,
+      "image": "https://i.ytimg.com/vi_webp/rWtbOgl5FTU/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/rWtbOgl5FTU.mp3",
+      "audio_bytes": 7419884
+    },
+    {
       "id": "wP3P89YB9fA",
       "title": "Catch the Bugs Your Code Review Misses - Killian Carlsen-Phelan & Taylor Luttrell-Williams, Sonar",
       "description": "In this hands-on session, Killian Carlsen-Phelan and Taylor Luttrell-Williams of Sonar set up Gitar, a code change verification agent, on a sample ticketing app and run three pull requests through it. Gitar catches a bug that isn't in the diff at all (a buyer can refund a ticket after giving it to a friend), enforces a business rule from a project config (show customers the all-in price), then diagnoses a failing CI test and keeps pushing fixes until the PR passes and auto-merges. They close with functional validation against Jira tickets, learned conventions, and cross-repo and cross-PR analysis.\n\nChapters:\n0:00 Intro\n0:39 Setup: free trial and workshop repo\n4:19 Who verifies agent-written code?\n6:46 What Gitar does\n10:30 Hands-on: fork the repo\n12:43 The Box Office demo app\n15:43 PR 1: A bug hiding outside the diff\n20:08 One-click fixes\n22:07 PR 2: Teaching it your business rules\n26:36 PR 3: CI failure diagnosis and auto-merge\n33:24 Advanced: cross-repo and cross-PR analysis\n36:54 Q&A\n\nKillian Carlsen-Phelan\nTaylor Luttrell-Williams\nhttps://www.sonarsource.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
@@ -82,39 +115,6 @@
       "image": "https://i.ytimg.com/vi_webp/UW8Qkk7MG8A/maxresdefault.webp",
       "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/UW8Qkk7MG8A.mp3",
       "audio_bytes": 6795500
-    },
-    {
-      "id": "P_0_Th_ZzIg",
-      "title": "Stop Guessing Your vLLM Config: Benchmarking LLMs on Runpod - Chris Vela, Runpod",
-      "description": "Most teams spin up a new open model with the default vLLM recipe and hope for the best. Runpod forward-deployed engineer Chris Vela shows how to choose configs from data instead, starting with the use case and concurrency, and demos BenchPod, a benchmarking dashboard built on vLLM that tests configs live without restarts. He runs Kimi K3 on a B300, shows how tuning max batch tokens cuts inter-token latency, and asks whether you need a frontier model at all.\n\nChapters:\n0:00 Intro\n0:29 What Runpod does\n1:32 Everyone's guessing at vLLM configs\n2:53 Version and CUDA gotchas\n3:48 BenchPod: benchmarking on top of vLLM\n6:07 Running Kimi K3 on a B300\n7:40 Demo\n10:01 Tuning max batch tokens\n13:34 From R&D to production\n14:21 Do you need the frontier model?\n\nChris Vela\nhttps://www.runpod.io\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
-      "youtube_url": "https://www.youtube.com/watch?v=P_0_Th_ZzIg",
-      "published": "2026-10-28T09:00:20+00:00",
-      "duration": 989,
-      "image": "https://i.ytimg.com/vi_webp/P_0_Th_ZzIg/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/P_0_Th_ZzIg.mp3",
-      "audio_bytes": 7911020
-    },
-    {
-      "id": "58ulJViGFgU",
-      "title": "Who Is Making This Request? Agent Auth 101 - Kamil Potrec, Keycard",
-      "description": "When an agent sends an invoice using your token, who actually made the request? Kamil Potrec of Keycard breaks down how agents get credentials today (personal tokens, static keys, over-privileged service accounts) and what proper agent auth requires: per-agent identity, delegation, short-lived scoped credentials, federation with legacy systems, policy and audit. He compares SDKs and gateways for keeping credentials out of an agent's reach, including the gateway tradeoffs.\n\nChapters:\n0:00 Intro\n0:43 How agents get credentials today\n3:46 What's wrong with this picture\n5:15 Using OAuth for agents\n7:10 Why it gets hard at scale\n8:21 What proper agent auth needs\n9:52 One request, many steps\n11:16 Why SDKs aren't enough\n12:37 Gateways: keep credentials away from agents\n14:55 Gateway tradeoffs\n16:24 How Keycard approaches it\n17:26 Takeaways\n\nKamil Potrec\nhttps://keycard.ai\nAgent Baseline: https://agentbaseline.org\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
-      "youtube_url": "https://www.youtube.com/watch?v=58ulJViGFgU",
-      "published": "2026-10-28T08:00:37+00:00",
-      "duration": 1115,
-      "image": "https://i.ytimg.com/vi_webp/58ulJViGFgU/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/58ulJViGFgU.mp3",
-      "audio_bytes": 8917676
-    },
-    {
-      "id": "xZX3pmaB8Hk",
-      "title": "Exploits Now Beat Patches: Open Source Security in the AI Era - Patrick Smyth, Chainguard",
-      "description": "Frontier AI has made every attacker a level more dangerous, and on average, exploits now land before the patch. Patrick Smyth of Chainguard covers this year's AI-assisted attacks and supply chain malware waves, why 30-day remediation windows no longer hold up, the four attack surfaces to cover (malware, known CVEs, zero days and \"side doors\" like CI/CD, developer laptops and agent skills), and what to do now: cooldown periods, faster CVE fixes, and signing everything with SLSA and Sigstore.\n\nChapters:\n0:00 Intro\n0:58 AI-powered attacks this year\n2:33 Exploits now arrive before patches\n3:45 Why 30-day remediation fails\n4:59 A wave of supply chain malware\n6:44 The eternal September\n8:11 The core supply chain problem\n9:12 What to do this year\n11:19 Four attack surfaces\n13:56 How Chainguard tackles each one\n17:01 Sign everything: SLSA and Sigstore\n19:16 Hardening agent skills\n20:22 Wrap-up\n\nPatrick Smyth\nhttps://www.chainguard.dev\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
-      "youtube_url": "https://www.youtube.com/watch?v=xZX3pmaB8Hk",
-      "published": "2026-10-28T07:00:33+00:00",
-      "duration": 1307,
-      "image": "https://i.ytimg.com/vi_webp/xZX3pmaB8Hk/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/xZX3pmaB8Hk.mp3",
-      "audio_bytes": 10452716
     }
   ],
   "skipped": {
