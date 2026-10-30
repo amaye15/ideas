@@ -7,6 +7,17 @@
   },
   "episodes": [
     {
+      "id": "wP3P89YB9fA",
+      "title": "Catch the Bugs Your Code Review Misses - Killian Carlsen-Phelan & Taylor Luttrell-Williams, Sonar",
+      "description": "In this hands-on session, Killian Carlsen-Phelan and Taylor Luttrell-Williams of Sonar set up Gitar, a code change verification agent, on a sample ticketing app and run three pull requests through it. Gitar catches a bug that isn't in the diff at all (a buyer can refund a ticket after giving it to a friend), enforces a business rule from a project config (show customers the all-in price), then diagnoses a failing CI test and keeps pushing fixes until the PR passes and auto-merges. They close with functional validation against Jira tickets, learned conventions, and cross-repo and cross-PR analysis.\n\nChapters:\n0:00 Intro\n0:39 Setup: free trial and workshop repo\n4:19 Who verifies agent-written code?\n6:46 What Gitar does\n10:30 Hands-on: fork the repo\n12:43 The Box Office demo app\n15:43 PR 1: A bug hiding outside the diff\n20:08 One-click fixes\n22:07 PR 2: Teaching it your business rules\n26:36 PR 3: CI failure diagnosis and auto-merge\n33:24 Advanced: cross-repo and cross-PR analysis\n36:54 Q&A\n\nKillian Carlsen-Phelan\nTaylor Luttrell-Williams\nhttps://www.sonarsource.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=wP3P89YB9fA",
+      "published": "2026-10-29T23:00:04+00:00",
+      "duration": 2287,
+      "image": "https://i.ytimg.com/vi_webp/wP3P89YB9fA/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/wP3P89YB9fA.mp3",
+      "audio_bytes": 18295724
+    },
+    {
       "id": "LQW_Wvqhp04",
       "title": "Why Humans Can't Keep Up With AI-Written Code - Tariq Shaukat, Sonar",
       "description": "Agents have made code cheap: one study saw lines of code up 2,450% but releases up only 30%. Sonar CEO Tariq Shaukat draws on the factory revolution that Toyota and Lexus started to explain how to build agentic software factories you can trust. He breaks down five hard problems: human review that doesn't scale (people agree with AI that's wrong 4 out of 5 times), agents struggling with large codebases, errors compounding over long tasks, unreliable LLM judges, and near-zero time to exploit. Then he lays out Sonar's code confidence formula: intent, guide rails, verification and evidence.\n\nChapters:\n0:00 Intro\n0:26 The ball bearing that changed car factories\n2:23 Software already borrowed these ideas\n2:55 Agents break the factory\n5:19 Problem 1: Human in the loop doesn't scale\n6:45 Problem 2: Agents struggle with big codebases\n8:04 Problem 3: Errors compound\n9:06 Problem 4: LLM judges are unreliable\n10:03 Problem 5: Time to exploit is near zero\n10:25 The code confidence formula\n12:36 Results from customers\n15:49 Code is abundant, confidence is scarce\n\nTariq Shaukat\nhttps://www.sonarsource.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
@@ -104,17 +115,6 @@
       "image": "https://i.ytimg.com/vi_webp/xZX3pmaB8Hk/maxresdefault.webp",
       "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/xZX3pmaB8Hk.mp3",
       "audio_bytes": 10452716
-    },
-    {
-      "id": "YIhvrvHtonk",
-      "title": "We Kept Rebuilding Our AI Agent. Here's What Survived - Fuad Ali, Arize AI",
-      "description": "Arize's in-product agent Alex went from a 2023 prototype that was \"50% hallucination\" to a single agent with planning, memory and on-demand skills, all built with custom harness code instead of a framework. AI PM Fuad Ali covers each decision: moving the plan into the harness, making \"finish\" an explicit gate, treating large tool results like files, why one 8,000-character memory file per user beat vector stores and knowledge graphs, merging 10 specialists into one agent, and using production sessions as tests.\n\nChapters:\n0:00 Intro\n0:53 Agents all the way down\n2:56 What Alex does\n4:15 Timeline: 2023 to 2026\n6:19 Who owns the plan?\n8:33 What ends a turn?\n9:44 Memory: treat big results like files\n12:10 One small file beat a knowledge graph\n13:33 Specialists vs. one agent\n14:13 The newest model isn't always best\n15:28 Production sessions as tests\n17:46 What still needs a human\n18:31 What survived every rebuild\n\nFuad Ali\nhttps://arize.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
-      "youtube_url": "https://www.youtube.com/watch?v=YIhvrvHtonk",
-      "published": "2026-10-27T23:00:06+00:00",
-      "duration": 1206,
-      "image": "https://i.ytimg.com/vi_webp/YIhvrvHtonk/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/YIhvrvHtonk.mp3",
-      "audio_bytes": 9645164
     }
   ],
   "skipped": {
