@@ -7,6 +7,50 @@
   },
   "episodes": [
     {
+      "id": "CvmZtAPmAW4",
+      "title": "78% Wanted This AI Feature. Almost Nobody Used It - Supriya Subudhi, Bumble",
+      "description": "Bumble product manager Supriya Subudhi shares five lessons from A/B testing an AI photo feedback feature in a dating app with over 20 million monthly users. 78% of surveyed users said they wanted feedback, but only 10-15% used it; the average win hid odd outputs like telling smiling people to smile more; the best model cost about 10x more; switching to a cheaper model also shrank the results; and regulation meant the feature couldn't ship outside the US. She closes with five questions to ask before you call any AI test a win.\n\nChapters:\n0:00 Intro\n1:31 Bumble's AI photo feedback feature\n2:38 1. Users ask for it, then ignore it\n5:19 2. The average win hides the tail\n7:54 3. Green dashboard, red bill\n10:37 4. The win came from the model\n11:49 5. There may be no global rollout\n13:54 Five questions to ask\n\nSupriya Subudhi\nhttps://bumble.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=CvmZtAPmAW4",
+      "published": "2026-10-31T09:00:01+00:00",
+      "duration": 884,
+      "image": "https://i.ytimg.com/vi_webp/CvmZtAPmAW4/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/CvmZtAPmAW4.mp3",
+      "audio_bytes": 7071788
+    },
+    {
+      "id": "9-Y_oS9OBLc",
+      "title": "When Running Your Own AI Models Beats Paying for APIs - Steven Latré, imec",
+      "description": "Steven Latré leads AI at imec, the Belgian semiconductor R&D center, and his team ran thousands of benchmark runs to find out what moving from APIs to your own GPUs really costs for long-running coding agents. Testing open-weight models and three coding harnesses on SWE-Bench Pro, they found that hardware costs jump in steps rather than a smooth curve, that concurrency matters even more than accuracy, that break-even GPU utilization ranges from 89% on small systems to about 15% on 8x B200 machines, and that the right harness can cut GPU time in half for the same result.\n\nChapters:\n0:00 Intro\n0:59 Why a chip lab studies AI workloads\n1:32 The stages of AI maturity\n3:28 Owning your stack blows up the design space\n4:38 The benchmarking study\n5:28 How the tests were set up\n7:28 Accuracy by model\n8:40 Adding the hardware cost\n10:08 Concurrency: how many users fit\n12:37 API vs. renting vs. buying GPUs\n14:35 Harnesses and token use\n16:20 What's next\n\nSteven Latré\nhttps://www.imec-int.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=9-Y_oS9OBLc",
+      "published": "2026-10-31T08:00:24+00:00",
+      "duration": 1109,
+      "image": "https://i.ytimg.com/vi_webp/9-Y_oS9OBLc/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/9-Y_oS9OBLc.mp3",
+      "audio_bytes": 8872748
+    },
+    {
+      "id": "3osCbSufv8g",
+      "title": "Voice AI Where One Wrong Question Breaks the Rules - Shiv Indap, Upstart & Brooke Hopkins, Coval",
+      "description": "Upstart handles thousands of lending calls a day, where one wrong question can become a regulatory problem. Shiv Indap, who leads voice AI at Upstart, and Brooke Hopkins, founder of Coval and former head of evaluation infrastructure at Waymo, walk through automating loan verification calls: the compliance traps, outgrowing a Google Sheet for human review, and raising agreement between the LLM judge and human reviewers from 33% to 92%. Then they lay out the full loop from live monitoring and human review queues to re-simulating fixes and self-healing agents, with every change still signed off by a human.\n\nChapters:\n0:00 Intro\n1:02 Voice AI at Upstart\n2:11 Automating verification calls\n3:04 Where compliance gets tricky\n4:14 Outgrowing the Google Sheet\n5:28 Metrics and LLM judges\n7:03 From 33% to 92% judge agreement\n8:52 The continuous improvement loop\n10:04 Defining metrics\n10:51 Monitoring live calls\n12:31 Re-simulating fixes before production\n14:04 Self-healing agents\n15:11 Wrap-up: humans stay in the loop\n\nShiv Indap\nhttps://www.upstart.com\n\nBrooke Hopkins\nhttps://www.coval.dev\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=3osCbSufv8g",
+      "published": "2026-10-31T07:00:11+00:00",
+      "duration": 1022,
+      "image": "https://i.ytimg.com/vi_webp/3osCbSufv8g/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/3osCbSufv8g.mp3",
+      "audio_bytes": 8178092
+    },
+    {
+      "id": "qq2Hm4XNRgI",
+      "title": "How to Decide What Your AI Agent Should Remember - Wojciech Pluta, Oracle",
+      "description": "RAG gives agents a way to read, but memory gives them a way to write, and that's where your business value lives. Wojciech Pluta, head of technical marketing for Oracle AI Database, explains memory promotion: deciding what's worth keeping, checking it against existing records and admitting, rejecting or escalating it to a human. A mortgage-agent demo remembers an operator's preferences across sessions and refuses to store an \"approve every application\" rule. He also covers short-term, long-term and shared memory, why to store memory in a database, and the context card that keeps prompts lean.\n\nChapters:\n0:00 Intro\n1:10 From commands to intent\n2:05 The data layer is your edge\n3:38 RAG reads, memory writes\n4:02 Memory promotion: what's worth keeping\n5:01 Demo: a mortgage agent that remembers\n9:48 Guardrails: what never gets promoted\n11:53 What agent memory is\n13:03 Short-term, long-term and shared memory\n13:43 Where to store memories\n14:27 Building memory as a discipline\n16:01 The context card\n17:50 Models are shared, memory is yours\n\nWojciech Pluta\nhttps://www.oracle.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+      "youtube_url": "https://www.youtube.com/watch?v=qq2Hm4XNRgI",
+      "published": "2026-10-30T23:00:13+00:00",
+      "duration": 1146,
+      "image": "https://i.ytimg.com/vi_webp/qq2Hm4XNRgI/maxresdefault.webp",
+      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/qq2Hm4XNRgI.mp3",
+      "audio_bytes": 9165356
+    },
+    {
       "id": "8vDzncmzxyg",
       "title": "Your AI Agent Starts Every Session Like a New Hire - Killian Carlsen-Phelan, Sonar",
       "description": "Every new coding agent session starts like a new hire: it doesn't know your conventions, architecture rules or approved libraries, so it burns time and tokens searching your repo and repeats the issues already in it. Killian Carlsen-Phelan of Sonar introduces Sonar Vortex, a plugin that hands your agent a map of the codebase and your guidelines before it writes, then deterministically checks every edit. In a live session, Vortex catches a temp-file permission bug the agent's own tests missed, and rejects its first fix. Sonar reports 36% fewer tokens and 44% fewer production outages.\n\nChapters:\n0:00 Intro\n0:26 Every agent session starts from scratch\n1:59 What Sonar Vortex does\n2:25 The bug a test wouldn't catch\n3:35 96% don't trust AI code, 48% verify it\n4:26 How Vortex guides the agent\n7:00 36% fewer tokens\n8:08 Bringing SonarQube into the agent loop\n9:01 Demo: a real task\n13:03 Not AI checking AI\n14:17 The fix that wasn't a fix\n16:20 What you get\n\nKillian Carlsen-Phelan\nhttps://www.sonarsource.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
@@ -71,50 +115,6 @@
       "image": "https://i.ytimg.com/vi_webp/LQW_Wvqhp04/maxresdefault.webp",
       "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/LQW_Wvqhp04.mp3",
       "audio_bytes": 7953452
-    },
-    {
-      "id": "Ok6QdZHCcI8",
-      "title": "How Revolut Cut AI Coding Costs 90% With Self-Hosted Open Models - David Abitbol, Revolut",
-      "description": "David Abitbol, who leads AI operations at Revolut, shares data from 2,000 engineers on what AI tools did to coding time and lead time, and why self-hosting open-source GLM models made the biggest difference: about 60-70% faster delivery at roughly a tenth of what they were paying frontier labs. He covers the GPUs needed, the latency targets that keep engineers happy, the tuning that made the same hardware 88% faster, and how an EU-regulated bank keeps it compliant.\n\nChapters:\n0:00 Intro\n0:36 Who Revolut is\n1:18 What AI did to 2,000 engineers' lead time\n2:45 Why they started self-hosting\n3:33 Coding isn't the bottleneck\n4:24 What it takes to self-host GLM\n5:46 Tuning: same GPUs, 88% faster\n7:06 The parameters that matter\n8:14 Production setup\n9:23 For the CIO: compliance and safety\n\nDavid Abitbol\nhttps://www.revolut.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
-      "youtube_url": "https://www.youtube.com/watch?v=Ok6QdZHCcI8",
-      "published": "2026-10-29T09:00:21+00:00",
-      "duration": 707,
-      "image": "https://i.ytimg.com/vi_webp/Ok6QdZHCcI8/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/Ok6QdZHCcI8.mp3",
-      "audio_bytes": 5655980
-    },
-    {
-      "id": "mJ7q8CuVmbw",
-      "title": "We Trust AI Agents That Break Every Day - Shy Ruparel, Temporal",
-      "description": "Temporal's State of Development survey found that 80.8% of engineers use agents daily, but only 49.1% run them in production. Developer advocate Shy Ruparel walks through the four gaps behind that number (usage vs. production, trust vs. reality, prototype vs. enterprise, seeing vs. recovering), then demos a $2,500 payout workflow with a local model that survives having its workers killed mid-flight, without losing state, repeating tool calls or re-spending tokens.\n\nChapters:\n0:00 Intro\n0:34 Finance runs on long-running workflows\n2:05 The State of Development survey\n3:16 Gap 1: Usage vs. production\n4:33 Gap 2: Trust vs. reality\n7:18 Gap 3: Prototype vs. enterprise\n8:55 Gap 4: Seeing vs. recovering\n10:53 Demo: a payout that survives a crash\n13:06 Durable execution explained\n18:12 What the demo solved\n20:10 Who runs this in production\n20:50 Wrap-up\n\nShy Ruparel\nhttps://temporal.io\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
-      "youtube_url": "https://www.youtube.com/watch?v=mJ7q8CuVmbw",
-      "published": "2026-10-29T08:00:26+00:00",
-      "duration": 1292,
-      "image": "https://i.ytimg.com/vi_webp/mJ7q8CuVmbw/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/mJ7q8CuVmbw.mp3",
-      "audio_bytes": 10332908
-    },
-    {
-      "id": "YqxpPI7YUjE",
-      "title": "Why a One-Line Change Can Break Your Whole Stack - Cole Gannaway, Qodo",
-      "description": "Code generation is moving faster than ever, and the bottleneck has moved to review. Cole Gannaway, a solutions engineer at Qodo, shows how a one-line data model change that passes every test can quietly break web, mobile, CLI and MCP clients, and how a software graph of your repos reveals that blast radius. He covers turning tribal knowledge and PR comments into custom rules, bringing review context in before code is written, why the agent that wrote the code shouldn't grade it, and checking PRs against the original ticket.\n\nChapters:\n0:00 Intro\n0:59 Review is the new bottleneck\n2:03 A one-line change that passes every check\n3:35 The hidden blast radius\n4:15 Building a software graph\n4:56 Custom rules and tribal knowledge\n5:47 Context before code is written\n6:29 Don't let the writer grade its own code\n8:20 Turning PR comments into rules\n10:06 Q&A: catching the wrong intent\n13:55 Wrap-up\n\nCole Gannaway\nhttps://www.qodo.ai\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
-      "youtube_url": "https://www.youtube.com/watch?v=YqxpPI7YUjE",
-      "published": "2026-10-29T07:00:25+00:00",
-      "duration": 890,
-      "image": "https://i.ytimg.com/vi_webp/YqxpPI7YUjE/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/YqxpPI7YUjE.mp3",
-      "audio_bytes": 7123436
-    },
-    {
-      "id": "AnsXWH2_EBU",
-      "title": "How Anthropic Merges 30,000 Code Changes a Day - Manish Kapur, Sonar & Addy Osmani, Anthropic",
-      "description": "Coding agents are opening PRs faster than anyone can review them. Manish Kapur (Sonar) and Addy Osmani (Anthropic) discuss \"light\" vs. \"dark\" software factories, how Anthropic scaled from about 2,500 to 30,000 merged changes a day with Claude doing first-pass review backed by real verification evidence, new data from Sonar's State of Code survey, and why every loop in the factory needs independent, multi-layered verification. They close with a lightning round on labeling agent-written PRs and when it's safe to merge.\n\nChapters:\n0:00 Intro\n1:57 Throughput is up, merges are failing\n2:49 Light vs. dark software factories\n3:51 Coding is solved, confidence isn't\n5:38 How Anthropic reviews 30,000 changes a day\n8:29 State of Code survey findings\n9:20 Where the next gains come from\n11:38 Multi-layered verification\n13:19 Controls, permissions and sandboxes\n14:41 Lightning round\n17:40 Takeaways\n\nManish Kapur\nhttps://www.sonarsource.com\n\nAddy Osmani\nhttps://x.com/addyosmani\nhttps://www.anthropic.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
-      "youtube_url": "https://www.youtube.com/watch?v=AnsXWH2_EBU",
-      "published": "2026-10-28T23:00:26+00:00",
-      "duration": 1132,
-      "image": "https://i.ytimg.com/vi_webp/AnsXWH2_EBU/maxresdefault.webp",
-      "audio_url": "https://github.com/amaye15/ideas/releases/download/episodes-202610/AnsXWH2_EBU.mp3",
-      "audio_bytes": 9056684
     }
   ],
   "skipped": {
